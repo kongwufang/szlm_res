@@ -32,3 +32,4 @@ szlm_dex/
 .DS_Store
 Thumbs.db
 .gitconfig-clean
+_release_body.md
