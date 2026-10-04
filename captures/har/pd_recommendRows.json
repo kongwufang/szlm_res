@@ -1,0 +1,20 @@
+[
+ {
+  "entityType": "card",
+  "entityTemplate": "topContent",
+  "title": null,
+  "url": null,
+  "entities": [
+   {
+    "entityType": "headline",
+    "entityTypeName": "酷安优品",
+    "title": "磨砂超薄保护壳",
+    "url": "https://mobile.yangkeduo.com/goods.html?goods_id=786557427454",
+    "logo": "",
+    "entityId": "998_headline_0"
+   }
+  ],
+  "entityId": 998,
+  "entityFixed": 1
+ }
+]

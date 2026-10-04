@@ -1,0 +1,75 @@
+[
+ {
+  "page_name": "6",
+  "title": "到手价",
+  "is_open": "1",
+  "type": "1",
+  "entityId": 1,
+  "url": "/page?url=%2Fproduct%2FfeedList%3FcacheExpires%3D60%26type%3DsubTabFeed%26withSortCard%3D1%26withSubTabFeedCard%3D1%26ignoreEntityById%3D1%26id%3D4276%26subId%3D6",
+  "logo": "https://image.coolapk.com/product_logo/2026/0630/16/0_8261_1348_613@162x162.png",
+  "rule": {},
+  "entityType": "page"
+ },
+ {
+  "page_name": "4",
+  "title": "样张",
+  "is_open": "1",
+  "type": "1",
+  "entityId": 3,
+  "url": "/page?url=%2Fproduct%2FfeedList%3FcacheExpires%3D60%26type%3DsubTabFeed%26withSortCard%3D1%26withSubTabFeedCard%3D1%26ignoreEntityById%3D1%26id%3D4276%26subId%3D4",
+  "logo": "https://image.coolapk.com/product_logo/2025/0909/10/0_6201_1132_936@162x162.png",
+  "rule": {},
+  "entityType": "page"
+ },
+ {
+  "page_name": "1",
+  "title": "续航",
+  "is_open": "1",
+  "type": "1",
+  "entityId": 5,
+  "url": "/page?url=%2Fproduct%2FfeedList%3FcacheExpires%3D60%26type%3DsubTabFeed%26withSortCard%3D1%26withSubTabFeedCard%3D1%26ignoreEntityById%3D1%26id%3D4276%26subId%3D1",
+  "logo": "https://image.coolapk.com/product_logo/2025/0909/10/0_6029_1057_409@162x162.png",
+  "rule": {},
+  "entityType": "page"
+ },
+ {
+  "page_name": "2",
+  "title": "跑分",
+  "is_open": "1",
+  "type": "1",
+  "entityId": 6,
+  "url": "/page?url=%2Fproduct%2FfeedList%3FcacheExpires%3D60%26type%3DsubTabFeed%26withSortCard%3D1%26withSubTabFeedCard%3D1%26ignoreEntityById%3D1%26id%3D4276%26subId%3D2",
+  "logo": "https://image.coolapk.com/product_logo/2025/0909/10/0_6145_3077_441@162x162.png",
+  "rule": {
+   "antutu_score": {
+    "name": "安兔兔跑分",
+    "min": "",
+    "default_min": "500000",
+    "max": "",
+    "default_max": "5000000"
+   },
+   "geek_bench_single_score": {
+    "name": "GeekBench单核跑分",
+    "min": "",
+    "default_min": "900",
+    "max": "",
+    "default_max": "5000"
+   },
+   "geek_bench_multi_score": {
+    "name": "GeekBench多核跑分",
+    "min": "",
+    "default_min": "2000",
+    "max": "",
+    "default_max": "15000"
+   },
+   "3d_mark_score": {
+    "name": "WildLife Extreme跑分",
+    "min": "",
+    "default_min": "2000",
+    "max": "",
+    "default_max": "12000"
+   }
+  },
+  "entityType": "page"
+ }
+]

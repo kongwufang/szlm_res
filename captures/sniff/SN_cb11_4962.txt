@@ -1,0 +1,31 @@
+# pid=4962 blocked=17 elapsed_ms=590
+# === IO (0) ===
+# === CB (11) ===
+CB	t=508 handler=null
+CB	t=515 handler=
+CB	t=516 handler=
+CB	t=531 handler=NA
+CB	t=533 handler=null
+CB	t=533 handler=NA
+CB	t=537 handler=du003
+CB	t=585 handler=null
+CB	t=587 handler=
+CB	t=588 handler=
+CB	t=590 handler=null
+# === API (16) ===
+API	t=501 getDeviceLabel(int,cn.shuzilm.core.Listener)
+API	t=509 getHMSOpenAnmsID(android.content.Context,cn.shuzilm.core.Listener)
+API	t=511 getNetCode(android.content.Context,cn.shuzilm.core.Listener)
+API	t=512 getOpenAnmsID(android.content.Context,cn.shuzilm.core.Listener)
+API	t=515 getQueryID(android.content.Context,java.lang.String,java.lang.String,int,cn.shuzilm.core.Listener)
+API	t=516 getQueryID(android.content.Context,java.lang.String,java.lang.String,boolean,cn.shuzilm.core.Listener)
+API	t=519 onEvent(android.content.Context,java.lang.String,java.lang.String,int,cn.shuzilm.core.Listener)
+API	t=521 optReport(android.content.Context,java.lang.String,cn.shuzilm.core.Listener)
+API	t=584 getDeviceLabel(int,cn.shuzilm.core.Listener)
+API	t=586 getHMSOpenAnmsID(android.content.Context,cn.shuzilm.core.Listener)
+API	t=586 getNetCode(android.content.Context,cn.shuzilm.core.Listener)
+API	t=586 getOpenAnmsID(android.content.Context,cn.shuzilm.core.Listener)
+API	t=587 getQueryID(android.content.Context,java.lang.String,java.lang.String,int,cn.shuzilm.core.Listener)
+API	t=587 getQueryID(android.content.Context,java.lang.String,java.lang.String,boolean,cn.shuzilm.core.Listener)
+API	t=589 onEvent(android.content.Context,java.lang.String,java.lang.String,int,cn.shuzilm.core.Listener)
+API	t=589 optReport(android.content.Context,java.lang.String,cn.shuzilm.core.Listener)

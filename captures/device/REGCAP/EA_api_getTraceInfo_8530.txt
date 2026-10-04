@@ -1,0 +1,9 @@
+# pid=8530 libdu=YES blocked=200
+# === results (3) ===
+RES	Main.getQueryID(android.content.Context,java.lang.String,java.lang.String) = null   [null]
+RES	Main.getQueryID(android.content.Context,java.lang.String,java.lang.String,boolean) = null   [null]
+RES	Main.getTraceInfo(android.content.Context) = {"sv":"v9.0.1","tc":"DUT000","pkg":"com.coolapk.market","cc":"CN","api":27,"bu":"","q":{"c":"DUQ108","w":2,"t":1791058142011,"nt":2},"o":{"c":"DUO099","w":0}}   [len=158 ★非B64字符77个]
+# === XORWRAP (0) ===
+# === ENC (2) ===
+ENC	len=33 in="C4CA4238A0B923820DCC509A6F75849B1.r>...............*............"
+ENC	len=33 in="CFCD208495D565EF66E7DFF9F98764DA0.r>...............*............"

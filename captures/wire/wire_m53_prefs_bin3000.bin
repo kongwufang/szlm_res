@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="download_button_effect" value="0" />
+    <boolean name="device_rating" value="true" />
+    <boolean name="new_app_list" value="true" />
+    <string name="dyn_draw_engine_url">https://sf6-fe-tos.pglstatp-toutiao.com/obj/ad-pattern/renderer/package.json</string>
+    <long name="data_time" value="0" />
+    <int name="insert_ad_tip_max_time" value="0" />
+    <int name="vbtt" value="5" />
+    <string name="pglam">{&quot;pgl_4TypeEncrypt_close&quot;:1,&quot;pglam_clazz_check&quot;:&quot;com.tb.mob.BuildConfig\/\/com.unionad.sdk.ad.BuildConfig\/\/bin.mt.signature.KillerApplication\/\/Epic.Ads.config.Config\/\/com.rongyi.allai.http.ApiConfig\/\/com.union_test.toutiao.activity.MainActivity\/\/com.dlg.sdk.main.SdkHook\/\/android.content.CapWraper\/\/com.adobe.flubs.gms.ads.activity.AdActivity&quot;,&quot;pglam_main_enable&quot;:1}</string>
+    <boolean name="is_sp_send_meta" value="true" />
+    <string name="clog_config">{&quot;expire_days&quot;:7,&quot;log_level&quot;:4,&quot;max_size&quot;:20,&quot;is_open&quot;:true}</string>
+    <int name="refresh_ad_tip_max_time_fs" value="3" />
+    <string name="dl_notification">{&quot;enable_active_notification&quot;:1,&quot;enable_install_interface&quot;:0,&quot;enable_install_notification&quot;:1,&quot;max_interface&quot;:1,&quot;max_notification&quot;:2,&quot;notification_internal&quot;:360,&quot;uninstall_delay&quot;:60}</string>
+    <string name="ad_slot_conf_block"></string>
+    <boolean name="is_first_plugin_resources" value="false" />
+    <boolean name="disable_repeat_render" value="true" />
+    <int name="interact_show_after_time" value="500" />
+    <boolean name="can_init_live" value="true" />
+    <int name="fetch_tpl_timeout_ctrl_bad_device" value="300" />
+    <string name="url_alog">log-api.pangolin-sdk-toutiao-b.com/service/2/app_log/</string>
+    <boolean name="node_line_detail_enable" value="false" />
+    <int name="show_callback_mult" value="0" />
+    <boolean name="app_info_cache_switch" value="false" />
+    <int name="is_adapt_two_finger" value="1" />
+    <int name="insert_ad_tip_max_time_fs" value="0" />
+    <int name="open_mini_game" value="1" />
+    <int name="if_query_all_package" value="1" />
+    <string name="dpl_status_counter">{}</string>
+    <long name="adlog_interval" value="1000" />
+    <int name="creative_ugen_v2" value="1" />
+    <int name="creative_ugen_v3" value="1" />
+    <int name="disable_show_url" value="0" />
+    <string name="plugin_retry_opt">{&quot;live_init_max_count&quot;:5,&quot;live_max_count&quot;:5,&quot;pangle_max_count&quot;:0}</string>
+    <string name="ad_pkg_info_url">apps.bytesfield.com</string>
+    <int name="replace_dummy_video" value="1" />
+    <set name="web_upload_content_type">
+        <string>image/png</string>
+        <string>text/html</string>
+        <string>image/jpeg</string>
+        <string>application/javascript</string>
+        <string>image/gif</string>
+        <string>text/css</string>
+        <string>image/webp</string>
+    </set>
+    <string name="xpath">//sf6-fe-tos.pglstatp-toutiao.com/obj/union-fe-nc/endcard/sdk/landing-page-android.1.0.11.js?ad_id={{ad_id}}</string>
+    <int name="splash_check_type" value="0" />
+    <int name="m_vids_join" value="1" />
+    <int name="read_video_from_cache" value="1" />
+    <set name="hit_app_list_data" />
+    <int name="opt_show_check" value="0" />
+    <int name="sp_key_if_sp_cache" value="1" />
+    <boolean name="tpl_enable_render_timeout_opt" value="false" />
+    <int name="stats_report_register_info" value="1" />
+    <string name="pitaya_business_conf">{&quot;splash_policy&quot;:0}</string>
+    <string name="download_sdk_config">{&quot;aa&quot;:&quot;43774d545567464d4168345a55414e48424673495367355a585668415242464558566c575841775845685948466755454545704e56413d3d&quot;,&quot;ab&quot;:1,&quot;ac&quot;:&quot;4251304d46777864515556585245684345467348556b4a56574263475831566653673d3d&quot;,&quot;ae&quot;:&quot;51424556514168644251413d&quot;,&quot;af&quot;:&quot;55466f4357464d4d43414d44416c5548566c5a5844413d3d&quot;,&quot;ah_plans&quot;:[{&quot;device_plans&quot;:&quot;o1,o2&quot;,&quot;device_requirements&quot;:[{&quot;package_names&quot;:&quot;com.oppo.filemanager,com.coloros.filemanager&quot;,&quot;version_allow&quot;:[&quot;310_3.1.0&quot;,&quot;3400_3.4.0&quot;,&quot;3601_3.6.1&quot;,&quot;330_3.3.0&quot;,&quot;3606_3.6.6&quot;,&quot;3605_3.6.5&quot;],&quot;version_block&quot;:[]},{&quot;package_names&quot;:&quot;com.android.packageinstaller&quot;,&quot;version_allow&quot;:[&quot;140_3.0.2268&quot;,&quot;140_3.0.2368&quot;],&quot;version_block&quot;:[]}],&quot;device_rom&quot;:&quot;oppo&quot;,&quot;type&quot;:&quot;plan_a&quot;},{&quot;device_plans&quot;:&quot;v1,v2&quot;,&quot;device_requirements&quot;:[{&quot;package_names&quot;:&quot;com.android.filemanager&quot;,&quot;version_allow&quot;:[&quot;22_3.0&quot;,&quot;23_3.0&quot;,&quot;23_2.5&quot;,&quot;25_3.2&quot;,&quot;25_3.1&quot;,&quot;4030_4.0.3.0&quot;,&quot;5140_5.1.4.0&quot;,&quot;5301_5.3.0.1&quot;,&quot;5211_5.2.1.1&quot;,&quot;5512_5.5.1.2&quot;,&quot;5401_5.4.0.1&quot;,&quot;5205_5.2.0.5&quot;,&quot;5203_5.2.0.3&quot;,&quot;5302_5.3.0.2&quot;,&quot;5312_5.3.1.2&quot;,&quot;5102_5.1.0.2&quot;,&quot;5204_5.2.0.4&quot;,&quot;5314_5.3.1.4&quot;,&quot;5313_5.3.1.3&quot;,&quot;5005_5.0.0.5&quot;,&quot;5112_5.1.1.2&quot;,&quot;5400_5.4.0.0&quot;,&quot;5002_5.0.0.2&quot;,&quot;5130_5.1.3.0&quot;,&quot;4210_4.2.1.0&quot;,&quot;5111_5.1.1.1&quot;,&quot;5311_5.3.1.1&quot;,&quot;4200_4.2.0.0&quot;],&quot;version_block&quot;:[]},{&quot;package_names&quot;:&quot;com.android.packageinstaller&quot;,&quot;version_allow&quot;:[&quot;5_2.5.4.2&quot;,&quot;5_2.5.4.3&quot;,&quot;5_3.0.6.1&quot;,&quot;5_3.0.6.2&quot;,&quot;5_3.0.8.1&quot;,&quot;5_3.0.8.0&quot;,&quot;5_3.0.7.0&quot;,&quot;5_3.0.9.0&quot;,&quot;5_4.0.7.0&quot;,&quot;5_4.0.6.0&quot;,&quot;5_4.0.10.0&quot;,&quot;5_5.0.5.0&quot;,&quot;5_4.0.5.3&quot;,&quot;5_3.0.7.1&quot;,&quot;5_4.0.5.5&quot;,&quot;5_5.0.6.1&quot;,&quot;5_5.0.6.2&quot;,&quot;28_5.0.6.5&quot;,&quot;27_4.0.10.3&quot;,&quot;26_4.0.10.3&quot;,&quot;5067_5.0.6.7&quot;,&quot;5066_5.0.6.6&quot;,&quot;5068_5.0.6.8&quot;,&quot;5_2.5.4.0&quot;,&quot;27_4.0.10.4&quot;,&quot;5_3.0.6.0&quot;,&quot;5_2.5.3.0&quot;,&quot;5_4.0.5.4&quot;,&quot;5_3.0.3.3&quot;,&quot;5_3.0.2.7&quot;,&quot;5_3.0.5.0&quot;,&quot;5_4.0.5.0&quot;],&quot;version_block&quot;:[]}],&quot;device_rom&quot;:&quot;vivo&quot;,&quot;type&quot;:&quot;plan_a&quot;}],&quot;ak&quot;:&quot;43524952566b7052566b565457684964424645515546356546794d7365334a7666336433653342744e336b6a4e513d3d&quot;,&quot;al&quot;:&quot;4d6973316453453d&quot;,&quot;am&quot;:&quot;497a6f3166445a326558316a5a69383d&quot;,&quot;am_plans&quot;:[],&quot;an&quot;:&quot;4a534d3166434e33616d68705944396a49423551&quot;,&quot;ao&quot;:&quot;4e544d744656553d&quot;,&quot;auto_install_when_resume&quot;:1,&quot;bb&quot;:&quot;4242414f54686464536b465856773153416c6449576c35644677514c5530566657315964516c4252436c4542427768584630785a5856705246413d3d&quot;,&quot;bc&quot;:&quot;447777565841704d57564a4358516c6453564d4b58554e665541464c586c6c45563178484846425246566b4a444539774b6d7473634870344f574d6b63533934646e553d&quot;,&quot;bd&quot;:&quot;447777565841704d5846424356513d3d&quot;,&quot;be&quot;:&quot;4541735856675a4b56305a465552514a5368304753313548536741584755465a5246306455563566546c495544525a4b4155705a5155594c&quot;,&quot;bf&quot;:&quot;42777746537774525842396657684a5743305a4b57464a4555416f4c475746356432553d&quot;,&quot;bugfix&quot;:{&quot;default&quot;:1},&quot;check_hijack&quot;:1,&quot;disable_security_init&quot;:0,&quot;download_dir&quot;:{&quot;dir_name&quot;:&quot;安装%s&quot;},&quot;download_event_opt&quot;:1,&quot;download_exp_switch_temp&quot;:1073724923,&quot;download_failed_check_net&quot;:1,&quot;download_start_toast_text&quot;:&quot;&quot;,&quot;enable_monitor&quot;:0,&quot;enable_open_app_dialog&quot;:1,&quot;external_storage_permission_path_type&quot;:1,&quot;failed_resume_max_hours&quot;:120,&quot;failed_resume_min_hours&quot;:0,&quot;failed_resume_need_wait_wifi&quot;:0,&quot;failed_resume_need_wifi&quot;:1,&quot;hook&quot;:0,&quot;is_enable_start_install_again&quot;:1,&quot;kllk&quot;:&quot;oppo&quot;,&quot;kllk_need_rename_apk&quot;:0,&quot;link_ad_click_event&quot;:0,&quot;market_scheme_opt&quot;:1,&quot;next_install_min_interval&quot;:10000,&quot;paused_resume_max_hours&quot;:120,&quot;q&quot;:&quot;4251304d46776c64555574444767426648463842463142415351594157554e565142787957315665496c384c447735584e31314b5231395841773d3d&quot;,&quot;r&quot;:&quot;4251304d46776c64555574444767426648463842463142415351594157554e56514278535731566554336b6e437756564a31645658466c614e5659585241316156413d3d&quot;,&quot;resume_download_max_count&quot;:5,&quot;s&quot;:&quot;fba9d88164f3e2d9109ee770223212a0&quot;,&quot;start_install_interval&quot;:30000,&quot;t&quot;:&quot;4251304d46776c64555574444767426648463842463142415351594157554e56514278535731566554336b6c4451785543315a37554670594246494757513d3d&quot;,&quot;u&quot;:&quot;4251304d46776c6455557444476774414556305758413d3d&quot;,&quot;uninstall_resume_max_hours&quot;:120,&quot;uninstall_resume_min_hours&quot;:0,&quot;upload_secret_key&quot;:&quot;596f823f283d4af73ead3ea6&quot;,&quot;use_network_callback&quot;:1,&quot;v&quot;:&quot;485541495678644d575631615942394441424265434230535351514758465a58563378535831515157784a4445554d56526b7463576d42524645414d58517036586c5263523138474277414241674d4348524158565251524346594b6531645655785a634178673d&quot;,&quot;w&quot;:&quot;4251304d46776c645555744447677457415673464631784653677747&quot;,&quot;x&quot;:&quot;44685956535263434678355852425a41533130485846426558417343586c6c564846466358783554456b424a4678564c&quot;}</string>
+    <boolean name="net_rating" value="true" />
+    <set name="top_scheme_list_data">
+        <string>pinduoduo://com.xunmeng.pinduoduo/mtr_portals.html</string>
+        <string>alipays://platformapi/startapp</string>
+        <string>wireless1688://ma.m.1688.com/plugin</string>
+        <string>vipshop://showWebview</string>
+        <string>uclink://www.uc.cn/cc77796ca7c25dff9607d31b29effc07</string>
+        <string>taobaolite://m.ltao.com/open/index.html</string>
+        <string>youku://weex</string>
+        <string>iqiyi://mobile/player</string>
+        <string>dydeeplink://platformapi/startApp</string>
+        <string>openjdlite://virtual</string>
+        <string>wbmain://jump/huangye/list</string>
+        <string>baiduboxapp://utils</string>
+        <string>snssdk2329://feed</string>
+        <string>lianjiabeike://deeplink</string>
+        <string>snssdk1128://feed</string>
+        <string>pddopen://</string>
+        <string>dewuapp://m.poizon.com/router/web/BrowserPage</string>
+        <string>openjx://virtual</string>
+        <string>bilibili://bangumi/season/6357</string>
+        <string>pinduoduo://com.xunmeng.pinduoduo/mtr_portals.html?exp_id=199&amp;_pdd_fs=1&amp;sn=200313r74f&amp;_p_jump_id=1234&amp;_p_type=laxin&amp;_p_launch_type=adv&amp;_oc_ads_channel=toutiao&amp;_p_ads_channel=toutiao&amp;_p_campaign=dpa&amp;_p_cid=splsh&amp;_p_plgsn=5182b6ec944b14d49f3ca1c16cbddd2f&amp;_p_product_id=1614841234000750199</string>
+        <string>openapp.jdmobile://virtual</string>
+        <string>taobaoliveshare://xevddy.com/gateway/index.htm</string>
+        <string>tmall://page.tm/appLink</string>
+        <string>kuaikan://deeplinks</string>
+        <string>openjd://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22m%22%2C%22url%22%3A%22https%3A%2F%2Funion%2Dclick%2Ejd%2Ecom%2Fsem%2Ephp%3Fsource%3Djrtt%2Ddsp%26unionId%3D262767352%26siteId%3Djrttdsp%5F{CID}%26to%3Dhttps%253a%252f%252fitem.m.jd.com%252fproduct%252f1162552.html%253fad_od%253d3%2526bd%255Fvid%253D__REQUESTID__%22%2c%22kepler_param%22%3a%7b%22source%22%3a%22kepler-open%22%2c%22channel%22%3a%22b4dc3278288f4a25982ccdec07ebdc41%22%7d%2c%22keplerFrom%22%3a%221%22%2c%22keplerID%22%3a%22kpl_jdjdtg%22%7dopenjd://virtual?params=%7B%22category%22%3A%22jump%22%2C%22des%22%3A%22m%22%2C%22url%22%3A%22https%3A%2F%2Funion%2Dclick%2Ejd%2Ecom%2Fsem%2Ephp%3Fsource%3Djrtt%2Ddsp%26unionId%3D262767352%26siteId%3Djrttdsp%5F{CID}%26to%3Dhttps%253a%252f%252fitem.m.jd.com%252fproduct%252f1162552.html%253fad_od%253d3%2526bd%255Fvid%253D__REQUESTID__%22%2c%22kepler_param%22%3a%7b%22source%22%3a%22kepler-open%22%2c%22channel%22%3a%22b4dc3278288f4a25982ccdec07ebdc41%22%7d%2c%22keplerFrom%22%3a%221%22%2c%22keplerID%22%3a%22kpl_jdjdtg%22%7d</string>
+        <string>imeituan://www.meituan.com/web?url=http%3A%2F%2Fi.meituan.com%2Fcosmetology%2Fbrand.html%3Fbrandid%3D2&amp;utm_source=ttmt_pp02_ymyl&amp;backurl=__back_url__</string>
+        <string>tbopen://m.taobao.com/tbopen/index.html?&amp;action=ali.open.nav&amp;module=h5&amp;source=liuliangbao&amp;h5Url=https%3A%2F%2Fdetail.tmall.com%2Fitem.htm%3Fspm%3Da224e.7913437.1.668851%26id%3D608965054425%26_bind%3Dtrue%26bc_fl_src%3Dtmall_market_llb_1_668851%26llbPlatform%3DAweme%26agentId%3D504227%26llbDlk%3D1&amp;backURL=__back_url__&amp;appkey=24716461&amp;bc_fl_src=tmall_market_llb_1_668851</string>
+    </set>
+    <int name="refresh_ad_tip_max_time" value="0" />
+    <int name="app_express_gesture_priority" value="-1" />
+    <boolean name="bytebench_rating" value="true" />
+    <string name="insert_js_config">{&quot;performance_js&quot;:{&quot;execute_time&quot;:[&quot;load_finish&quot;],&quot;url&quot;:&quot;https:\/\/sf3-fe-tos.pglstatp-toutiao.com\/obj\/ad-pattern\/tetris\/app.b771bd852dab97ce12dc.bundle.js&quot;}}</string>
+    <set name="insert_ad_vd_show_time">
+        <string>0,500</string>
+    </set>
+    <int name="refresh_ad_ifclick_swtich" value="1" />
+    <int name="launch_strategy" value="1" />
+    <int name="ud_enable" value="1" />
+    <boolean name="rule_engine_enable" value="false" />
+    <long name="reward_time_limited" value="27000" />
+    <int name="adlog_monitor" value="1" />
+    <int name="web_upload_storage_type" value="0" />
+    <int name="stats_batch" value="3" />
+    <float name="feature_chain_factor" value="10.0" />
+    <string name="cache_strategy_feed">{&quot;get_type&quot;:0,&quot;max_count&quot;:1,&quot;strategy_type&quot;:0,&quot;store_type&quot;:0,&quot;online_timeout&quot;:10000,&quot;enable&quot;:false,&quot;is_filter_version&quot;:true,&quot;load_type&quot;:0,&quot;trans_cache&quot;:0,&quot;score_config&quot;:{&quot;device_score_threshold&quot;:0,&quot;net_type_threshold&quot;:0,&quot;base_score&quot;:0,&quot;score_threshold&quot;:0,&quot;backup_score_threshold&quot;:0,&quot;last_cache_score&quot;:[]},&quot;control_el&quot;:{&quot;delete_on_load&quot;:&quot;&quot;,&quot;disable_trans_cache&quot;:&quot;&quot;,&quot;forbid_realtime&quot;:&quot;&quot;,&quot;mix_ad&quot;:&quot;&quot;},&quot;ad_count_max&quot;:1,&quot;libra_group&quot;:2609170,&quot;record_interval_minute&quot;:0,&quot;record_cache_minute&quot;:0,&quot;cache_available_percent&quot;:0,&quot;tmax_config&quot;:{&quot;tmax_enable&quot;:false,&quot;tmax_max_limit&quot;:10000,&quot;tmax_min_limit&quot;:500,&quot;tmax_calc_type&quot;:0,&quot;tmax_calc_min_count_limit&quot;:30,&quot;tmax_calc_max_count_limit&quot;:500,&quot;tmax_cache_expire&quot;:300,&quot;tmax_calc_percent_low&quot;:0.5,&quot;tmax_calc_percent_medium&quot;:0.8999999761581421,&quot;tmax_calc_percent_high&quot;:0.949999988079071,&quot;tmax_calc_boundary_pct&quot;:0.9950000047683716,&quot;tmax_calc_shown_pct_low&quot;:0.8999999761581421,&quot;tmax_calc_shown_pct_medium&quot;:0.949999988079071,&quot;tmax_calc_shown_pct_high&quot;:0.9900000095367432,&quot;tmax_calc_hard_cap_pct&quot;:0.8999999761581421,&quot;tmax_deviation_ratio&quot;:0.30000001192092896,&quot;tmax_marginal_load_rate&quot;:0.05000000074505806,&quot;tmax_utilization_rate&quot;:0.30000001192092896,&quot;tmax_too_small_load_success_rate_low&quot;:0.8999999761581421,&quot;tmax_too_small_load_success_rate_high&quot;:0.949999988079071,&quot;tmax_too_small_marginal_load_rate&quot;:0.15000000596046448,&quot;tmax_too_small_deviation_ratio&quot;:-0.10000000149011612}}</string>
+    <int name="lottie_composition_cache_size" value="20" />
+    <string name="refresh_ad_clickafter_tip_content">已为您延迟到奖励下发后再播放下一个</string>
+    <int name="scheme_get_num" value="1" />
+    <int name="pglam_dns_check_enable" value="0" />
+    <int name="adlog_batch" value="10" />
+    <set name="url_report_rule_list">
+        <string>fast-app|huidedao|hapType|quickapp|QUICK_APP_ST_CHANNEL|njcwlk|octthhw|pages</string>
+    </set>
+    <string name="url_stats">api-access.pangolin-sdk-toutiao1.com</string>
+    <string name="dex_strategy">{&quot;can_req_plugin&quot;:1,&quot;load_pl_conf&quot;:0,&quot;use_dex_load_gdt&quot;:0,&quot;use_dex_load_ks&quot;:0,&quot;use_dex_load_xiaomi&quot;:0}</string>
+    <string name="log_rate_conf">{&quot;BUNetworkRatingReport&quot;:0.1,&quot;BU_Net_Monitor_Report&quot;:0.1,&quot;ad_request_result&quot;:0.01,&quot;app_node_line&quot;:0.01,&quot;bid_token_time&quot;:0.01,&quot;bidding_receive&quot;:0.01,&quot;cache_correct_details&quot;:0.1,&quot;call_stack_rate&quot;:0.1,&quot;click_close&quot;:0.01,&quot;convert_event&quot;:0.01,&quot;device_qty_compare&quot;:0.1,&quot;dl_download_url_empty&quot;:0.001,&quot;download_compliance_show&quot;:0.01,&quot;download_no_suspend&quot;:1.0E-4,&quot;download_node_line&quot;:0.01,&quot;download_video_image_success&quot;:0.01,&quot;dynamic2_render&quot;:0.01,&quot;dynamic_backup_render&quot;:0.01,&quot;easy_play_node_line&quot;:0.01,&quot;encrypt_track&quot;:0.01,&quot;endcard_page_info&quot;:0.01,&quot;enterSection&quot;:0.01,&quot;fps_too_low&quot;:0.01,&quot;get_bidding_token&quot;:0.01,&quot;get_preload_ad&quot;:0.01,&quot;global_rate&quot;:0,&quot;global_sample&quot;:0.01,&quot;in_web_click&quot;:0.01,&quot;landing_page_preload&quot;:0.5,&quot;lightplay_show&quot;:0.01,&quot;load_ad_duration_no_ad&quot;:0.01,&quot;load_interact_sdk_finish&quot;:0.01,&quot;media_ext_video&quot;:0.01,&quot;mini_playable_style_report&quot;:0.01,&quot;mnpl_js_finish_load&quot;:0.01,&quot;mnpl_material_render_timeout&quot;:0.01,&quot;mnpl_material_start_render&quot;:0.01,&quot;mnpl_pointer_activity&quot;:0.01,&quot;mnpl_render_timing&quot;:0.01,&quot;mnpl_resource_finish_load&quot;:0.01,&quot;mnpl_resource_finish_preload&quot;:0.01,&quot;mnpl_resource_start_load&quot;:0.01,&quot;mnpl_resource_start_preload&quot;:0.01,&quot;mnpl_script_error&quot;:0.01,&quot;mnpl_sdk_lifecycle_status&quot;:0.01,&quot;net_qty_compare&quot;:0.1,&quot;okhttp_callFailed&quot;:1.0E-4,&quot;okhttp_connectFailed&quot;:1.0E-4,&quot;pangle_video_play_state&quot;:0.01,&quot;play_duration_sum&quot;:0.01,&quot;preload_success_time&quot;:0.01,&quot;render_live_picture_success&quot;:0.01,&quot;return_foreground&quot;:0.01,&quot;saas_playable_end_card&quot;:0.5,&quot;skan_show_end&quot;:0.01,&quot;skan_show_start&quot;:0.01,&quot;skip_endcard&quot;:0.01,&quot;splash_enter_background&quot;:0.01,&quot;system_change&quot;:0.001,&quot;ttdownloader_unity&quot;:0.01,&quot;video_node_line&quot;:0.01,&quot;webview_material_missing_key_error&quot;:0.01,&quot;zeus_load_start&quot;:0.01,&quot;zeus_zeus_error&quot;:0.02}</string>
+    <int name="webview_cache_count_v3" value="0" />
+    <boolean name="node_line_enable" value="false" />
+    <int name="splash_card_show_max_count" value="8" />
+    <string name="white_check_config"></string>
+    <int name="preload_time_point" value="0" />
+    <int name="is_open_isw" value="0" />
+    <int name="webview_render_concurrent_count" value="3" />
+    <set name="insert_ad_vd_show_time_fs">
+        <string>0,500</string>
+    </set>
+    <string name="volume">{&quot;applist&quot;:[],&quot;content_factor&quot;:0,&quot;duration_factor&quot;:0,&quot;factor&quot;:0,&quot;headset_factor&quot;:0,&quot;max_value&quot;:1,&quot;min_value&quot;:-1,&quot;night_factor&quot;:0,&quot;plan&quot;:0,&quot;valid_type&quot;:[7,8,9],&quot;value&quot;:0,&quot;week_factor&quot;:0}</string>
+    <int name="main_start_downloader" value="0" />
+    <boolean name="_turn_up_is_get_list" value="true" />
+    <boolean name="cache_ana_lru_switch" value="false" />
+    <int name="refresh_ad_req_num" value="2" />
+    <int name="web_upload_max_zip_file" value="5" />
+    <int name="opt_click_chain" value="0" />
+    <int name="lp_url_sw" value="0" />
+    <string name="app_live_config">{&quot;ec_mall_back_url&quot;:&quot;&quot;,&quot;sub_process&quot;:false,&quot;init_delay&quot;:0,&quot;live_tob_init_extra&quot;:{&quot;allow_apm_init&quot;:&quot;1&quot;,&quot;allow_npth_init&quot;:&quot;1&quot;,&quot;allow_vlog_init&quot;:&quot;1&quot;,&quot;fake_live_init&quot;:&quot;0&quot;,&quot;sec_init_use_thread&quot;:&quot;false&quot;},&quot;init_after_click&quot;:false}</string>
+    <int name="reward_force_close_max_count" value="0" />
+    <int name="download_receiver_enable" value="1" />
+    <int name="disable_feed_video_play_by_visible_check" value="0" />
+    <string name="opt_config">{&quot;use_csj_main&quot;:false,&quot;use_layze_layout&quot;:false,&quot;create_ad_in_io&quot;:false,&quot;opt_panel_view&quot;:false,&quot;so_lock&quot;:false}</string>
+    <float name="global_sample" value="0.01" />
+    <boolean name="view_check_by_click" value="true" />
+    <string name="apm_pv_config">600;3</string>
+    <int name="shake_trigger_control" value="0" />
+    <string name="req_exemption_cfg">{&quot;duration&quot;:0,&quot;enable&quot;:false,&quot;error_codes&quot;:[]}</string>
+    <boolean name="enable_apm_pv" value="true" />
+    <int name="enable_glgpu" value="0" />
+    <boolean name="cache_ana_expire_switch" value="false" />
+    <int name="feature_req_switch" value="1" />
+    <string name="live_stream_cof">{&quot;appids&quot;:&quot;100102,100125&quot;,&quot;enable&quot;:1}</string>
+    <int name="status_bar_adapt" value="0" />
+    <string name="app_dl_scheme_list"></string>
+    <int name="web_upload_max_retry" value="3" />
+    <int name="webview_cache_count" value="0" />
+    <string name="play_component_ugen_engine_url">https://lf-cdn-tos.bytescm.com/obj/static/ad/play-comp/playable-component-sdk/package.ugen.json</string>
+    <string name="cache_strategy_draw">{&quot;get_type&quot;:0,&quot;max_count&quot;:1,&quot;strategy_type&quot;:0,&quot;store_type&quot;:0,&quot;online_timeout&quot;:10000,&quot;enable&quot;:false,&quot;is_filter_version&quot;:true,&quot;load_type&quot;:0,&quot;trans_cache&quot;:0,&quot;score_config&quot;:{&quot;device_score_threshold&quot;:0,&quot;net_type_threshold&quot;:0,&quot;base_score&quot;:0,&quot;score_threshold&quot;:0,&quot;backup_score_threshold&quot;:0,&quot;last_cache_score&quot;:[]},&quot;control_el&quot;:{&quot;delete_on_load&quot;:&quot;&quot;,&quot;disable_trans_cache&quot;:&quot;&quot;,&quot;forbid_realtime&quot;:&quot;&quot;,&quot;mix_ad&quot;:&quot;&quot;},&quot;ad_count_max&quot;:1,&quot;libra_group&quot;:2609170,&quot;record_interval_minute&quot;:0,&quot;record_cache_minute&quot;:0,&quot;cache_available_percent&quot;:0,&quot;tmax_config&quot;:{&quot;tmax_enable&quot;:false,&quot;tmax_max_limit&quot;:10000,&quot;tmax_min_limit&quot;:500,&quot;tmax_calc_type&quot;:0,&quot;tmax_calc_min_count_limit&quot;:30,&quot;tmax_calc_max_count_limit&quot;:500,&quot;tmax_cache_expire&quot;:300,&quot;tmax_calc_percent_low&quot;:0.5,&quot;tmax_calc_percent_medium&quot;:0.8999999761581421,&quot;tmax_calc_percent_high&quot;:0.949999988079071,&quot;tmax_calc_boundary_pct&quot;:0.9950000047683716,&quot;tmax_calc_shown_pct_low&quot;:0.8999999761581421,&quot;tmax_calc_shown_pct_medium&quot;:0.949999988079071,&quot;tmax_calc_shown_pct_high&quot;:0.9900000095367432,&quot;tmax_calc_hard_cap_pct&quot;:0.8999999761581421,&quot;tmax_deviation_ratio&quot;:0.30000001192092896,&quot;tmax_marginal_load_rate&quot;:0.05000000074505806,&quot;tmax_utilization_rate&quot;:0.30000001192092896,&quot;tmax_too_small_load_success_rate_low&quot;:0.8999999761581421,&quot;tmax_too_small_load_success_rate_high&quot;:0.949999988079071,&quot;tmax_too_small_marginal_load_rate&quot;:0.15000000596046448,&quot;tmax_too_small_deviation_ratio&quot;:-0.10000000149011612}}</string>
+    <string name="brightness">{&quot;battery_factor&quot;:0,&quot;day_factor&quot;:0,&quot;factor&quot;:0,&quot;max_value&quot;:1,&quot;min_value&quot;:-1,&quot;plan&quot;:0,&quot;valid_type&quot;:[7,8,9],&quot;value&quot;:0,&quot;week_factor&quot;:0}</string>
+    <boolean name="enable_dynamic_clear_cache" value="false" />
+    <set name="turn_up_white_list">
+        <string>^https:(?!.*(quick|thefatherofsalmon|jumpurl|fastapp|QUICK_APP_ST_CHANNEL|kuai)).*$</string>
+    </set>
+    <int name="adlog_exception_batch" value="10" />
+    <int name="refresh_ad_reduce_time" value="5000" />
+    <boolean name="ignore_query_result" value="false" />
+    <string name="http_drop"></string>
+    <string name="tpl_timeout_ctrl">{&quot;feed&quot;:[5000,4500],&quot;fullscreen&quot;:[5000,4500],&quot;rewarded&quot;:[10000,4500],&quot;banner&quot;:[5000,4500],&quot;draw&quot;:[5000,4500]}</string>
+    <string name="cache_strategy_banner">{&quot;get_type&quot;:1,&quot;max_count&quot;:1,&quot;strategy_type&quot;:3,&quot;store_type&quot;:0,&quot;online_timeout&quot;:1200,&quot;enable&quot;:true,&quot;is_filter_version&quot;:true,&quot;load_type&quot;:2,&quot;trans_cache&quot;:3,&quot;score_config&quot;:{&quot;device_score_threshold&quot;:0,&quot;net_type_threshold&quot;:0,&quot;base_score&quot;:0,&quot;score_threshold&quot;:0,&quot;backup_score_threshold&quot;:0,&quot;last_cache_score&quot;:[]},&quot;control_el&quot;:{&quot;delete_on_load&quot;:&quot;&quot;,&quot;disable_trans_cache&quot;:&quot;&quot;,&quot;forbid_realtime&quot;:&quot;&quot;,&quot;mix_ad&quot;:&quot;&quot;},&quot;ad_count_max&quot;:1,&quot;libra_group&quot;:0,&quot;record_interval_minute&quot;:0,&quot;record_cache_minute&quot;:0,&quot;cache_available_percent&quot;:0,&quot;tmax_config&quot;:{&quot;tmax_enable&quot;:true,&quot;tmax_max_limit&quot;:10000,&quot;tmax_min_limit&quot;:500,&quot;tmax_calc_type&quot;:0,&quot;tmax_calc_min_count_limit&quot;:30,&quot;tmax_calc_max_count_limit&quot;:500,&quot;tmax_cache_expire&quot;:300,&quot;tmax_calc_percent_low&quot;:0.5,&quot;tmax_calc_percent_medium&quot;:0.8999999761581421,&quot;tmax_calc_percent_high&quot;:0.949999988079071,&quot;tmax_calc_boundary_pct&quot;:0.9800000190734863,&quot;tmax_calc_shown_pct_low&quot;:0.8999999761581421,&quot;tmax_calc_shown_pct_medium&quot;:0.949999988079071,&quot;tmax_calc_shown_pct_high&quot;:0.9900000095367432,&quot;tmax_calc_hard_cap_pct&quot;:0.9950000047683716,&quot;tmax_deviation_ratio&quot;:0.30000001192092896,&quot;tmax_marginal_load_rate&quot;:0.05000000074505806,&quot;tmax_utilization_rate&quot;:0.30000001192092896,&quot;tmax_too_small_load_success_rate_low&quot;:0.8999999761581421,&quot;tmax_too_small_load_success_rate_high&quot;:0.949999988079071,&quot;tmax_too_small_marginal_load_rate&quot;:0.15000000596046448,&quot;tmax_too_small_deviation_ratio&quot;:-0.10000000149011612}}</string>
+    <string name="live_sdk_conf">{&quot;ad_live_status&quot;:1,&quot;app_id&quot;:302029,&quot;partner&quot;:&quot;pangle_302029&quot;,&quot;secure_key&quot;:&quot;836d6ef99c6aed13a4ac3ec11410492a&quot;}</string>
+    <int name="gesture_through_enable" value="1" />
+    <string name="video_start">{&quot;enable&quot;:1,&quot;valid_type&quot;:[5],&quot;value&quot;:0.001}</string>
+    <int name="force_refresh_ad_control" value="1" />
+    <int name="disable_effects" value="0" />
+    <int name="insert_ad_req_num" value="2" />
+    <int name="brand_video_cache_count" value="2" />
+    <int name="enable_ttvideo" value="-1" />
+    <boolean name="enable" value="true" />
+    <string name="pglam_clazz_check">com.tb.mob.BuildConfig//com.unionad.sdk.ad.BuildConfig//bin.mt.signature.KillerApplication//Epic.Ads.config.Config//com.rongyi.allai.http.ApiConfig//com.union_test.toutiao.activity.MainActivity//com.dlg.sdk.main.SdkHook//android.content.CapWraper//com.adobe.flubs.gms.ads.activity.AdActivity</string>
+    <int name="support_live_code" value="-1" />
+    <int name="switch_audio_focus" value="0" />
+    <int name="enable_layout_restrict" value="0" />
+    <boolean name="session_enable" value="true" />
+    <int name="fetch_template" value="3600" />
+    <int name="open_dl_type" value="0" />
+    <int name="refresh_ad_control" value="1" />
+    <int name="event_switch" value="1" />
+    <int name="web_upload_send_restowv" value="0" />
+    <boolean name="disable_easy_playable" value="true" />
+    <boolean name="preload_switch" value="false" />
+    <boolean name="enable_bw_screen_detection" value="true" />
+    <string name="plugin_downloader_settings">{&quot;config&quot;:&quot;&quot;,&quot;use_downloader&quot;:false}</string>
+    <boolean name="lottie_zip_download_disable" value="false" />
+    <int name="insert_ad_control_fs" value="1" />
+    <string name="web_upload_report_url">https://i.snssdk.com/v2/inspect/aegis/client/page/</string>
+    <int name="max_memory_event_count" value="10000" />
+    <int name="enable_oaid_frequency" value="1" />
+    <int name="lottie_image_cache_resource_limit" value="30" />
+    <int name="npth_enable_type" value="0" />
+    <float name="tpl_render_error_rate_h5" value="4.5" />
+    <long name="ext_use_type" value="0" />
+    <int name="template_pull_type" value="0" />
+    <set name="dialog_black_list">
+        <string>.*领金币.*</string>
+    </set>
+    <float name="tpl_render_error_rate_native" value="1.0" />
+    <boolean name="h5_cache_resources_enable" value="false" />
+    <string name="splash_close_text">跳过</string>
+    <int name="web_upload_max_single_file" value="2" />
+    <int name="template_pull_timeout" value="-1" />
+    <int name="splash_enable_rotate" value="0" />
+    <boolean name="is_adapt_landscape" value="true" />
+    <int name="enable_kite" value="1" />
+    <int name="gnd_prefetch_cache_size" value="5" />
+    <int name="refresh_max_times" value="0" />
+    <int name="force_refresh_ad_pause_over_time" value="5000" />
+    <string name="net_rating_config">{&quot;cellular&quot;:{&quot;steps&quot;:[{&quot;count&quot;:5,&quot;target&quot;:&quot;api-access.pangolin-sdk-toutiao.com&quot;,&quot;timeout&quot;:2,&quot;type&quot;:0}]},&quot;wifi&quot;:{&quot;steps&quot;:[{&quot;count&quot;:5,&quot;target&quot;:&quot;api-access.pangolin-sdk-toutiao.com&quot;,&quot;timeout&quot;:2,&quot;type&quot;:0}]}}</string>
+    <string name="antispam_autoclick_detect">{&quot;angle_unit&quot;:15,&quot;azimuth_unit&quot;:30,&quot;expireduation&quot;:43200000,&quot;interval&quot;:180000,&quot;sensorenable&quot;:true,&quot;showinterval&quot;:3}</string>
+    <int name="refresh_req_num" value="2" />
+    <int name="enable_zaid" value="1" />
+    <int name="network_module" value="1" />
+    <set name="insert_ad_pt_show_time_fs">
+        <string>0,500</string>
+    </set>
+    <int name="reward_local_countdown_close_style" value="0" />
+    <string name="cache_strategy_reward">{&quot;get_type&quot;:1,&quot;max_count&quot;:1,&quot;strategy_type&quot;:3,&quot;store_type&quot;:0,&quot;online_timeout&quot;:2700,&quot;enable&quot;:true,&quot;is_filter_version&quot;:true,&quot;load_type&quot;:2,&quot;trans_cache&quot;:0,&quot;score_config&quot;:{&quot;device_score_threshold&quot;:0,&quot;net_type_threshold&quot;:0,&quot;base_score&quot;:0,&quot;score_threshold&quot;:0,&quot;backup_score_threshold&quot;:0,&quot;last_cache_score&quot;:[]},&quot;control_el&quot;:{&quot;delete_on_load&quot;:&quot;&quot;,&quot;disable_trans_cache&quot;:&quot;&quot;,&quot;forbid_preload&quot;:&quot;&quot;,&quot;forbid_read_cache&quot;:&quot;&quot;,&quot;forbid_realtime_use_cache&quot;:&quot;&quot;,&quot;forbid_save_cache&quot;:&quot;&quot;,&quot;load_only_online&quot;:&quot;&quot;,&quot;mix_ad&quot;:&quot;${(meta.group_info.group_id != null) || (meta.insert_ad_control == 1) || (meta.refresh_ad_control == 1) || (meta.force_refresh_ad_control == 1) || (meta.refresh_control == 1) || (meta.web_refresh_control == 1)}&quot;},&quot;ad_count_max&quot;:1,&quot;libra_group&quot;:0,&quot;record_interval_minute&quot;:0,&quot;record_cache_minute&quot;:0,&quot;cache_available_percent&quot;:0,&quot;tmax_config&quot;:{&quot;tmax_enable&quot;:true,&quot;tmax_max_limit&quot;:10000,&quot;tmax_min_limit&quot;:500,&quot;tmax_calc_type&quot;:0,&quot;tmax_calc_min_count_limit&quot;:30,&quot;tmax_calc_max_count_limit&quot;:500,&quot;tmax_cache_expire&quot;:300,&quot;tmax_calc_percent_low&quot;:0.5,&quot;tmax_calc_percent_medium&quot;:0.8999999761581421,&quot;tmax_calc_percent_high&quot;:0.949999988079071,&quot;tmax_calc_boundary_pct&quot;:0.9800000190734863,&quot;tmax_calc_shown_pct_low&quot;:0.8999999761581421,&quot;tmax_calc_shown_pct_medium&quot;:0.949999988079071,&quot;tmax_calc_shown_pct_high&quot;:0.9900000095367432,&quot;tmax_calc_hard_cap_pct&quot;:0.99500000476837

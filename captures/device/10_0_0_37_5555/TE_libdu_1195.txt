@@ -1,0 +1,5 @@
+# pid=1195 libdu=YES blocked=0 filtered=2 called=0
+# === antidbg 0 ===
+# === init 0 ===
+# === tokens 0 ===
+# === enc 0 loop=0 ===

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f5f6fa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#08090d" media="(prefers-color-scheme: dark)">
+<title>酷~一起去看发布会！ | 荣耀Magic9系列现场招募</title>
+<style>
+/* ============================================================
+   主题变量 · 浅色优先 + 系统级深色模式
+   浅色：白/浅灰底 + teal 强调；深色：沿用黑银沉浸变量
+   ============================================================ */
+:root {
+  color-scheme: light dark;
+
+  /* 背景（浅色默认） */
+  --page-bg: #f5f6fa;
+  --page-glow-1: rgba(63, 224, 198, 0.12);   /* 右上 teal */
+  --page-glow-2: rgba(31, 184, 156, 0.08);   /* 左下 teal 深 */
+
+  /* 卡片 · 白玻璃 */
+  --card-bg: rgba(255, 255, 255, 0.88);
+  --card-bg-solid: #ffffff;
+  --card-border: rgba(255, 255, 255, 0.62);
+  --card-border-dark: rgba(20, 40, 90, 0.08);
+
+  /* 文字（浅色默认） */
+  --text-primary: #10152b;
+  --text-secondary: #46506b;
+  --text-muted: #7c869e;
+
+  /* 主色：teal 青 */
+  --accent: #3fe0c6;
+  --accent-strong: #1fb89c;   /* 浅底上的强调文字（深 teal） */
+  --accent-soft: rgba(63, 224, 198, 0.14);
+  --accent-light: rgba(63, 224, 198, 0.08);
+  --accent-2: #3fe0c6;        /* focus 可见环 */
+  --gradient: linear-gradient(135deg, #1fb89c 0%, #12a68b 100%);        /* solid 元素底 */
+  --gradient-text: linear-gradient(135deg, #1fb89c 0%, #12a68b 100%);   /* 文字渐变(浅色下用深 teal) */
+
+  /* 阴影 & 圆角 */
+  --shadow: 0 2px 12px rgba(30, 60, 130, 0.08);
+  --shadow-lg: 0 10px 28px rgba(30, 60, 130, 0.16);
+  --glow-btn: rgba(31, 184, 156, 0.35);
+  --radius: 20px;
+  --radius-sm: 14px;
+}
+
+/* ============================================================
+   深色模式：系统级切换，沿用黑银沉浸变量
+   ============================================================ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    /* 背景 */
+    --page-bg: #08090d;
+    --page-glow-1: rgba(64, 225, 201, 0.10);
+    --page-glow-2: rgba(200, 210, 225, 0.05);
+
+    /* 卡片 · 低透明玻璃 */
+    --card-bg: rgba(255, 255, 255, 0.05);
+    --card-bg-solid: #12141a;
+    --card-border: rgba(255, 255, 255, 0.10);
+    --card-border-dark: transparent;
+
+    /* 文字 · 银灰层次 */
+    --text-primary: #f1f2f6;
+    --text-secondary: #b2b6c0;
+    --text-muted: #707682;
+
+    /* 主色：teal 青 */
+    --accent: #3fe0c6;
+    --accent-strong: #7df0dc;   /* 深底上的强调文字（亮 teal） */
+    --accent-soft: rgba(63, 224, 198, 0.14);
+    --accent-light: rgba(63, 224, 198, 0.08);
+    --accent-2: #3fe0c6;
+    --gradient: linear-gradient(135deg, #1fb89c 0%, #12a68b 100%);
+    --gradient-text: linear-gradient(135deg, #47e4ca 0%, #a8f7e8 100%);
+
+    /* 阴影 & 圆角 */
+    --shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 10px 28px rgba(0, 0, 0, 0.55);
+    --glow-btn: rgba(242, 244, 248, 0.28);
+  }
+}
+
+/* ============================================================
+   基础
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: clip;
+  background: var(--page-bg);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue",
+    "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 背景光晕（固定定位，不产生滚动空间） */
+body::before,
+body::after {
+  content: '';
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+body::before {
+  top: -140px; right: -100px;
+  width: 340px; height: 340px;
+  background: radial-gradient(circle, var(--page-glow-1) 0%, transparent 70%);
+}
+body::after {
+  bottom: -120px; left: -100px;
+  width: 320px; height: 320px;
+  background: radial-gradient(circle, var(--page-glow-2) 0%, transparent 70%);
+}
+
+/* 页面容器 */
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 16px;
+  padding-left: calc(16px + env(safe-area-inset-left));
+  padding-right: calc(16px + env(safe-area-inset-right));
+}
+
+/* ============================================================
+   Banner（主视觉 KV，素材 1280x576）
+   换图：替换 assets/banner.jpg，同步更新 img 的 width/height
+   如需更高清源图可给 <source srcset="assets/banner@2x.jpg 2x">
+   ============================================================ */
+.banner {
+  position: relative;
+  margin: calc(12px + env(safe-area-inset-top)) 0 0; /* 覆盖 figure 默认 margin */
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  background: var(--page-bg);
+  border: 1px solid var(--card-border);
+}
+.banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ============================================================
+   主标题区（视觉口号）
+   ============================================================ */
+.hero {
+  text-align: center;
+  padding: 22px 0 4px;
+}
+.hero h1 {
+  margin: 0;
+  font-size: clamp(24px, 6.5vw, 32px);
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+.hero h1 .hl {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+.hero .hero-lead {
+  max-width: 30em;
+  margin: 12px auto 0;
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+
+/* ============================================================
+   信息条 Info Chips
+   ============================================================ */
+.info-strip {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+.info-chip {
+  flex: 1;
+  min-width: 0;
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  padding: 14px 8px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+.info-chip .icon { font-size: 22px; display: block; margin-bottom: 4px; }
+.info-chip .label {
+  font-size: 10px;
+  color: var(--text-muted);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.info-chip .value {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-top: 3px;
+  overflow-wrap: anywhere;
+}
+.info-chip .value.placeholder { color: var(--accent-strong); }
+
+/* ============================================================
+   通用卡片
+   ============================================================ */
+.card {
+  background:
+    radial-gradient(140% 130% at 100% 0%, var(--accent-soft) 0%, transparent 60%),
+    var(--card-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: 22px 20px;
+  box-shadow: var(--shadow);
+  margin-top: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 14px;
+  position: relative;
+  z-index: 1;
+}
+.section-title .t-emoji { font-size: 22px; flex-shrink: 0; }
+.card p { position: relative; z-index: 1; }
+
+/* 段落正文 */
+.para {
+  font-size: 15px;
+  color: var(--text-secondary);
+  margin: 0 0 12px;
+  position: relative;
+  z-index: 1;
+}
+.para:last-child { margin-bottom: 0; }
+.para-gap { margin-top: 14px; }
+.para strong { color: var(--text-primary); font-weight: 700; }
+.para .quote {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ============================================================
+   主题亮点（圆点列表）
+   ============================================================ */
+.item-list {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+.item-list li {
+  position: relative;
+  padding-left: 24px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.85;
+  margin-bottom: 8px;
+}
+.item-list li:last-child { margin-bottom: 0; }
+.item-list li::before {
+  content: '';
+  position: absolute;
+  left: 3px; top: 12px;
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: var(--gradient);
+  box-shadow: 0 2px 6px rgba(63, 224, 198, 0.35);
+}
+.item-list li strong { color: var(--text-primary); font-weight: 700; }
+
+/* 招募画像 · 3 个胶囊块 */
+.who-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+  margin-top: 6px;
+}
+.who-item {
+  background: var(--accent-light);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  padding: 16px 10px;
+  text-align: center;
+}
+.who-item .w-icon { font-size: 26px; display: block; margin-bottom: 6px; }
+.who-item .w-text { font-size: 12.5px; font-weight: 700; color: var(--text-primary); line-height: 1.55; }
+
+/* ============================================================
+   CTA
+   ============================================================ */
+.cta-zone {
+  margin-top: 20px;
+  padding: 24px 20px;
+  text-align: center;
+  border-radius: var(--radius);
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow);
+}
+/* CTA 按钮：浅色用渐变，深色用 ARRI 白 */
+.cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 16px;
+  background: var(--gradient);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 17px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 6px 20px var(--glow-btn);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  min-height: 52px;
+}
+.cta-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 26px var(--glow-btn);
+  }
+  .cta-btn:hover::before { opacity: 1; }
+}
+@media (prefers-color-scheme: dark) {
+  .cta-btn {
+    background: #f2f4f8;
+    color: #0b0d12;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  }
+  .cta-btn::before {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.75) 0%, transparent 55%);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .cta-btn:hover {
+      background: #ffffff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.12);
+    }
+    .cta-btn:hover::before { opacity: 0.4; }
+  }
+}
+.cta-btn:active { transform: scale(0.98) translateY(0); }
+.cta-btn:focus-visible {
+  outline: 3px solid var(--accent-2);
+  outline-offset: 3px;
+}
+
+/* ============================================================
+   报名须知（有序列表 1/2/3）
+   ============================================================ */
+.rules-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 6px;
+  position: relative;
+  z-index: 1;
+}
+.rules-note {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 0 0 14px;
+  position: relative;
+  z-index: 1;
+}
+.rules-list {
+  list-style: none;
+  counter-reset: rule;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+.rules-list li {
+  counter-increment: rule;
+  position: relative;
+  padding: 4px 0 4px 34px;
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  line-height: 1.85;
+  margin-bottom: 10px;
+}
+.rules-list li:last-child { margin-bottom: 0; }
+.rules-list li::before {
+  content: counter(rule);
+  position: absolute;
+  left: 0; top: 6px;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--gradient);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.rules-list li strong { color: var(--text-primary); font-weight: 700; }
+
+/* ============================================================
+   结尾
+   ============================================================ */
+.outro {
+  text-align: center;
+  padding: 30px 16px calc(40px + env(safe-area-inset-bottom));
+  position: relative;
+  z-index: 1;
+}
+.outro p {
+  margin: 0 auto;
+  font-size: 15px;
+  color: var(--text-secondary);
+  max-width: 24em;
+}
+.outro .outro-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  font-size: 17px;
+  font-weight: 900;
+  color: var(--accent-strong);
+  letter-spacing: 0.02em;
+}
+
+/* ============================================================
+   响应式
+   ============================================================ */
+/* ≤360px 小屏：卡片内边距收窄，who 三块仍保持可读 */
+@media (max-width: 360px) {
+  .container { padding-left: calc(12px + env(safe-area-inset-left)); padding-right: calc(12px + env(safe-area-inset-right)); }
+  .card { padding: 18px 16px; }
+  .info-chip .value { font-size: 13px; }
+}
+
+/* ≤400px：招募画像降为单列横条，保证 7 字文案可读 */
+@media (max-width: 400px) {
+  .who-grid { grid-template-columns: 1fr; }
+  .who-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-align: left;
+    padding: 14px 16px;
+  }
+  .who-item .w-icon { font-size: 24px; margin-bottom: 0; flex-shrink: 0; }
+  .who-item .w-text { font-size: 13.5px; }
+}
+
+/* 动效：尊重系统减弱动画设置 */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+</style>
+</head>
+<body>
+<main class="container">
+
+  <!-- ============================================================
+       Banner · 主视觉 KV（assets/banner.jpg · 1280x576）
+       ============================================================ -->
+  <figure class="banner">
+    <img src="//image.coolapk.com/image/2026/0909/10/fe8fbc21b49158d0b7420b5a24b1a707-0-o_1k220br335qedfg8j1ec4poia-uid-408649@1080x240.jpg" width="1080" height="240"
+         alt="荣耀Magic9系列发布会招募 · 荣耀Magic9系列 一起去看发布会"
+         fetchpriority="high" decoding="async">
+  </figure>
+
+  <!-- ============================================================
+       信息条 · 占位符 XXX 待主办方填充
+       ============================================================ -->
+  <section class="info-strip" aria-label="活动信息">
+    <div class="info-chip">
+      <span class="icon" aria-hidden="true">📍</span>
+      <div class="label">地点</div>
+      <div class="value">北京</div>
+    </div>
+    <div class="info-chip">
+      <span class="icon" aria-hidden="true">📅</span>
+      <div class="label">时间</div>
+      <div class="value">9月28日</div>
+    </div>
+    <div class="info-chip">
+      <span class="icon" aria-hidden="true">👥</span>
+      <div class="label">名额</div>
+      <div class="value">8 人</div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       活动内容
+       ============================================================ -->
+  <section class="card" aria-labelledby="sec-about">
+    <h2 class="section-title" id="sec-about"><span class="t-emoji" aria-hidden="true">🎉</span>活动内容</h2>
+    <p class="para">这次我们想找一群<span class="quote">真正喜欢数码产品</span>的朋友，一起去看<strong>荣耀Magic9系列发布会</strong>、看新品、聊配置、聊设计，也聊聊哪些升级是真有东西，哪些只是“发布会传统艺能”。</p>
+  </section>
+
+  <!-- ============================================================
+       招募画像
+       ============================================================ -->
+  <section class="card" aria-labelledby="sec-who">
+    <h2 class="section-title" id="sec-who"><span class="t-emoji" aria-hidden="true">🙋</span>想找这样的你</h2>
+    <p class="para">不用是专业媒体，也不用参数倒背如流。只要你平时看到新机发布会会忍不住点进去，看见新品会想上手摸两下，愿意和大家分享自己的真实想法，就来报名吧。</p>
+    <p class="para para-gap"><strong>荣耀Magic9系列</strong>是主角，但我们也想见见屏幕另一边的你。</p>
+  </section>
+
+  <!-- ============================================================
+       报名 CTA（href 占位，替换真实报名链接）
+       ============================================================ -->
+  <section class="cta-zone" aria-label="报名入口">
+    <a class="cta-btn" href="https://wj.qq.com/s2/27799783/626x/" id="signup-link" target="_blank" rel="noopener">
+      <span aria-hidden="true">🎟️</span> 点击报名
+    </a>
+  </section>
+
+  <!-- ============================================================
+       报名须知
+       ============================================================ -->
+  <section class="card" aria-labelledby="sec-rules">
+    <h2 class="rules-title" id="sec-rules">📋 报名须知</h2>
+    <p class="rules-note">提交报名即视为阅读并同意以下须知：</p>
+    <ol class="rules-list">
+      <li>由于名额有限，<strong>招募与筛选同步进行</strong>，招募人满即止</li>
+      <li>本次活动酷安将<strong>报销来往交通住宿费用</strong>，但用户需自行规划出行</li>
+      <li>通过活动报名审核的酷友，将收到工作人员的联系，如临时无法参与活动，请<strong>提前 1 天联系工作人员</strong></li>
+      <li>通过报名审核且确认参加活动的用户凭<strong>相关证件、手机号码</strong>，签到进场</li>
+      <li>活动过程请注意<strong>人身财产安全</strong></li>
+    </ol>
+  </section>
+
+  <!-- ============================================================
+       结尾 · 口号
+       ============================================================ -->
+  <footer class="outro">
+    <p>隔着屏幕看直播当然可以，<br>和同好一起在现场，感觉真的不一样。</p>
+    <div class="outro-brand"><span aria-hidden="true">⚡</span> 酷~一起去看发布会!</div>
+  </footer></main>
+</body>
+  </html>

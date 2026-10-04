@@ -1,0 +1,2 @@
+POST
+http://auni.telecome.cn/a/adt/report?v=5.0&c=1&e=1&t=adt&p=F9BD0FBDACFE80FCF34370FBCFEE1A98&r=75e63e6b83e641b6af28dc717f10e3da&n=1&l=-1&h=9D308F367B92172EA2A19CB56C9CD171

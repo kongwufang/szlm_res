@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>一起验湃｜HyperOS 4 Beta 体验报告有奖活动</title>
+<style>
+:root {
+  --bg: #f5f5f5;
+  --card-bg: #fff;
+  --card-bg-alt: #fafafa;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666;
+  --text-tertiary: #888;
+  --text-muted: #999;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06);
+  --tag-bg: #f0eeff;
+  --img-bg: #fff;
+  --strong-color: #333;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --card-bg: #2a2a2a;
+    --card-bg-alt: #333;
+    --text-primary: #e5e5e5;
+    --text-secondary: #aaa;
+    --text-tertiary: #888;
+    --text-muted: #777;
+    --shadow: 0 1px 3px rgba(0,0,0,0.3);
+    --tag-bg: rgba(132,123,238,0.15);
+    --img-bg: #2a2a2a;
+    --strong-color: #ddd;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "PingFang SC", "Noto Sans CJK SC", sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  padding-top: calc(12px + env(safe-area-inset-top, 0px));
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  aspect-ratio: 1080 / 240;
+  background: url('//static.coolapk.com/static/mobile/assets/banner.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+}
+.banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.banner-text {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}
+.banner-text h1 {
+  font-size: clamp(18px, 5vw, 32px);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Container */
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 12px 40px;
+}
+
+/* Section */
+.section {
+  background: var(--card-bg);
+  border-radius: 16px;
+  margin-top: 16px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+/* Time */
+.time-bar {
+  text-align: center;
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  box-shadow: var(--shadow);
+  line-height: 1.8;
+}
+.time-bar .label { color: var(--text-muted); }
+.time-bar .date { font-weight: 600; color: var(--text-primary); }
+
+/* Steps hint */
+.steps-hint {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--text-tertiary);
+  font-weight: 500;
+}
+
+/* Step header */
+.step-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.step-badge {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #847bee, #9b8fef);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.step-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* Topic tag */
+.topic-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--tag-bg);
+  color: #847bee;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.step-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Prize card */
+.prize-group {
+  margin-top: 16px;
+}
+.prize-group-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.prize-group-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+.prize-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px;
+  background: var(--card-bg-alt);
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.prize-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  background: var(--img-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: #bbb;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.prize-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.prize-info { flex: 1; min-width: 0; }
+.prize-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+.prize-qty {
+  font-size: 13px;
+  color: #847bee;
+  font-weight: 600;
+}
+
+/* Note */
+.prize-note {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+/* Rules */
+.rules-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #847bee;
+  margin-bottom: 14px;
+}
+.rules-list {
+  list-style: none;
+}
+.rules-list li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 4px;
+}
+.rules-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #847bee;
+}
+.rules-list li strong {
+  color: var(--strong-color);
+}
+</style>
+</head>
+<body>
+
+<!-- Banner -->
+<div class="container">
+<div class="banner">
+  <div class="banner-text">
+    <h1>&nbsp;</h1>
+  </div>
+</div>
+
+  <!-- Time -->
+  <div class="time-bar">
+    <div class="label">📅 活动时间</div>
+    <div class="date">即日起至 2026年9月14日 23:59</div>
+  </div>
+
+  <div class="steps-hint">👇 两种方式轻松参与，双通道赢奖品</div>
+
+  <!-- Step 1 -->
+  <div class="section">
+    <div class="step-header">
+      <div class="step-badge">1</div>
+      <div class="step-title">📝 发帖分享</div>
+    </div>
+    <p class="step-desc">在 <span style="display:inline-block;background:#f0eeff;color:#847bee;padding:2px 10px;border-radius:14px;font-weight:700;font-size:15px">#一起验湃#</span> 话题下发布动态/图文/点评/清单，分享真实使用体验</p>
+
+    <div class="prize-group">
+      <div class="prize-group-title">🏆 优秀内容奖（评选）</div>
+      <div class="prize-group-sub">正向或负向评价不影响评选，谢绝尬吹或尬黑或云评测</div>
+
+      <div class="prize-card">
+        <div class="prize-img"><img src="//static.coolapk.com/static/mobile/assets/sound-pro.png" alt="Xiaomi Sound Pro"></div>
+        <div class="prize-info">
+          <div class="prize-name">Xiaomi Sound Pro</div>
+          <div class="prize-qty">× 5</div>
+        </div>
+      </div>
+
+      <div class="prize-card">
+        <div class="prize-img"><img src="//static.coolapk.com/static/mobile/assets/band11.png" alt="小米手环10 Pro 陶瓷版"></div>
+        <div class="prize-info">
+          <div class="prize-name">小米手环10 Pro 陶瓷版</div>
+          <div class="prize-qty">× 15</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Step 2 -->
+  <div class="section">
+    <div class="step-header">
+      <div class="step-badge">2</div>
+      <div class="step-title">⭐ 一键打分</div>
+    </div>
+    <p class="step-desc">在话题页为 HyperOS 4 Beta 打分（分数不计入正式版）</p>
+
+    <div class="prize-group">
+      <div class="prize-group-title">🎲 最佳幸运奖（抽奖）</div>
+      <div class="prize-group-sub">打分即自动可参与抽奖，无需发帖</div>
+
+      <div class="prize-card">
+        <div class="prize-img"><img src="//static.coolapk.com/static/mobile/assets/powerbank.png" alt="小米金沙江磁吸充电宝 45W"></div>
+        <div class="prize-info">
+          <div class="prize-name">小米金沙江磁吸充电宝 45W</div>
+          <div class="prize-qty">× 10</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rules -->
+  <div class="section">
+    <div class="rules-title">
+      <span>⚠️</span> 活动须知（必看）
+    </div>
+    <ul class="rules-list">
+      <li>仅限 <strong>HyperOS 4 Beta 机型用户</strong>参与</li>
+      <li>内容须为原创，转发/搬运/水帖不参与评选</li>
+      <li>每人最多领取 <strong>2 份</strong>奖品（评优+抽奖各限1份）</li>
+      <li>中奖后需 <strong>7天内</strong> 填写收货信息，逾期视为放弃</li>
+      <li>话题内禁发交易、推广、引流等无关内容</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>

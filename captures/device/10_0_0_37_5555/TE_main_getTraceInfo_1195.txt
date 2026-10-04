@@ -1,0 +1,88 @@
+# pid=1195 libdu=YES blocked=443 filtered=12 called=0
+# === antidbg 443 ===
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+AD	prctl(SVMA)
+# === init 1 ===
+INIT	Main.getTraceInfo [com.coolapk.market.CoolMarketApplication@814d02b]
+# === tokens 22 ===
+TOK	0x310890	"boot_uuid"
+TOK	0x317e24	"getPackageName"
+TOK	0x2ff440	"()Ljava/lang/String;"
+TOK	0x3077f0	"UTF-8"
+TOK	0x3051fc	"getBytes"
+TOK	0x30b180	"(Ljava/lang/String;)[B"
+TOK	0x303c6c	"_prefs"
+TOK	0x3064bc	"%s%s"
+TOK	0x300900	"getSharedPreferences"
+TOK	0x319048	"(Ljava/lang/String;I)Landroid/content/SharedPreferences;"
+TOK	0x31903c	"MD5"
+TOK	0x30ceb8	"java/security/MessageDigest"
+TOK	0x305a1c	"getInstance"
+TOK	0x315850	"(Ljava/lang/String;)Ljava/security/MessageDigest;"
+TOK	0x30dacc	"update"
+TOK	0x306430	"([BII)V"
+TOK	0x318ba4	"digest"
+TOK	0x308128	"()[B"
+TOK	0x313ed4	"getString"
+TOK	0x310410	"(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+TOK	0x3053b0	"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+TOK	0x300cd0	"{%cs%c:%c%lld%c,%cr%c:%d,%cw%c:%d,%ct%c:%c%lld%c,%cp%c:%d,%crg%c:%d,%cbu%c:%c%s%c}"
+# === enc 0 loop=0 ===

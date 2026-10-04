@@ -1,0 +1,150 @@
+boolean name="live_ktv_chorus_entry_enable" value="true" />
+    <int name="__origin_Type__live_audience_resolution_stall_monitor_configs" value="0" />
+    <int name="__origin_Type__live_multilink_micseat_fast_gift_ab" value="2" />
+    <boolean name="live_saas_gift_banner_change" value="true" />
+    <boolean name="live_pk_enable_intercom_comment_entry" value="false" />
+    <string name="live_feed_live_merge_click">{&quot;icon_url&quot;:&quot;&quot;,&quot;live_feed_url&quot;:&quot;https://webcast-open.douyin.com/webcast/openapi/feed/?content_type\u003d0\u0026channel_id\u003d160001\u0026hidden_banner\u003d1&quot;}</string>
+    <int name="__origin_Type__live_pk_module_opt_enable" value="4" />
+    <string name="block_fan_group_app_ids">[&quot;203317&quot;,&quot;841157&quot;,&quot;581084&quot;,&quot;917892&quot;,&quot;445052&quot;,&quot;442409&quot;,&quot;445037&quot;,&quot;444387&quot;,&quot;445052&quot;,&quot;445848&quot;,&quot;445848&quot;,&quot;1011065&quot;,&quot;1013476&quot;]</string>
+    <int name="__origin_Type__hit_2025_ecom_permanently_libra" value="3" />
+    <string name="live_purchase_safe_remind_schema">https://lf26-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/douyin/f37ae36f-9987-48c5-93ae-b604bb643947.html</string>
+    <string name="live_gecko_group">[&quot;saas&quot;]</string>
+    <string name="live_public_screen_audience_update_opt">{&quot;discard_delay_msg_enable&quot;:true,&quot;discard_delay_msg_time_sec&quot;:10,&quot;enable&quot;:true,&quot;fold_times_floor&quot;:3,&quot;fold_times_upper&quot;:5,&quot;monitor_tag&quot;:&quot;experiment2&quot;,&quot;scroll_msg_count_floor&quot;:3,&quot;scroll_msg_count_upper&quot;:5,&quot;scroll_times_floor&quot;:2,&quot;scroll_times_upper&quot;:3}</string>
+    <boolean name="live_multi_link_admin_fanticket_show_bugfix" value="false" />
+    <boolean name="sar_template_fallback_asm" value="true" />
+    <boolean name="welfare_enable_preload_resource" value="false" />
+    <int name="__origin_Type__live_enable_portrait_screenshot" value="4" />
+    <string name="vs_landscape_player_control_layout_optimize_comment_location">left</string>
+    <string name="live_stream_bitrate">[2500,1500,5000]</string>
+    <long name="show_superluckybag_v1" value="0" />
+    <long name="room_follow_notice_interval_after_rank" value="8" />
+    <int name="__origin_Type__multi_link_common_window_layout_config_load_strategy" value="0" />
+    <int name="__origin_Type__cubic_b27ca_config_resource_9" value="3" />
+    <long name="enable_link_plugin_pre_load" value="1" />
+    <string name="live_gift_choose_receiver_dialog">sslocal://webcast_lynxview?url=https%3A%2F%2Flf-webcast-gr-sourcecdn.bytegecko.com%2Fobj%2Fbyte-gurd-source-gr%2Fwebcast%2Fmono%2Flynx%2Frevenue_interactive_gift_lynx_saas%2Fpages%2Fselectguestlist%2Ftemplate.js&amp;load_taro=0&amp;gravity=bottom&amp;type=popup&amp;lynx_thread=2&amp;window_floating=0&amp;landscape_custom_width=1&amp;abandon_coordinate=1</string>
+    <int name="__origin_Type__saas_single_data_to_review_url" value="3" />
+    <int name="__origin_Type__webcast_eco_appeal_ban" value="3" />
+    <string name="live_cloud_collaborate_settings">{&quot;collaborate_permission_device_score&quot;:8.7305}</string>
+    <long name="tray_queue_optimize_and_new_animation" value="4" />
+    <long name="live_inner_scroll_gesture_angle" value="58" />
+    <int name="__origin_Type__live_realname_verify_url_for_anchor" value="3" />
+    <string name="gamelivesdk_unity_record_gid">2950,210397,215218,235298,8449,7487,8287,6931</string>
+    <int name="__origin_Type__cubic_d7fff_config_resource_18" value="3" />
+    <string name="live_lynx_group_live_list">{&quot;enable&quot;:true,&quot;schema&quot;:&quot;sslocal://webcast_lynxview?url\u003dhttps%3A%2F%2Flf-webcast-sourcecdn-tos.bytegecko.com%2Fobj%2Fbyte-gurd-source%2Fwebcast%2Fmono%2Flynx%2Frevenue_interactive_gift_lynx_douyin%2Fpages%2Fgroup_live_list%2Ftemplate.js\u0026type\u003dpopup\u0026gravity\u003dbottom\u0026pull_down_close\u003d1\u0026rate_height\u003d450&quot;}</string>
+    <string name="webcast_eco_punish_detail">https://lf-webcast-gr-sourcecdn.bytegecko.com/obj/byte-gurd-source-gr/webcast/mono/h5/eco_open_saas/template/pages/punish_detail.html</string>
+    <long name="gift_repeat_timeout" value="3" />
+    <int name="__origin_Type__live_linkmic_dynamic_center_config" value="0" />
+    <int name="__origin_Type__live_enable_three_user_seq_list" value="4" />
+    <int name="__origin_Type__group_live_contribution_button" value="2" />
+    <int name="__origin_Type__ktv_audience_list_lynx" value="0" />
+    <string name="live_ticket_expand_settings">{&quot;enter_room_daily_show_limit&quot;:3,&quot;enter_room_total_show_limit&quot;:10,&quot;exit_room_daily_show_limit&quot;:3,&quot;exit_room_total_show_limit&quot;:10,&quot;frequency_control_enable&quot;:false}</string>
+    <int name="__origin_Type__audience_ping_interval" value="2" />
+    <int name="__origin_Type__live_resolution_stack_online" value="4" />
+    <int name="__origin_Type__livesdk_livepro_risk_ban_enable" value="4" />
+    <int name="__origin_Type__live_anchor_report_url" value="3" />
+    <boolean name="live_background_network_change_cut" value="true" />
+    <int name="__origin_Type__anchor_growth_user_assist_v3" value="2" />
+    <string name="cubic_6a9ec_config_resource_22">{&quot;padKv&quot;:{&quot;url&quot;:&quot;https://p3-magic.byteimg.com/tos-cn-i-tokbwntzau/cubic_j8us8/a7d1607230c9094530cbb2958040cce3~tplv-tokbwntzau-perf:0:0:q85.image?size=2304x837&amp;magic_type=image_webp&quot;,&quot;fileName&quot;:&quot;pad头图116@1_5x.webp&quot;,&quot;category&quot;:&quot;image&quot;,&quot;coverUrl&quot;:&quot;https://p3-magic.byteimg.com/tos-cn-i-tokbwntzau/cubic_j8us8/a7d1607230c9094530cbb2958040cce3~tplv-tokbwntzau-perf:0:0:q85.image?size=2304x837&amp;magic_type=image_webp&quot;},&quot;padTabBg&quot;:{&quot;url&quot;:&quot;https://p3-magic.byteimg.com/tos-cn-i-tokbwntzau/cubic_j8us8/17f8611a4527eb39fbc0092c04be1ba7~tplv-tokbwntzau-perf:0:0:q85.image?size=2304x486&amp;magic_type=image_webp&quot;,&quot;fileName&quot;:&quot;pad吸顶态切图@1_5x.webp&quot;,&quot;category&quot;:&quot;image&quot;,&quot;coverUrl&quot;:&quot;https://p3-magic.byteimg.com/tos-cn-i-tokbwntzau/cubic_j8us8/17f8611a4527eb39fbc0092c04be1ba7~tplv-tokbwntzau-perf:0:0:q85.image?size=2304x486&amp;magic_type=image_webp&quot;},&quot;normalKv&quot;:{&quot;url&quot;:&quot;https://p3-magic.byteimg.com/tos-cn-i-tokbwntzau/cubic_j8us8/f0d597f4e7122177c0aefc9b6e7cd08d~tplv-tokbwntzau-perf:0:0:q85.image?size=1125x876&amp;magic_type=image_webp&quot;,&quot;fileName&quot;:&quot;头图115@1_5x.webp&quot;,&quot;category&quot;:&quot;image&quot;,&quot;coverUrl&quot;:&quot;https://p3-magic.byteimg.com/tos-cn-i-tokbwntzau/cubic_j8us8/f0d597f4e7122177c0aefc9b6e7cd08d~tplv-tokbwntzau-perf:0:0:q85.image?size=1125x876&amp;magic_type=image_webp&quot;},&quot;normalTabBg&quot;:{&quot;url&quot;:&quot;https://p3-magic.byteimg.com/tos-cn-i-tokbwntzau/cubic_j8us8/146b9b0cc0d7d4fb1004377ec094614d~tplv-tokbwntzau-perf:0:0:q85.image?size=1125x396&amp;magic_type=image_webp&quot;,&quot;fileName&quot;:&quot;吸顶样式@1_5x.webp&quot;,&quot;category&quot;:&quot;image&quot;,&quot;coverUrl&quot;:&quot;https://p3-magic.byteimg.com/tos-cn-i-tokbwntzau/cubic_j8us8/146b9b0cc0d7d4fb1004377ec094614d~tplv-tokbwntzau-perf:0:0:q85.image?size=1125x396&amp;magic_type=image_webp&quot;},&quot;ugPendantImg&quot;:{&quot;url&quot;:&quot;https://p3-magic.byteimg.com/tos-cn-i-tokbwntzau/cubic_smfon/29dc8ef9ef0ce7054700fb338b1628e3~tplv-tokbwntzau-perf:0:0:q85.image?size=180x180&amp;magic_type=image_webp&quot;,&quot;fileName&quot;:&quot;group2053140715@1_5x.webp&quot;,&quot;category&quot;:&quot;image&quot;,&quot;coverUrl&quot;:&quot;https://p3-magic.byteimg.com/tos-cn-i-tokbwntzau/cubic_smfon/29dc8ef9ef0ce7054700fb338b1628e3~tplv-tokbwntzau-perf:0:0:q85.image?size=180x180&amp;magic_type=image_webp&quot;},&quot;__version&quot;:5}</string>
+    <string name="gamecp_detail_no_toast_error_code_list">[4014671]</string>
+    <string name="gift_player_auto_release_switch">{&quot;alive_duration&quot;:15000,&quot;enable&quot;:true}</string>
+    <string name="live_feed_homepage_hot_draw">https://webcast-open.douyin.com/webcast/openapi/feed/?channel_id=160002</string>
+    <int name="__origin_Type__live_gift_tray_queue_length" value="2" />
+    <boolean name="has_honor_wall_entry" value="false" />
+    <boolean name="live_pk_enable_contribute_list" value="false" />
+    <int name="__origin_Type__live_top_margin_fix_enable" value="4" />
+    <int name="__origin_Type__live_default_avatar_urls" value="1" />
+    <string name="honor_level">{&quot;advertisement&quot;:&quot;赠主播一个小礼物吧，开启荣誉等级之旅～&quot;,&quot;detail&quot;:&quot;个人中心&quot;,&quot;detail_page_url&quot;:&quot;sslocal://webcast_webview?enable_preload\u003dmain\u0026type\u003dpopup\u0026gravity\u003dbottom\u0026pull_down_close\u003d1\u0026height_percent\u003d75\u0026pull_down_indicator_not_show\u003d1\u0026web_bg_color\u003d%23fff8f8f8\u0026url\u003dhttps%3A%2F%2Flf-webcast-gr-sourcecdn.bytegecko.com%2Fobj%2Fbyte-gurd-source-gr%2Fwebcast%2Fmono%2Fh5%2Fwebcast_personal_center%2Fpages%2Fmain.html%3F_pia_%3D1%26request_page%3Dgift_tab&quot;,&quot;notice&quot;:[{&quot;level&quot;:1,&quot;notice_text&quot;:&quot;Lv.1 获得荣誉等级勋章&quot;},{&quot;level&quot;:10,&quot;notice_text&quot;:&quot;Lv.10 获得房间升级通告&quot;},{&quot;level&quot;:20,&quot;notice_text&quot;:&quot;Lv.20 获得新的等级礼物&quot;},{&quot;level&quot;:25,&quot;notice_text&quot;:&quot;Lv.25 获得100人以下房间入场特效&quot;},{&quot;level&quot;:30,&quot;notice_text&quot;:&quot;Lv.30 获得新的等级礼物&quot;},{&quot;level&quot;:32,&quot;notice_text&quot;:&quot;Lv.32 获得全部直播间入场特效&quot;},{&quot;level&quot;:33,&quot;notice_text&quot;:&quot;Lv.33 解锁基础弹幕（限500人内直播间）&quot;},{&quot;level&quot;:36,&quot;notice_text&quot;:&quot;Lv.36 解锁高级弹幕（限1000人内直播间）&quot;},{&quot;level&quot;:40,&quot;notice_text&quot;:&quot;Lv.40 解锁至尊弹幕（限100w人内直播间）&quot;},{&quot;level&quot;:60,&quot;notice_text&quot;:&quot;Lv.60 恭喜你升至满级&quot;}],&quot;show_level_panel&quot;:true}</string>
+    <string name="live_gurd_patterns">[&quot;mix.jinritemai.com/falcon/&quot;,&quot;lf1-fe.ecombdstatic.com/obj/ecom-cdn-default/&quot;,&quot;https://sf1-scmcdn-tos.pstatp.com/goofy/ies/live/&quot;,&quot;tosv.byted.org/obj/gecko-internal/webcast/ecom/lynx/&quot;,&quot;tosv.byted.org/obj/gecko-internal/webcast/mono/h5/&quot;,&quot;lf-webcast-sourcecdn-tos.bytegecko.com/obj/byte-gurd-source/webcast/ecom/lynx/&quot;,&quot;lf-webcast-sourcecdn-tos.bytegecko.com/obj/byte-gurd-source/10181/gecko/resource/&quot;]</string>
+    <int name="__origin_Type__live_pk_steal_dragon_setting_show" value="4" />
+    <string name="live_vs_room_drawer_config">{&quot;enable_camera_jump_back&quot;:true,&quot;enable_landscape_entrance&quot;:true,&quot;enable_landscape_jump&quot;:false,&quot;enable_landscape_scale&quot;:true,&quot;enable_portrait_entrance&quot;:true,&quot;enable_special_drawer&quot;:true,&quot;schema_support_open_drawer&quot;:true}</string>
+    <string name="diamond_exchange_url">sslocal://webcast_lynxview?url=https%3A%2F%2Flf-webcast-sourcecdn-tos.bytegecko.com%2Fobj%2Fbyte-gurd-source%2Fwebcast%2Fmono%2Flynx%2Frevenue_revenue_wallet_saas%2Fpages%2Fdiamond_exchange%2Ftemplate.js%3Fsource%3Droom_in_gift_panel&amp;hide_nav_bar=1&amp;host=aweme&amp;type=popup&amp;gravity=bottom&amp;height=522&amp;show_dim=1&amp;engine_type=new</string>
+    <int name="__origin_Type__live_strategy_white_factor_setting" value="1" />
+    <int name="__origin_Type__anniex_card_blocklist" value="1" />
+    <int name="__origin_Type__anchor_style_daily_rank" value="2" />
+    <int name="__origin_Type__live_interact_gift_emoji_settings" value="0" />
+    <string name="live_performance_setting">{&quot;enable&quot;:true,&quot;enable_report_v1&quot;:false,&quot;enable_report_v2&quot;:true,&quot;fps_duration&quot;:3000,&quot;fps_duration_anchor&quot;:3000,&quot;min_interval&quot;:8000,&quot;min_monitor_interval&quot;:8000,&quot;min_monitor_interval_anchor&quot;:8000,&quot;monitor_delay&quot;:1000,&quot;resident_interval&quot;:15000,&quot;resident_interval_anchor&quot;:15000,&quot;sample_count_audience&quot;:1}</string>
+    <int name="__origin_Type__live_like_audience_digg_ab_test" value="2" />
+    <int name="__origin_Type__schema_anchor_center" value="3" />
+    <string name="ecom_live_product_rank_ruler">[{&quot;content&quot;:&quot;- 抖音电商直播间带货榜是根据真实数据进行排名的直播间排行榜，希望帮助消费者通过榜单找到正在直播的好商品，让选择更简单。直播间排名越靠前曝光机会越大。&quot;,&quot;title&quot;:&quot;直播间带货榜&quot;},{&quot;content&quot;:&quot;- 直播间带货榜当前分为总榜、抖音旗舰榜、特色主题榜、国家补贴榜、商品类目榜，榜单形态持续更新中：\n- 总榜：按照上榜规则对全部电商直播间进行排序展示\n- 抖音旗舰榜：聚合抖音旗舰店铺热销直播间进行排序展示\n- 特色主题榜：由抖音电商运营就特色主题或活动，按照特定规则对直播间进行圈选后排序展示\n- 国家补贴榜：聚合正在直播国家补贴商品的直播间进行排序展示\n- 商品类目榜：按照直播间在播商品所属类目对相关直播间进行排序后展示&quot;,&quot;title&quot;:&quot;榜单介绍&quot;},{&quot;content&quot;:&quot;- 上榜直播间均为正在直播的直播间\n- 上榜作者基础要求：近30天无虚假交易处罚记录，近14天退单率无异常、无严重违规记录\n- 排序规则：以该直播间所售卖商品的【带货力、互动力、吸引力】进行综合排名，每小时结算&quot;,&quot;title&quot;:&quot;上榜规则&quot;},{&quot;content&quot;:&quot;- 带货力：根据单位时间内的交易额、交易量等数据指标综合评估直播间主播的带货能力\n- 互动力：根据单位时间内的直播间观看时长、分享率、评论率等数据指标综合评估直播间的互动氛围\n- 吸引力：根据单位时间内购买商品的新用户数、新增粉丝数等数据指标综合评估直播间对平台用户的吸引力&quot;,&quot;title&quot;:&quot;指标解读&quot;},{&quot;content&quot;:&quot;- 为保证榜单时效性，榜单每小时进行动态更新。由于技术等原因，榜单更新时间偶有延迟，具体更新时间以实际情况为准。\n- 直播间榜单会露出商品名称和商品标签。所有的上榜直播间都会展示一款商品，并露出对应的商品名称。同时，结合商品名称的露出，会露出唯一的商品标签，该标签由算法选取商品详情页的商品已有标签作为候选，不同的用户看到的标签不尽相同。整体上，商品标签的露出是为了给用户提供更多的决策理由，帮助更快的找到合适的直播间/商品。\n- 榜单排名旁的说明属于热度值标签，用于鼓励榜单中前3名的直播间和整体数据表现较好的直播间。热度标签只有三种，分别为：蝉联榜首、持续霸榜、排名飙升。每个直播间最多展示一种标签，若同一直播间同时获得多种热度标签，则按算法筛选展示唯一标签。\n- 平台将实时监控上榜直播间的数据表现，若发现直播间有刷单、互动异常、售卖假冒盗版商品等违规作弊行为，将立即对违规直播间进行下榜。低质作者、近期有虚假交易判罚、假货山寨判罚、直播间有处罚消息的作者均会有一定的上榜限制，请务必诚信经营、用心直播。&quot;,&quot;title&quot;:&quot;补充说明&quot;}]</string>
+    <string name="live_multi_link_seat_name_panel_lynx">{&quot;seat_name_panel_schema&quot;:&quot;sslocal://webcast_lynxview?rate_width\u003d375\u0026gravity\u003dbottom\u0026type\u003dpopup\u0026android_soft_input_mode\u003d32\u0026group\u003dlivelinkmic\u0026business_type\u003dlivelinkmic\u0026business_group\u003dlivelinkmic&quot;,&quot;seat_name_panel_url&quot;:&quot;https://lf-webcast-gr-sourcecdn.bytegecko.com/obj/byte-gurd-source-gr/webcast/mono/lynx/linkmic_manage_saas/pages/input_seat_name_panel/template.js&quot;}</string>
+    <int name="__origin_Type__is_hit_ui_upgrade" value="3" />
+    <int name="__origin_Type__live_broadcast_room_intro_enable" value="4" />
+    <int name="__origin_Type__vs_live_program_list_marquee_delay" value="2" />
+    <int name="__origin_Type__live_open_authorize_config" value="0" />
+    <int name="__origin_Type__live_hardware_decode_bytevc1_enable" value="2" />
+    <long name="live_gift_guide_type" value="1" />
+    <int name="__origin_Type__new_sticker_mp4_asset_ids" value="0" />
+    <boolean name="live_cooperation_partner_add_player_list_enable" value="false" />
+    <int name="__origin_Type__live_remote_pk_entry_panel_url" value="3" />
+    <int name="__origin_Type__ecom_live_scene_id_allow_list" value="1" />
+    <int name="__origin_Type__live_allow_download_gecko_resource_v2" value="4" />
+    <int name="__origin_Type__live_pk_dynamic_hub_load_enable" value="4" />
+    <int name="__origin_Type__live_gift_asset_clean_in_room_config" value="0" />
+    <int name="__origin_Type__gamecp_detail_no_toast_error_code_list" value="1" />
+    <long name="live_chest_banner_bg_enable" value="1" />
+    <boolean name="ttlive_public_screen_fading_edge_enable" value="true" />
+    <int name="__origin_Type__live_sdk_enable_is_vr_mutex_optimization" value="2" />
+    <int name="__origin_Type__ai_broker_hot_questions_ab" value="2" />
+    <string name="webcast_excitation_task_center_config">{&quot;aweme_lite_user_pk_close_btn&quot;:0}</string>
+    <long name="live_match_room_progress_max_duration" value="10800000" />
+    <string name="live_tob_task_center_config">{&quot;task_list&quot;:&quot;{\&quot;task_panel_title\&quot;:\&quot;做任务赚金币\&quot;,\&quot;entry_config\&quot;:{\&quot;content_receive\&quot;:\&quot;做任务领奖励\&quot;,\&quot;box_icon_normal_url\&quot;:\&quot;http://p3-webcast.douyinpic.com/img//webcast/normal.png~tplv-obj.image\&quot;,\&quot;box_icon_finish_url\&quot;:\&quot;http://p3-webcast.douyinpic.com/img//webcast/box_icon_finish_lib2.webp~tplv-obj.image\&quot;,\&quot;box_icon_finish_static_url\&quot;:\&quot;http://p3-webcast.douyinpic.com/img//webcast/finish_static.png~tplv-obj.image\&quot;,\&quot;box_icon_alien_url\&quot;:\&quot;http://p11-webcast.douyinpic.com/img//webcast/box_icon_alien_lib2.webp~tplv-obj.image\&quot;,\&quot;reward_name\&quot;:\&quot;金币\&quot;},\&quot;pangle_task_items\&quot;:[{\&quot;type\&quot;:10001,\&quot;name\&quot;:\&quot;看播任务\&quot;,\&quot;process_name\&quot;:\&quot;看直播领奖励\&quot;,\&quot;before\&quot;:{\&quot;title\&quot;:\&quot;看直播领奖励\&quot;,\&quot;desc\&quot;:\&quot;观看直播达${count_down}秒可领取奖励\&quot;,\&quot;btn_text\&quot;:\&quot;${count_down}秒后领取\&quot;},\&quot;after\&quot;:{\&quot;title\&quot;:\&quot;看直播领奖励\&quot;,\&quot;desc\&quot;:\&quot;观看直播达${count_down}秒可领取奖励\&quot;,\&quot;btn_text\&quot;:\&quot;已完成\&quot;},\&quot;close_dialog\&quot;:{\&quot;content_text\&quot;:\&quot;观看直播奖励\&quot;,\&quot;button_text\&quot;:\&quot;再看${count_down}可领奖励\&quot;},\&quot;freqCtr\&quot;:{\&quot;day_limit\&quot;:1,\&quot;life_limit\&quot;:3,\&quot;limit_key\&quot;:\&quot;watch_live\&quot;},\&quot;priority\&quot;:0},{\&quot;type\&quot;:10002,\&quot;name\&quot;:\&quot;关联抖音账号\&quot;,\&quot;before\&quot;:{\&quot;title\&quot;:\&quot;关联抖音账号\&quot;,\&quot;desc\&quot;:\&quot;现在关联抖音账号最多可得${amount_max}金币\&quot;,\&quot;sub_title\&quot;:\&quot;${amount}金币\&quot;,\&quot;btn_text\&quot;:\&quot;去关联\&quot;},\&quot;after\&quot;:{\&quot;title\&quot;:\&quot;关联抖音账号\&quot;,\&quot;desc\&quot;:\&quot;现在关联抖音账号最多可得${amount_max}金币\&quot;,\&quot;sub_title\&quot;:\&quot;${amount}金币\&quot;,\&quot;btn_text\&quot;:\&quot;已完成\&quot;},\&quot;close_dialog\&quot;:{\&quot;content_text\&quot;:\&quot;关联抖音账号再领${amount}金币\&quot;,\&quot;button_text\&quot;:\&quot;现在去关联\&quot;},\&quot;freqCtr\&quot;:{\&quot;day_limit\&quot;:1,\&quot;life_limit\&quot;:3,\&quot;limit_key\&quot;:\&quot;login_in\&quot;},\&quot;priority\&quot;:1},{\&quot;type\&quot;:10003,\&quot;name\&quot;:\&quot;下单额外返金币\&quot;,\&quot;before\&quot;:{\&quot;title\&quot;:\&quot;下单额外返金币\&quot;,\&quot;desc\&quot;:\&quot;现在下单最多可得${amount_max}金币\&quot;,\&quot;sub_title\&quot;:\&quot;${amount}金币\&quot;,\&quot;btn_text\&quot;:\&quot;去下单\&quot;},\&quot;progress\&quot;:{\&quot;title\&quot;:\&quot;下单额外返金币\&quot;,\&quot;desc\&quot;:\&quot;已下单，确认收货7天后金币入账\&quot;,\&quot;sub_title\&quot;:\&quot;${amount}金币\&quot;,\&quot;btn_text\&quot;:\&quot;已完成\&quot;},\&quot;after\&quot;:{\&quot;title\&quot;:\&quot;下单额外返金币\&quot;,\&quot;desc\&quot;:\&quot;已确认收货，${delay_day}天后金币入账\&quot;,\&quot;sub_title\&quot;:\&quot;${amount}金币\&quot;,\&quot;btn_text\&quot;:\&quot;已完成\&quot;},\&quot;close_dialog\&quot;:{\&quot;content_text\&quot;:\&quot;现在下单再领${amount}金币\&quot;,\&quot;button_text\&quot;:\&quot;去下单\&quot;},\&quot;freqCtr\&quot;:{\&quot;day_limit\&quot;:1,\&quot;life_limit\&quot;:3,\&quot;limit_key\&quot;:\&quot;place_order\&quot;},\&quot;priority\&quot;:2},{\&quot;type\&quot;:10004,\&quot;name\&quot;:\&quot;看直播领膨胀券\&quot;,\&quot;before\&quot;:{\&quot;title\&quot;:\&quot;看直播领膨胀券\&quot;,\&quot;desc\&quot;:\&quot;观看直播可得${amount_max}元膨胀券\&quot;,\&quot;sub_title\&quot;:\&quot;${amount_max}元膨胀券\&quot;,\&quot;btn_text\&quot;:\&quot;去关联\&quot;},\&quot;after\&quot;:{\&quot;title\&quot;:\&quot;看直播领膨胀券\&quot;,\&quot;desc\&quot;:\&quot;观看直播可得${amount_max}元膨胀券\&quot;,\&quot;sub_title\&quot;:\&quot;${amount_max}元膨胀券\&quot;,\&quot;btn_text\&quot;:\&quot;已完成\&quot;},\&quot;close_dialog\&quot;:{\&quot;content_text\&quot;:\&quot;观看直播可得${amount_max}元膨胀券\&quot;,\&quot;button_text\&quot;:\&quot;继续观看\&quot;},\&quot;freqCtr\&quot;:{\&quot;day_limit\&quot;:1,\&quot;life_limit\&quot;:3,\&quot;limit_key\&quot;:\&quot;incr_coupon\&quot;},\&quot;priority\&quot;:3},{\&quot;type\&quot;:10005,\&quot;name\&quot;:\&quot;上滑领金币\&quot;,\&quot;process_name\&quot;:\&quot;上滑领奖励\&quot;,\&quot;before\&quot;:{\&quot;title\&quot;:\&quot;上滑领金币\&quot;,\&quot;desc\&quot;:\&quot;上滑看更多直播${count_down}秒可领${amount}金币\&quot;,\&quot;btn_text\&quot;:\&quot;去观看\&quot;},\&quot;after\&quot;:{\&quot;title\&quot;:\&quot;上滑领金币\&quot;,\&quot;desc\&quot;:\&quot;上滑看更多直播${count_down}秒可领${amount}金币\&quot;,\&quot;btn_text\&quot;:\&quot;已完成\&quot;},\&quot;close_dialog\&quot;:{\&quot;content_text\&quot;:\&quot;上滑领金币\&quot;,\&quot;button_text\&quot;:\&quot;再看${count_down}可领${amount}金币\&quot;},\&quot;freqCtr\&quot;:{\&quot;day_limit\&quot;:1,\&quot;life_limit\&quot;:3,\&quot;limit_key\&quot;:\&quot;watch_live\&quot;},\&quot;priority\&quot;:0}]}&quot;}</string>
+    <string name="live_match_multitab_lowmemory">{&quot;enable&quot;:true,&quot;max_score&quot;:6}</string>
+    <boolean name="live_audience_answer_question_enable" value="false" />
+    <int name="__origin_Type__live_enable_video_talk_crop_opt" value="4" />
+    <int name="__origin_Type__saas_fusion_check_url" value="3" />
+    <int name="__origin_Type__preview_enter_scene" value="1" />
+    <boolean name="live_stream_enable_sdk_params" value="true" />
+    <int name="__origin_Type__live_picking_promotion_url" value="0" />
+    <int name="__origin_Type__is_hit_ui_split" value="3" />
+    <string name="live_ai_ohr">{}</string>
+    <string name="live_pk_mvp_click_url">https://lf1-cdn-tos.bytescm.com/obj/static/ies/live/webcast_openapi_offline/pages/pk_mvp_rank/index.html</string>
+    <int name="__origin_Type__gov_channel_new_qualification" value="2" />
+    <string name="live_jsb_whitelist">[&quot;m.xflapp.com&quot;,&quot;s3b.bytecdn.cn&quot;,&quot;s3a.bytecdn.cn&quot;,&quot;s3.bytecdn.cn&quot;,&quot;sf1-scmcdn-tos.pstatp.com&quot;,&quot;sf3-scmcdn-tos.pstatp.com&quot;,&quot;juliangyinqing.com&quot;,&quot;sf6-scmcdn-tos.pstatp.com&quot;,&quot;lf1-cdn-tos.bytescm.com&quot;,&quot;lf3-csp.bytetos.com&quot;,&quot;cdn-tos-cn.bytedance.net&quot;,&quot;lf-cdn-tos.bytescm.com&quot;,&quot;lf-webcast-sourcecdn-tos.bytegecko.com&quot;,&quot;summon.bytedance.com&quot;,&quot;tosv.byted.org&quot;,&quot;lf3-cdn-tos.bytescm.com&quot;,&quot;welfare-mp.bytedance.com&quot;,&quot;baohuaxia.com&quot;,&quot;dcarapi.com&quot;,&quot;api.dcarapi.com&quot;,&quot;i.snssdk.com&quot;,&quot;lf-webcast-gr-sourcecdn.bytegecko.com&quot;,&quot;h5-container-tester.web.bytedance.net&quot;,&quot;sport.zijieapi.com&quot;,&quot;webcast_lynxview&quot;,&quot;webcast_webview&quot;,&quot;kefu-im.bytedance.com&quot;,&quot;lf-dy-gr-sourcecdn.bytegecko.com&quot;,&quot;lf-dy-sourcecdn-tos.bytegecko.com&quot;,&quot;lf-tt-gr-sourcecdn.bytegecko.com&quot;,&quot;lf-hs-gr-sourcecdn.bytegecko.com&quot;,&quot;lf-xg-gr-sourcecdn.bytegecko.com&quot;,&quot;lf-normal-gr-sourcecdn.bytegecko.com&quot;,&quot;lf-ecom-gr-sourcecdn.bytegecko.com&quot;,&quot;.snssdk.com&quot;,&quot;.ixigua.com&quot;,&quot;neihanshequ.com&quot;,&quot;youdianyisi.com&quot;,&quot;chengzijianzhan.com&quot;,&quot;.toutiao.com&quot;,&quot;.gsnssdk.com&quot;,&quot;.bytecdn.com&quot;,&quot;.amemv.com&quot;,&quot;jinritemai.com&quot;,&quot;fxg.jinritemai.com&quot;,&quot;ffh.jinritemai.com&quot;,&quot;webcast-open.douyin.com&quot;,&quot;webcast-open-lf.douyin.com&quot;,&quot;webcast-open-hl.douyin.com&quot;,&quot;webcast-open-lq.douyin.com&quot;,&quot;toutiao.shidianguji.com&quot;,&quot;game-distribution.zijieapi.com&quot;,&quot;dcdapp.com&quot;,&quot;api.dcarapi.com&quot;,&quot;lf-tt-sourcecdn-tos.bytegecko.com&quot;,&quot;lf-cj-sourcecdn-tos.bytegecko.com&quot;,&quot;student-api.iyincaishijiao.com&quot;,&quot;aweme.snssdk.com&quot;,&quot;interactive.douyin.com&quot;,&quot;ecombdpage.com&quot;,&quot;lf9-cdn-tos.draftstatic.com&quot;,&quot;sf3-fe-tos.pglstatp-toutiao.com&quot;,&quot;lf3-cdn-tos.draftstatic.com&quot;,&quot;sf1-cdn-tos.douyinstatic.com&quot;,&quot;lf26-cdn-tos.draftstatic.com&quot;,&quot;doupay.com&quot;]</string>
+    <int name="__origin_Type__live_singing_rank_limit_tag" value="2" />
+    <string name="live_mini_app_tips">正在前往第三方小程序</string>
+    <boolean name="single_data_type" value="false" />
+    <int name="__origin_Type__live_purchase_safe_remind_schema" value="3" />
+    <int name="__origin_Type__live_external_start_room_post" value="4" />
+    <int name="__origin_Type__live_reserve_open_livemore" value="3" />
+    <int name="__origin_Type__live_effect_fix_sticker_preview_black_screen" value="4" />
+    <int name="__origin_Type__live_multi_dynamic_config" value="0" />
+    <long name="room_follow_notice_duration" value="60" />
+    <string name="openlive_lite_audience_list_scheme">sslocal://webcast_lynxview?url=https%3A%2F%2Flf-webcast-gr-sourcecdn.bytegecko.com%2Fobj%2Fbyte-gurd-source-gr%2Fwebcast%2Fmono%2Flynx%2Frevenue_rank_list_saas%2Fpages%2Faudience_list%2Ftemplate.js%3FinitialProps%3D%255B%2522current_room%2522%252C%2522current_user%2522%252C%2522linkmic%2522%252C%2522broadcast_game%2522%252C%2522setting%253Alive_audience_list_combine_config%253Alive_audience_list_combine_style%253Alive_anchor_perception_of_fans_badge_enable%253Alive_audience_list_new_rights_config%253Alive_enable_visibility_scope_share%253Alive_anchor_local_badge_enable%253Alive_commerce_room_gift%253Alive_enable_display_game_player_rank%253Alive_audience_unlogin_text_optimize%253Alive_rank_list_sub_list_config%2522%255D%26include_offline%3D0&amp;load_taro=0&amp;gravity=bottom&amp;type=popup&amp;lynx_thread=2&amp;window_floating=0&amp;rate_height=450&amp;horizontal_width=375&amp;abandon_coordinate=1&amp;enable_lynx_bg=1&amp;engine_type=new&amp;settings_keys=honor_rank_scheme</string>
+    <int name="__origin_Type__fansclub_accompany_award" value="1" />
+    <boolean name="live_room_notify_frequent_opt" value="false" />
+    <string name="webcast_monitor_config">{&quot;custom_error&quot;:true,&quot;falcon&quot;:true,&quot;lynx_blank&quot;:true,&quot;lynx_fetch&quot;:true,&quot;lynx_jsb&quot;:true,&quot;lynx_jsb_perf&quot;:true,&quot;lynx_monitor_enable&quot;:true,&quot;webview_blank&quot;:true,&quot;webview_fetch&quot;:true,&quot;webview_inject_browser&quot;:true,&quot;webview_jsb&quot;:true,&quot;webview_jsb_pref&quot;:true,&quot;webview_monitor_enable&quot;:true}</string>
+    <string name="live_audience_resolution_stall_monitor_configs">{&quot;stall_monitor_downgrade_count_thresh&quot;:3,&quot;stall_monitor_downgrade_duration_thresh&quot;:4000,&quot;stall_monitor_enable&quot;:1,&quot;stall_monitor_max_notice_count&quot;:2,&quot;stall_monitor_window_size&quot;:60000}</string>
+    <long name="live_gift_panel_style" value="2" />
+    <boolean name="live_multi_scene_inner_draw_preload" value="false" />
+    <int name="__origin_Type__live_stream_bitrate" value="1" />
+    <int name="__origin_Type__live_gurd_patterns" value="1" />
+    <int name="__origin_Type__strategy_v2_enable" value="4" />
+    <int name="__origin_Type__live_use_new_toolbar_icon" value="4" />
+    <int name="__origin_Type__location_in_mainland" value="4" />
+    <boolean name="live_saas_diamond_exchange_enable" value="false" />
+    <long name="tray_queue_optimize_and_new_animation_new" value="2" />
+    <int name="__origin_Type__live_audience_receive_gift_enable" value="4" />
+    <string name="annie_forest_loader_disallow_list_web">[&quot;webcast/webview/caijing_fe_credit/template/pages/installment-plan.html&quot;,&quot;gecko/resource/fe_pay_middle_page/pages/credit_card_installment_plan_webcast/index.html&quot;,&quot;b.pingan.com.cn/paces-ccms-core/cc/tt-total-bill/index.html&quot;,&quot;cloudbill.nbcb.com.cn/tiktok-install/queryDetail&quot;,&quot;ebill.njcb.com.cn/tiktok-install/queryDetail&quot;,&quot;cloudbill.bankofnx.com.cn/tiktok-install/queryDetail&quot;,&quot;cloudbill.hkbchina.com/tiktok-install/queryDetail&quot;,&quot;mybill.bankofrizhao.com.cn/tiktok-install/queryDetail&quot;,&quot;creditcardapply.hsbank.com.cn/tiktok-install/queryDetail&quot;,&quot;res.cc.cmbimg.com/itafront/Frog/#/wlhk/pageone/kjtpldy/remote&quot;,&quot;creditcardapp.bankcomm.com/applynew/front/apply/tiktok/index.html&quot;,&quot;xyk.cebbank.com/icip/icip-applypage/info1&quot;,&quot;ecentre.spdbccc.com.cn/card/indexActivity.html&quot;,&quot;creditcard.cmbc.com.cn/wsv2/index&quot;,&quot;ncoas.cupdapp.com/cbccoas/cbcvue/0408/dy&quot;,&quot;youcard.bankofrizhao.com.cn/aivue/m&quot;]</string>
+    <long name="dns_opt_method" value="0" />
+    <int name="__origin_Type__performance_log_constraint_config" value="0" />
+    <int name="__origin_Type__live_audience_unlogin_text_optimize" value="4" />
+    <long name="live_big_gift_tray_combo_count_show_limit" value="99" />
+    <boolean name="live_revenue_pk_rank_enable" value="true" />
+    <int name="__origin_Type__live_merge" value="3" />
+    <int name="__origin_Type__gift_pane_use_new_bottom_mask" value="4" />
+    <int name="__origin_Type__drawer_multi_tab_enable" value="4" />
+    <int name="__origin_Type__live_gift_tab_dynamization" value="4" />
+    <int name="__origin_Type__live_sdk_compare_common_stream_param" value="2" />
+    <int name="__origin_Type__live_feed_top_portraint_click" value="3" />
+    <int name="__origin_Type__live_saas_diamond_exchange_enable" value="4" />
+    <int name="__origin_Type__live_saas_support_audio_chat" value="4" />
+    <string name="drawer_hot_task">https://webcast-open.douyin.com/webcast/openapi/feed/?content_type=0&amp;channel_id=165001</string>
+    <int name="__origin_Type__live_multi_link_audio_capture_bugfix" value="4" />
+    <int name="__origin_Type__live_double_pk_contribution_list_lynx_enable" value="4" />
+    <int name="__origin_Type__live_enable_wang_zhe_link_new_style" value="4" />
+    <string name="match_room_public_screen_tab_name">直播</string>
+    <long name="live_hardware_decode_h265_enable" value="1" />
+    <int name="__origin_Type__live_match_multitab_lowmemory" value="0" />
+    <int name="__origin_Type__self_test" value="4" />
+    <int name="__origin_Type__use_rank_shared_data" value="2" />
+    <boolean name="notification_enable"

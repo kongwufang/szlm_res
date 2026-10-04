@@ -1,0 +1,42 @@
+# pid=8530 libdu=YES blocked=3051
+# === results (17) ===
+RES	Main.getQueryID(android.content.Context,java.lang.String,java.lang.String) = null   [null]
+RES	Main.getQueryID(android.content.Context,java.lang.String,java.lang.String,boolean) = null   [null]
+RES	Main.getTraceInfo(android.content.Context) = {"sv":"v9.0.1","tc":"DUT000","pkg":"com.coolapk.market","cc":"CN","api":27,"bu":"","q":{"c":"DUQ108","w":2,"t":1791058142011,"nt":2},"o":{"c":"DUO099","w":0}}   [len=158 ★非B64字符77个]
+RES	Main.getVersion() = v9.0.1   [len=6 ★非B64字符2个]
+RES	Main.setConfig(java.lang.String,java.lang.String) = -1   [len=undefined]
+RES	Main.setData(java.lang.String,java.lang.String) = 0   [len=undefined]
+RES	cn.shuzilm.core.Main.getQueryID(android.content.Context,java.lang.String,java.lang.String) =    [len=0]
+RES	cn.shuzilm.core.Main.getTraceInfo(android.content.Context) = {"sv":"v9.0.1","tc":"DUT000","pkg":"com.coolapk.market","cc":"CN","api":27,"bu":"79c19505-8629-4817-b5ea-2a57e21c7dc6","q":{"c":"DUQ103","w":2,"t":1791058142155},"o":{"c":"DUO099","w":0}}   [len=187 ★非B64字符77个]
+RES	cn.shuzilm.core.Main.getVersion() = v9.0.1   [len=6 ★非B64字符2个]
+RES	cn.shuzilm.core.Main.setConfig(java.lang.String,java.lang.String) = -1   [len=undefined]
+RES	cn.shuzilm.core.Main.setData(java.lang.String,java.lang.String) = 0   [len=undefined]
+RES	cn.shuzilm.core.AIClient.a() = 140,200,199,208,199,202,205,198,211,204,141,198,206,218,207,197,141,214,217,202,198,206,141,206,204,192,140,140,153,215,205,198,215,205,204,192,0   [len=37 ★非B64字符36个]
+RES	cn.shuzilm.core.AIClient.b() = 218,215,202,215,205,198,199,202,140,218,215,202,215,205,198,199,202,141,194,202,193,214,205,141,205,192,140,140,153,215,205,198,215,205,204,192,0   [len=37 ★非B64字符36个]
+RES	cn.shuzilm.core.AIClient.c() = 204,202,192,223,219,204,250,237,224,232,230,224,135,205,192,200,198,135,204,202,192,223,219,204,218,205,220,198,197,202,135,219,198,199,198,193,192,193,135,196,198,202,0   [len=43 ★非B64字符42个]
+RES	cn.shuzilm.core.AIClient.d() = 169,174,171,221,166,167,166,220,174,168,169,219,169,166,168,217,172,169,171,175,169,171,218,174,221,166,169,168,166,218,220,166,0   [len=33 ★非B64字符32个]
+RES	cn.shuzilm.core.AIClient.g(java.lang.String) =    [len=0]
+RES	cn.shuzilm.core.AIClient.h(java.lang.String) = false   [len=undefined]
+# === XORWRAP (1) ===
+XOR	in="<unknown ssid>" OUT="IxrlyHEA/M0/HPjKe1E="
+# === ENC (20) ===
+ENC	len=33 in="C4CA4238A0B923820DCC509A6F75849B1.r>...............*............"
+ENC	len=33 in="CFCD208495D565EF66E7DFF9F98764DA0.r>...............*............"
+ENC	len=68 in="3032733F0E3A5B29077FC333D2A95DDC79c19505-8629-4817-b5ea-2a57e21c"
+ENC	len=33 in="C4CA4238A0B923820DCC509A6F75849B1.c6~...`.w....................."
+ENC	len=33 in="CFCD208495D565EF66E7DFF9F98764DA0.c6~...`.w....................."
+ENC	len=33 in="CFCD208495D565EF66E7DFF9F98764DA0.c6~...`.w....................."
+ENC	len=45 in="37203FF6FC7DE0EB072EFA4AF57F77451790980402778..................."
+ENC	len=45 in="37203FF6FC7DE0EB072EFA4AF57F77451790980402778..................."
+ENC	len=48 in="C09929D1005B082676CCF67F4791816D288daec08ec17639...........A...."
+ENC	len=74 in="FF9D6563624F6A31DD837C6071C54F2C38BCB932233E1126F916E5D2D847238B"
+ENC	len=68 in="3F564A658A0D31D2452C75A97869219DDUaVFlbAMrmH2Z57PEhm_N9EO4RoUdvN"
+ENC	len=68 in="3F564A658A0D31D2452C75A97869219DDUaVFlbAMrmH2Z57PEhm_N9EO4RoUdvN"
+ENC	len=33 in="C81E728D9D4C2F636F067F89CC14862C2.g5............C81E728D9D4C2F63"
+ENC	len=68 in="3F564A658A0D31D2452C75A97869219DDUaVFlbAMrmH2Z57PEhm_N9EO4RoUdvN"
+ENC	len=38 in="CAE4DF4047D73F7EE93248F96AF9DB62604800..........(2.............."
+ENC	len=45 in="37203FF6FC7DE0EB072EFA4AF57F77451790980402778...(2.............."
+ENC	len=64 in="D3AD5BC7614BAF7D442364F04A9727461dbb1e86ae264bdca84c6399c71f5d40"
+ENC	len=42 in="2276680899F0CBFD86816B0A7CAB5E6E1791058234.78...(2.............."
+ENC	len=45 in="37203FF6FC7DE0EB072EFA4AF57F77451790980402778...(2.............."
+ENC	len=14 in="#...q...?...{Q..<unknown ssid>s.140526084550Z...380115000000Z.3."

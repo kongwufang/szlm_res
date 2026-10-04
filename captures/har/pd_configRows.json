@@ -1,0 +1,41 @@
+[
+ {
+  "id": 6628,
+  "product_id": 4276,
+  "title": "12GB+256GB",
+  "screen_material": "",
+  "cpu": "",
+  "ram": "12",
+  "fingerpoint_type": "",
+  "phone_material": "",
+  "price": 6499,
+  "url": "https://m.coolapk.com/mp/product/configInfo?id=6628&drawNav=1",
+  "is_add_compare": 0
+ },
+ {
+  "id": 6629,
+  "product_id": 4276,
+  "title": "16GB+512GB",
+  "screen_material": "",
+  "cpu": "",
+  "ram": "",
+  "fingerpoint_type": "",
+  "phone_material": "",
+  "price": 6999,
+  "url": "https://m.coolapk.com/mp/product/configInfo?id=6629&drawNav=1",
+  "is_add_compare": 0
+ },
+ {
+  "id": 6630,
+  "product_id": 4276,
+  "title": "16GB+1TB 卫星版",
+  "screen_material": "",
+  "cpu": "",
+  "ram": "",
+  "fingerpoint_type": "",
+  "phone_material": "",
+  "price": 7999,
+  "url": "https://m.coolapk.com/mp/product/configInfo?id=6630&drawNav=1",
+  "is_add_compare": 0
+ }
+]

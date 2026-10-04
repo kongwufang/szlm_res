@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="tipsInfo"></string>
+    <int name="waynePlayerSupportAndroidApi" value="24" />
+    <int name="fullScreenShakeMaxCount" value="3" />
+    <int name="didCopySwitch" value="1" />
+    <string name="splashTimerTips"></string>
+    <int name="biddingLogSwitch" value="1" />
+    <string name="idMapping">sDAkk/dSe30=</string>
+    <string name="appStatusSoVersion"></string>
+    <boolean name="reduceDeviceSigSwitch" value="true" />
+    <boolean name="commercialLoggerDeviceSwitch" value="false" />
+    <string name="tkSoUrlV7a"></string>
+    <int name="interstitialAdSkipCloseArea" value="1" />
+    <int name="kvModeV2" value="1" />
+    <int name="maxKCLogReporterCacheSize" value="1024" />
+    <boolean name="deeplinkWindowSwitch" value="false" />
+    <string name="appStatusSoUrlV7a"></string>
+    <string name="appStatusSoUrlV8a"></string>
+    <string name="dpSchemeFlags">sDAkk/dSeyJ0YW9iYW8iOjgwNTMzOTEzNiwidGJvcGVuIjo4MDUzMzkxMzZ9</string>
+    <string name="kwaiLogoUrl">sDAkk/dSaHR0cHM6Ly9zdGF0aWMueXhpbWdzLmNvbS91ZGF0YS9wa2cva3MtYWQtc3NwL2t3YWlfbG9nby5wbmc=</string>
+    <boolean name="isWaynePlayerValid" value="true" />
+    <int name="watermarkKwaiIdSwitch" value="1" />
+    <boolean name="personalRecommend" value="false" />
+    <int name="clientProofreadTimeErrorRangeHours" value="72" />
+    <int name="appInstallNoticeSecond" value="10" />
+    <string name="adFeedWidthMinPercent">0.3</string>
+    <int name="enableInitStartMode" value="1" />
+    <int name="ecInterstitialAdOrderSwitch" value="1" />
+    <int name="interstitialAdActivityOpt" value="0" />
+    <boolean name="resourceWarmupSwitch" value="false" />
+    <int name="speedLimitThreshold" value="0" />
+    <boolean name="tkReportInfoSwitch" value="false" />
+    <string name="sdkPackInfo">sDAkk/dSeyJrZXlOYW1lcyI6WyJjb20uYnl0ZWRhbmNlLm1zZGsuYXBpLlRUQWRzU2RrIiwiY29tLmJ5dGVkYW5jZS5tc2RrLmJhc2UuVFRCYXNlQWQiXSwicGxhdGZvcm1JbmZvIjp7IjEiOiJjb20uYnl0ZWRhbmNlLm1zZGsuYWRhcHRlci5pbml0LktzU2RrSW5pdCIsIjIiOiJjb20uYnl0ZWRhbmNlLm1zZGsuYWRhcHRlci5pbml0LkFkbW9iU2RrSW5pdCIsIjMiOiJjb20uYnl0ZWRhbmNlLm1zZGsuYWRhcHRlci5pbml0Lk10U2RrSW5pdCIsIjQiOiJjb20uYnl0ZWRhbmNlLm1zZGsuYWRhcHRlci5pbml0LkJhaWR1TW9iQWRzSW5pdCIsIjUiOiJjb20uYnl0ZWRhbmNlLm1zZGsuYWRhcHRlci5pbml0LlNpZ21vYlNka0luaXQiLCI2IjoiY29tLmJ5dGVkYW5jZS5tc2RrLmFkYXB0ZXIuaW5pdC5Vbml0eVNka0luaXQifSwia2V5U3RhY2tzIjpbImNvbS5ieXRlZGFuY2UubXNkay5hZGFwdGVyIiwiY29tLmJ5dGVkYW5jZS5tc2RrLmFkYXB0ZXIua3MuS3NSZXdhcmRWaWRlb0FkYXB0ZXIiXSwiZXh0ZW5kQ2xhc3NOYW1lcyI6WyJjb20uYnl0ZWRhbmNlLm1zZGsuYXBpIl19</string>
+    <int name="idcRollbackInterval" value="180" />
+    <boolean name="ecExtInfoSwitch" value="false" />
+    <int name="adRequestNum" value="1" />
+    <string name="pkgNameList">sDAkk/dSWyJjb20uc21pbGUuZ2lmbWFrZXIiLCJjb20ua3VhaXNob3UubmVidWxhIiwiY29tLnRhb2Jhby50YW9iYW8iLCJjb20uamluZ2RvbmcuYXBwLm1hbGwiLCJjb20uZWcuYW5kcm9pZC5BbGlwYXlHcGhvbmUiLCJtZS5lbGUiLCJjb20ucWl5aS52aWRlbyIsImNvbS5iYWlkdS5zZWFyY2hib3giLCJjb20ucXVhcmsuYnJvd3NlciIsImNvbS5pbW1vbW8ubW9tbyIsImN0cmlwLmFuZHJvaWQudmlldyIsImNvbS55b3VrdS5waG9uZSIsImNuLnNvdWxhcHAuYW5kcm9pZCIsImNvbS5zYW5rdWFpLm1laXR1YW4iLCJjb20uc2hpemh1YW5nLmR1YXBwIiwiY29tLm5ldGVhc2UucGFydHkiLCJjb20udGVuY2VudC50bWdwLnB1YmdtaGQiLCJjb20ubmV0ZWFzZS5wYXJ0eW1pbmljZ21rdGIiLCJjb20uYmFpZHUuc2VhcmNoYm94LmxpdGUiLCJjb20ubGlhbmppYS5iZWlrZSIsImNvbS54aWFvbWkubWFya2V0IiwiY29tLmJiay5hcHBzdG9yZSIsImNvbS5kcmFnb24ucmVhZCIsImNvbS4zNjBidXkuamRtb2JpbGUiLCJjb20ua3dhaS5oaXNlbnNlIiwib3JnLmNxbGQucGxhbmUiLCJjb20ubmV0ZWFzZS5tb3lpIiwiY29tLnRhb2Jhby5pZGxlZmlzaCIsImNvbS5kdW93YW4ubW9iaWxlIiwiY29tLnRhb2Jhby5saXZlIiwiY29tLmFjaGlldm8udmlwc2hvcCIsImlvLmRjbG91ZC5INTc2RTZDQzciLCJjb20udGVuY2VudC5sZXRzZ28iLCJjb20ueHVubWVuZy5waW5kdW9kdW8iLCJjb20ueHMuZm0iLCJjb20uc2R1LmRpZGkucHNuZ2VyIiwiY29tLm5ldGVhc2UuY2xvdWRtdXNpYyIsImNvbS50bWFsbC53aXJlbGVzcyIsImNvbS54aWFvbWkuZ2FtZWNlbnRlciIsImNvbS54aW5naW4ueGhzIiwiY29tLm5ldGVhc2UuZGh4eTEuY2cudWEiLCJjb20ud2F3ai5hcHAudCIsImNvbS53dWJhIiwiY29tLnRhb2Jhby50cmlwIiwiY29tLnhpbWFsYXlhLnRpbmcuYW5kcm9pZCIsImNvbS5hbGliYWJhLndpcmVsZXNzIiwiY29tLm1vc2hlbmciLCJjb20uc2Fua3VhaS5tZWl0dWFuLnRha2VvdXRuZXciLCJjb20uamluZ3lhby5lYXN5YmlrZSIsImNvbS5zb2h1LnNvaHV2aWRlbyIsImNvbS5uZXRlYXNlLm15Lm1qIiwiY29tLnRlbmNlbnQucXFsaXZlIiwiY29tLnRhcHRhcCIsImNvbS5iYWlkdS5CYWlkdU1hcCIsImNvbS55b3VrdXNoZW5nc2hpLmJ1eXVkYWthIiwiY29tLlVDTW9iaWxlIiwiY29tLnd1YmEuYmFuZ2pvYiIsIm9yZy5sdHpqbmV3LndkeGIiLCJjb20udHV5b28uZmlzaHVlNC5vZmZpY2lhbCIsImNvbS56aXJvb20uemlyb29tY3VzdG9tZXIiLCJjb20ua214cy5yZWFkZXIiLCJjbi5lbWFnc29mdHdhcmUuZ2FtZWhhbGwiLCJjb20ucWl5aS52aWRlby5saXRlIiwiY29tLmt1Z291LmZhbnhpbmciLCJjb20ubnQubG92ZSIsImNvbS56aGlwdWFpLnFpbmd5YW4iLCJjb20ueXkuaHVhbmp1IiwiY24uZXRvdWNoLmVjYWxlbmRhciIsImNvbS50dXlvby5maXNoM2Qub2ZmaWNpYWwiLCJjbi5uaW5lZ2FtZS5nYW1lbWFuYWdlciIsImNuLnplcGV0by5tYWluIiwiY29tLmdhbmppLmFuZHJvaWQiLCJjb20ubW9ndWppZSIsImNvbS5zZGp6LnhnYWx5IiwiY29tLmNtY20uY2Z3YWxscGFwZXIiLCJjb20ua3VhaXlpbi5wbGF5ZXIiLCJjb20uamQuanJhcHAiLCJjb20ueW91bG9mdC5pY2xvc2VyIiwiY29tLnNvaHUubmV3c2NsaWVudCIsImNvbS55aXlvdS5nYSIsImNvbS5oYWluYW5zZy55d3JzIiwiYWlyLnR2LmRvdXl1LmFuZHJvaWQiLCJjb20uamlhbmtlY29tLmppYW5rZW1hbGwiLCJjb20ubGlhbmFpYmlqaS5kZXYiLCJjb20udGVuY2VudC5tYXAiLCJjb20ueW91eGlhbmcuc295b3VuZ2FwcCIsImNvbS5hbmp1a2UuYW5kcm9pZC5hcHAiLCJjb20uYm9rZWNjLmRhbmNlIiwiY29tLnd1YmEuemh1YW56aHVhbiIsImNvbS5zb2FyZ2FtZS5mcnVpdG5pbmphIiwiY29tLnF1YXJrLnNjYW5raW5nIiwiY29tLmh1YWppYW8iLCJjb20uYW5kcm9pZC5pY3JlZGl0IiwiY29tLnh6enEueGlhb3podW8iLCJjb20uYmVlLndlYXRoZXNhZmV0eSIsImNvbS54Yy5oY2R4Zy52aXZvIiwiYWkuenVveWUuc2hpanVhbmJhbyIsImNvbS5wMS5tb2JpbGUucHV0b25nIiwiY29tLm5ldGVhc2UubXkiLCJjb20ucm9ja2V0cy5jaGFuZyIsImNvbS51Y21vYmlsZS5saXRlIiwiY29tLmljY2FwcC50aWNpIiwiY29tLmRpYW5waW5nLnYxIiwiY29tLm1ldGEuYm94IiwiY29tLnlrc3MuZHlieWRrb25lIiwiY29tLnlvdWt1c3MueWxkciIsImNvbS5jbWxuLmtsYnRiIiwiY29tLnN0ancubW9iaWxlLnRqbGhiYi5rcyIsImNvbS5vd3R2Lm1vYmlsZS50amxoYmIua3MiLCJjb20uempseC5tb2JpbGUudGpsaGJiLmtzIiwiY29tLml0dHcubW9iaWxlLnRqbGhiYi5rcyIsImNvbS5mdmdwLm1vYmlsZS5qemxoYmIua3MiLCJjb20udGplYy5tb2JpbGUuanpsaGJiLmtzIiwiY29tLmpob25saW5ld3Nrcy5nZ3dzIiwiY29tLmR5aGVhcnQuY2hhdCIsImNvbS5saWdodGx5LnFpbmdsaWFuIiwiY29tLnhpZWhvLmRhdGUiLCJjb20udXhpbi5saXZlIiwiY29tLnhpbmdqaWFiaS5zaGVuZ3NoZW5nIiwiY29tLmVhc2VjaGF0LmFwcCIsImNvbS5wYW5nZGFpc2h1Lmh1YW55b3UiLCJjb20udXhpbi5raWxhYXVkaW8iLCJjb20uYmFpZHUubmV3YXBwIiwiY29tLnFyeS5kYXRlIiwiY29tLmZ1bm55Y2hhdC5tYXNrIiwiY24ud2VsaS5zd2VldCIsImNvbS53ZW1vbW8ueWlsaWFuIiwiY29tLmF1dG9uYXZpLm1pbmltYXAiLCJjb20udGVuY2VudC50bWdwLmRmbSIsImNvbS5hbGl5dW4udG9uZ3lpIiwiY29tLnBpLmN6cnhkZmlyc3QiLCJjb20uaGlob25vci5hcHBtYXJrZXQiLCJjb20uc2R1LmRpZGkuZ3N1aSIsImNvbS52aXZvLmJyb3dzZXIiLCJjb20uYmFpZHUubmV0ZGlzayIsImNvbS5hbnRncm91cC5haWprLmFuZHJvaWQiLCJjbi5UdUh1LmFuZHJvaWQiLCJjb20uZHouaG1qYyIsImNvbS50ZW5jZW50LnRtZ3AubnoiLCJjb20uUXVuYXIiLCJjb20ud3VkYW9rb3UuaGlwcG8iLCJjb20ueWF0YWl5b3VzZS5jYXJuZWdpZSIsImNvbS50ZW5jZW50LnRtZ3AuY29kZXYiLCJjb20ubWVpdHVhbi5yZXRhaWwudi5hbmRyb2lkIiwiY29tLmh1cHUuc2hpaHVvIiwiY29tLnhpd2VpLmxvZ2lzdGljcy5jb25zaWdub3IiLCJjb20uaGV4aW4uYW5kcm9pZC5mdXR1cmVzIiwiY29tLmJhaWR1LmR1bWF0ZSIsImNvbS5uZXRlYXNlLm5zaG0iLCJjb20ueHVlZXJzaS5hYmN6b25lIiwiY29tLmFuZHJvaWQuYnJvd3NlciIsImNvbS5hbnRncm91cC5sZW9wYXJkLmFuZHJvaWQiLCJjb20ubmV0ZWFzZS54MTkiLCJjb20ubmV0ZWFzZS5zdHpiLm5ldGVhc2UiLCJjb20ueGlhbmd0aWFuLnBpeGNha2UiLCJjb20uaGV5dGFwLmJyb3dzZXIiLCJjb20ueGluc2h1cnUuaW5wdXRtZXRob2QiLCJjb20ubTQzOTkuZ2FtZWNlbnRlciIsImNvbS5jYWluaWFvLndpcmVsZXNzIiwiY29tLnh1ZWVyc2kuYWl0dXRvciIsImNvbS5oZXhpbi5wbGF0LmFuZHJvaWQiLCJjb20ueGl3ZWkubG9naXN0aWNzIiwiY29tLndhbm1hLmFuZHJvaWQucXloanMiLCJjb20uY21jYy5jbXZpZGVvIiwiY29tLmxlaXRpbmcueGlhbm0iLCJjb20uaGV5dGFwLm1hcmtldCIsImNvbS50YW9iYW8ubGl0ZXRhbyIsImNvbS50ZW5jZW50LmprY2hlc3MiLCJjb20ueW91a3Vzcy5jYXRjaGZpc2huZXdqc25pbmUiLCJjb20uY2FtcG1vYmlsZS5zbm93Y2FtZXJhIiwiY29tLnRlbmNlbnQuaHVueXVhbi5hcHAuY2hhdCIsImNvbS50ZW5jZW50Lm1mLnVhbSIsImNvbS5jaGtsLnpvbWJpZWNhbm5vbiIsImNvbS54aW1hbWFsbC54bXl6IiwiY29tLm1hbmlmb3JtZXIubWlmZW5ncGFpIiwiY24ueGtmay5nYW1lcy56b21iaWUiLCJjb20ud29kaS53aG8iLCJjb20ubmV0ZWFzZS5wYXJ0eV90b3V0aWFvX2NwcyIsImNvbS5xdWthbi52aWRlbyIsImNvbS5nYW5qaS5hbmRyb2lkLmhhb2NoZV9jIiwiY29tLnl4dGsuZ2FtZS5oemwiLCJjb20uZ2JpdHMubWcuZHlsd2IiLCJjb20ud29sZi5wdCIsImNvbS5jaXRpY3NmLmZpbmFuY2UiLCJjb20ubXQubXR4eC5tdHh4IiwiY29tLmdhbWUuY3dkempzIiwiY29tLnJ1aWxpLmpsc2oiLCJjb20uc3MuYW5kcm9pZC51Z2MuYXdlbWUiLCJvcmcuY29tLnlpcWlmYWRhY2FpYSIsImNvbS56b21iaWVqc3l4MTUuZ2FtZSIsImNvbS5jbWJpcmQueXVhbmJhbiIsImNuLnhrZmsuZ2FtZXMuc3RhcndhcnMiLCJjb20udGVuY2VudC5tdHQiLCJjb20udGVuY2VudC5hbmRyb2lkLnFxZG93bmxvYWRlciIsImNvbS5nemhnbC5sZWlzaGVuIiwiY29tLm1hc3NlZmZlY3QubmVhciIsImNvbS5jY2hzLnN4YnoiLCJjb20uamhrai5wYXJraW5nIiwiY29tLmFjY3VtdWx1cy5nZW51IiwiY29tLmh1YW55b3UuZmp4YXNuIl0=</string>
+    <int name="forceActivate" value="1" />
+    <string name="installerCheckExtraPkgs"></string>
+    <boolean name="splashAdLoadProcessChange" value="true" />
+    <boolean name="enableHookPluginResource" value="true" />
+    <int name="commercialLoggerSwitch" value="1" />
+    <int name="adCacheCode" value="1" />
+    <boolean name="autoShowActivityMiddlePage" value="true" />
+    <string name="openAppId"></string>
+    <int name="forceActivateAfterInstalled" value="1" />
+    <string name="hostList">sDAkk/dSWyJhZHVrd2FpLmNvbSIsImFkYmt3YWkuY29tIiwiYWRrd2FpLmNvbSIsInZjdXN3ZWh2ei5jb20iLCJwa2lhY3N4aXUuY29tIiwiY3ljeWlwaW10LmNvbSIsImdpZnNob3cuY29tIiwia3VhaXNob3UuY29tIiwia3VhaXNob3UuY24iLCJzdGF0aWMueXhpbWdzLmNvbSIsImt3aW1ncy5jb20iLCJhbGktZWMuc3RhdGljLnl4aW1ncy5jb20iLCJ0eC1lYy5zdGF0aWMueXhpbWdzLmNvbSIsImpzLWVjLnN0YXRpYy55eGltZ3MuY29tIiwiYWxpLWFkLmEueXhpbWdzLmNvbSIsInR4LWFkLmEueXhpbWdzLmNvbSIsImpzLWFkLmEueXhpbWdzLmNvbSIsImpzLmEua3Nwa2cuY29tIiwicDEuYWRrd2FpLmNvbSIsImluYXZhZC5rdWFpc2hvdS5jb20iLCJwNjYtYWQuYWRrd2FpLmNvbSIsInAxLWxtLmFka3dhaS5jb20iLCJwMS1sbS5hZHVrd2FpLmNvbSIsInAxLWxtLmFkYmt3YWkuY29tIiwidjEtbG0uYWR1a3dhaS5jb20iLCJ2MS1sbS5hZGJrd2FpLmNvbSIsInAyLWxtLmFka3dhaS5jb20iLCJwMi1sbS5hZHVrd2FpLmNvbSIsInAyLWxtLmFkYmt3YWkuY29tIiwidjItbG0uYWR1a3dhaS5jb20iLCJ2Mi1sbS5hZGJrd2FpLmNvbSIsInAzLWxtLmFka3dhaS5jb20iLCJwMy1sbS5hZHVrd2FpLmNvbSIsInAzLWxtLmFkYmt3YWkuY29tIiwidjMtbG0uYWR1a3dhaS5jb20iLCJ2My1sbS5hZGJrd2FpLmNvbSIsInA0LWxtLmFka3dhaS5jb20iLCJwNC1sbS5hZHVrd2FpLmNvbSIsInA0LWxtLmFkYmt3YWkuY29tIiwidjQtbG0uYWR1a3dhaS5jb20iLCJ2NC1sbS5hZGJrd2FpLmNvbSIsInA1LWxtLmFka3dhaS5jb20iLCJwNS1sbS5hZHVrd2FpLmNvbSIsInA1LWxtLmFkYmt3YWkuY29tIiwidjUtbG0uYWR1a3dhaS5jb20iLCJ2NS1sbS5hZGJrd2FpLmNvbSIsImNoZW56aG9uZ2tqLmNvbSIsInAxNi5hLmt3aW1ncy5jb20iXQ==</string>
+    <float name="apmToRECommercialRatio" value="0.0" />
+    <int name="rewardSkipType" value="0" />
+    <boolean name="useTKSoAll" value="false" />
+    <int name="interstitialAutoCallAppCountDaily" value="1" />
+    <string name="tkSoUrlV8a"></string>
+    <string name="rewardSkipTips">sDAkk/dS6Lez6L+H</string>
+    <int name="hybridEnable" value="1" />
+    <boolean name="forceGetAudioFocus" value="false" />
+    <boolean name="interstitialAutoStartSwitch" value="true" />
+    <boolean name="batchReportSkipJSONParseEnable" value="false" />
+    <int name="diskMonitorEnable" value="40000" />
+    <string name="uaid"></string>
+    <boolean name="enableRewardLayoutOptimise" value="false" />
+    <int name="enableHodor" value="1" />
+    <boolean name="videoPerfMonitor" value="true" />
+    <boolean name="interAggregateTKRenderSwitch" value="false" />
+    <long name="deviceInfoDisableConfig" value="0" />
+    <boolean name="usePolicy64LevelDisable" value="false" />
+    <string name="preloadMemCacheTemplateIds">sDAkk/dSWyJrc2FkLXNwbGFzaC1wbGF5LWNhcmQiLCJrc2FkLWludGVyc3RpdGlhbC1jYXJkIl0=</string>
+    <int name="videoCacheErrorCallbackSwitch" value="1" />
+    <int name="ecRewardAdOrderSwitch" value="0" />
+    <boolean name="llsidDisplaySwitch" value="false" />
+    <int name="catchExceptionReportSwitch" value="1" />
+    <boolean name="splashCropNewSwitch" value="false" />
+    <int name="interstitialAdBackPressSwitch" value="0" />
+    <boolean name="logCommandSwitch" value="false" />
+    <int name="feedTKLoadTimeOut" value="2500" />
+    <boolean name="feedAdForceGetAudioFocus" value="false" />
+    <string name="closureH5AuthPathPart">sDAkk/dSb3Blbi5lLmt1YWlzaG91LmNvbS9hdXRoPw==</string>
+    <int name="fullscreenSkipShowTime" value="5" />
+    <int name="fullscreenSkipType" value="1" />
+    <int name="nativeAdSlideClickDisable" value="0" />
+    <int name="useTKAdBrowse" value="0" />
+    <string name="fullscreenSkipTips">sDAkk/dS6Lez6L+H</string>
+    <boolean name="eplCommandSwitch" value="false" />
+    <int name="remindOpen" value="-1" />
+    <int name="feedLoadOptimizeExternalEnable" value="0" />
+    <string name="closureSupportSdkVersion">sDAkk/dSNC44LjMw</string>
+    <string name="TKSwitchExtra">sDAkk/dSeyJvc192ZXJzaW9uIjowLCJzZGtfdmVyc2lvbiI6WyIiXSwiYWJpIjpbIiJdLCJicmFuZCI6WyIiXX0=</string>
+    <string name="eplV1">sDAkk/dSeyJmdW5jU3dpdGNoIjowfQ==</string>
+    <boolean name="enableFullscreenLayoutOptimise" value="false" />
+    <long name="uaidExpireSec" value="0" />
+    <int name="exceptionCollectorSwitch" value="1" />
+    <boolean name="enablePluginInflaterFix" value="true" />
+    <string name="ranger">sDAkk/dSeyJieXRlQ291bnQiOjEwMDAsImFnZ3JlZ2F0aW9uQ2hlY2tDb25maWdMaXN0IjpbeyJhZ2dyZWdhdGlvblR5cGUiOjEsImNhbGxTdGFja0xpc3QiOlsiY29tLmJ5dGVkYW5jZS5zZGsiXSwic2RrQ2hlY2tMaXN0IjpbImNvbS5ieXRlZGFuY2Uuc2RrLm9wZW5hZHNkay5UVEFkU2RrIiwiY29tLmJ5dGVkYW5jZS5tc2RrLmFkYXB0ZXIua3MuS3NCYXNlTG9hZGVyIl0sImFuY2hvck5vZGUiOnsiY2hpbGRNZXRob2QiOnsiaXNTdGF0aWMiOnRydWUsIm5hbWUiOiJnZXRBZE1hbmFnZXIifSwiZGVlcE5vZGUiOnsiY2hpbGRNZXRob2QiOnsibmFtZSI6ImdldFNES1ZlcnNpb24ifX0sIm5vZGVDbGFzc05hbWUiOiJjb20uYnl0ZWRhbmNlLnNkay5vcGVuYWRzZGsuVFRBZFNkayJ9LCJzdGFja0NoZWNrTGlzdCI6WyJjb20uYnlrdiIsImNvbS5ieXRlZGFuY2UiLCJjb20uYnl0ZSJdfSx7ImFnZ3JlZ2F0aW9uVHlwZSI6MiwiY2FsbFN0YWNrTGlzdCI6WyJjb20uYW55dGhpbmsiXSwic2RrQ2hlY2tMaXN0IjpbImNvbS5hbnl0aGluay5jb3JlLmFwaS5BVFNESyIsImNvbS5hbnl0aGluay5uZXR3b3JrLmtzLktTQVRBZGFwdGVyIl0sImFuY2hvck5vZGUiOnsiY2hpbGRNZXRob2QiOnsiaXNTdGF0aWMiOnRydWUsIm5hbWUiOiJnZXRTREtWZXJzaW9uTmFtZSJ9LCJub2RlQ2xhc3NOYW1lIjoiY29tLmFueXRoaW5rLmNvcmUuYXBpLkFUU0RLIn0sInN0YWNrQ2hlY2tMaXN0IjpbImNvbS5hbnl0aGluayJdfSx7ImFnZ3JlZ2F0aW9uVHlwZSI6MywiY2FsbFN0YWNrTGlzdCI6WyJjb20ud2luZG1pbGwiXSwic2RrQ2hlY2tMaXN0IjpbImNvbS5zaWdtb2Iuc2RrLlNpZ21vYiIsImNvbS53aW5kbWlsbC5rdWFpc2hvdS5LdWFpU2hvdUFkYXB0ZXJQcm94eSJdLCJhbmNob3JOb2RlIjp7ImNoaWxkTWV0aG9kIjp7ImlzU3RhdGljIjp0cnVlLCJuYW1lIjoiZ2V0VmVyc2lvbiJ9LCJub2RlQ2xhc3NOYW1lIjoiY29tLndpbmRtaWxsLnNkay5XaW5kTWlsbEFkIn0sInN0YWNrQ2hlY2tMaXN0IjpbImNvbS53aW5kbWlsbCJdfSx7ImFnZ3JlZ2F0aW9uVHlwZSI6NCwiY2FsbFN0YWNrTGlzdCI6WyJjb20ua2Mub3BlbnNldCJdLCJzZGtDaGVja0xpc3QiOlsiY29tLmtjLm9wZW5zZXQuY29uZmlnLk9TRVRTREsiLCJjb20ua2Mub3BlbnNldC5hZHZlcnRpc2Vycy5rcy5LU0luaXRBZGFwdGVyIl0sImFuY2hvck5vZGUiOnsiY2hpbGRNZXRob2QiOnsiaXNTdGF0aWMiOnRydWUsIm5hbWUiOiJnZXRJbnN0YW5jZSJ9LCJkZWVwTm9kZSI6eyJjaGlsZE1ldGhvZCI6eyJuYW1lIjoiZ2V0VmVyc2lvbk5hbWUifX0sIm5vZGVDbGFzc05hbWUiOiJjb20ua2Mub3BlbnNldC5jb25maWcuT1NFVFNESyJ9LCJzdGFja0NoZWNrTGlzdCI6WyJjb20ua2Mub3BlbnNldCJdfSx7ImFnZ3JlZ2F0aW9uVHlwZSI6NSwiY2FsbFN0YWNrTGlzdCI6WyJjb20udWJpeG5vdyJdLCJzZGtDaGVja0xpc3QiOlsiY29tLnViaXhub3cuY29yZS5hcGkuVU1OQWRNYW5hZ2VyIl0sImFuY2hvck5vZGUiOnsiY2hpbGRNZXRob2QiOnsiaXNTdGF0aWMiOnRydWUsIm5hbWUiOiJnZXRTZGtWZXJzaW9uIn0sIm5vZGVDbGFzc05hbWUiOiJjb20udWJpeG5vdy5jb3JlLmFwaS5VTU5BZE1hbmFnZXIifSwic3RhY2tDaGVja0xpc3QiOlsiY29tLnViaXhub3ciXX0seyJhZ2dyZWdhdGlvblR5cGUiOjYsImNhbGxTdGFja0xpc3QiOlsiY29tLnlmYW5hZHMiXSwic2RrQ2hlY2tMaXN0IjpbImNvbS55ZmFuYWRzLmFuZHJvaWQuWUZBZHNNYW5hZ2VyIiwiS1NSZXdhcmRWaWRlb0FkYXB0ZXJfS1NTcGxhc2hBZGFwdGVyX0tTTmF0aXZlRXhwcmVzc0FkYXB0ZXJfS1NOYXRpdmVBZGFwdGVyX0tTTWl4QmFubmVyQWRhcHRlcl9LU0ludGVyc3RpdGlhbEFkYXB0ZXJfS1NGdWxsU2NyZWVuVmlkZW9BZGFwdGVyX0tTRHJhd0FkYXB0ZXJfS1NCYW5uZXJBZGFwdGVyIl0sImFuY2hvck5vZGUiOnsiY2hpbGRNZXRob2QiOnsiaXNTdGF0aWMiOnRydWUsIm5hbWUiOiJnZXRJbnN0YW5jZSJ9LCJkZWVwTm9kZSI6eyJjaGlsZE1ldGhvZCI6eyJuYW1lIjoiZ2V0WUZBZHNDb25maWcifSwiZGVlcE5vZGUiOnsiY2hpbGRNZXRob2QiOnsibmFtZSI6ImdldFZlcnNpb24ifX19LCJub2RlQ2xhc3NOYW1lIjoiY29tLnlmYW5hZHMuYW5kcm9pZC5ZRkFkc01hbmFnZXIifSwic3RhY2tDaGVja0xpc3QiOlsiY29tLnlmYW5hZHMiXX0seyJhZ2dyZWdhdGlvblR5cGUiOjcsImNhbGxTdGFja0xpc3QiOlsiY29tLnlkLnNhYXMueWRzZGsiXSwic2RrQ2hlY2tMaXN0IjpbImNvbS55ZC5zYWFzLnlkc2RrLm1hbmFnZXIuWWRDb25maWciLCJLU0Jhbm5lckFkYXB0ZXJfS1NEcmF3VmlkZW9BZGFwdGVyX0tTRnVsbFZpZGVvQWRhcHRlcl9LU0ludGVyc3RpdGlhbEFkYXB0ZXJfS1NOYXRpdmVBZGFwdGVyX0tTU3ByZWFkQWRhcHRlcl9LU1RlbXBsYXRlQWRhcHRlcl9LU1ZpZGVvQWRhcHRlciJdLCJhbmNob3JOb2RlIjp7ImNoaWxkRmllbGROYW1lIjp7ImlzU3RhdGljIjp0cnVlLCJuYW1lIjoiU0RLX1ZFUlNJT05fVkFMVUUifSwibm9kZUNsYXNzTmFtZSI6ImNvbS55ZC5zYWFzLmJhc2UuQnVpbGRDb25maWcifSwic3RhY2tDaGVja0xpc3QiOlsiY29tLnlkLnNhYXMueWRzZGsiXX1dLCJmdW5jU3dpdGNoIjozMywic2FtcGxlUmF0ZSI6MC4xfQ==</string>
+    <boolean name="isWaynePlayerAsDefaultPlayer" value="false" />
+    <int name="spliceVideoInteractionType" value="0" />
+    <float name="interactionTimeInRewardedVideo" value="0.0" />
+    <string name="closureH5AuthAppId">sDAkk/dSa3M2OTUyNDMxOTQ2ODI0OTU4MzI=</string>
+    <string name="adTKGrayConfig">{}</string>
+    <int name="ksNativeAdCustomSwitch" value="0" />
+    <boolean name="enableMediaGetAdInfo" value="false" />
+    <string name="buyNowTips">sDAkk/dS56uL5Y2z5oqi6LSt</string>
+    <int name="probeBatch" value="0" />
+    <int name="interstitialAdClickShutDown" value="0" />
+    <int name="viewLandingPageTaskDuration" value="15" />
+    <boolean name="autoJumpInRewardedVideo" value="false" />
+    <int name="kwaiAppVersionSwitch" value="1" />
+    <int name="ecRewardAdKwaishopStyle" value="0" />
+    <int name="videoLaunchOptimiseSwitch" value="0" />
+    <boolean name="dataFlowAutoStartSwitch" value="true" />
+    <int name="playableAutoPlayEnable" value="0" />
+    <int name="neoVideoAdaptStrategy" value="1" />
+    <int name="forceActiveInterval" value="3" />
+    <int name="advanceJumpDirectDeliveryMaxCount" value="0" />
+    <string name="installTipsPositiveActionDesc">sDAkk/dS5a6J6KOF</string>
+    <string name="installTipsContentDesc">sDAkk/dS5oKo5bey5LiL6L294oCcW2FwcG5hbWVd4oCdLOeOsOWcqOimgeWuieijheWQl++8nw==</string>
+    <float name="adExposureAreaPercent" value="0.2" />
+    <int name="tubeRenderType" value="0" />
+    <string name="ksadKCRatioConfig">{&quot;ad_tk_download_performance&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_reward_download_error&quot;:{&quot;default_ratio&quot;:0.01},&quot;response_biz_error_track&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_banner_load&quot;:{&quot;default_ratio&quot;:1.0E-5},&quot;ad_perf_monitor_net_error&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_ad_data_performance&quot;:{&quot;default_ratio&quot;:0.001},&quot;ad_sdk_bid_token&quot;:{&quot;default_ratio&quot;:1.0E-5},&quot;ad_sdk_fullscreen_load&quot;:{&quot;default_ratio&quot;:0.001},&quot;ad_sdk_banner_callback&quot;:{&quot;default_ratio&quot;:1.0E-5},&quot;ad_sdk_reward_retry_task_performance&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_warmup_resource_usage&quot;:{&quot;default_ratio&quot;:0.01},&quot;response_biz_error_element_pv&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_splash_load&quot;:{&quot;default_ratio&quot;:0.001},&quot;union_webview_load_event&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_link_time&quot;:{&quot;default_ratio&quot;:1.0E-5},&quot;ad_sdk_resource_warmup&quot;:{&quot;default_ratio&quot;:1.0E-4},&quot;ad_sdk_reward_load&quot;:{&quot;default_ratio&quot;:1.0E-4},&quot;ad_convert_method_call&quot;:{&quot;default_ratio&quot;:1.0E-4},&quot;ad_sdk_feed_load&quot;:{&quot;default_ratio&quot;:0.001},&quot;response_biz_error_convert&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_interstitial_load&quot;:{&quot;default_ratio&quot;:0.001},&quot;ad_sdk_splash_single_cache&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_reward_callback_load&quot;:{&quot;default_ratio&quot;:1.0E-4},&quot;ad_sdk_splash_preload&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_dynamic_run&quot;:{&quot;default_ratio&quot;:1.0E-4},&quot;union_web_cache_download_event&quot;:{&quot;default_ratio&quot;:0.001},&quot;ad_sdk_webview_track&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_convert_method_call_requestError&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_draw_callback&quot;:{&quot;default_ratio&quot;:1.0E-5},&quot;ad_tk_so_load_performence&quot;:{&quot;default_ratio&quot;:0.01},&quot;response_biz_error_tk&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_innerec_performance&quot;:{&quot;default_ratio&quot;:0.01},&quot;ad_sdk_track_performance&quot;:{&quot;rule_set&quot;:[{&quot;min_version&quot;:&quot;3.3.45&quot;,&quot;convert&quot;:0.1,&quot;category&quot;:0,&quot;custom_dimension&quot;:{&quot;status&quot;:1},&quot;ratio&quot;:0.001},{&quot;min_version&quot;:&quot;3.3.45&quot;,&quot;convert&quot;:0.1,&quot;category&quot;:0,&quot;custom_dimension&quot;:{&quot;status&quot;:2},&quot;ratio&quot;:0.001}],&quot;default_ratio&quot;:0.001},&quot;ad_sdk_draw_load&quot;:{&quot;default_ratio&quot;:1.0E-4},&quot;ad_sdk_image_render_performance&quot;:{&quot;default_ratio&quot;:1.0E-4}}</string>
+    <int name="interstitialCycleAggregateMaxCount" value="1" />
+    <int name="mediaControlPlaySwitch" value="0" />
+    <int name="soLoadMaxRetryCount" value="1" />
+    <boolean name="threadOptEnable" value="false" />
+    <int name="batchReportCatchLimit" value="40" />
+    <int name="insertScreenAutoPlaySwitch" value="0" />
+    <boolean name="apkBroadcastReceiverSwitch" value="true" />
+    <boolean name="tkRenderTypeSwitch" value="false" />
+    <string name="viewHomeTips">sDAkk/dS5p+l55yLVEHnmoTkuLvpobU=</string>
+    <int name="tipsSwitch" value="0" />
+    <int name="appMonitorSwitch" value="0" />
+    <int name="simCardInfoEnable" value="1" />
+    <int name="splashTimeOutMilliSecond" value="5000" />
+    <float name="adTraceReportRate" value="0.5" />
+    <int name="videoCacheOpt" value="0" />
+    <string name="trackBlackUrlConfig">sDAkk/dSeyJibGFja0xpc3QiOlsiaHR0cHM6XC9cL2t1c2hvdS5jb21cL3Rvb2xzXC9jb252ZXJ0XC9hcGk/YWEiXX0=</string>
+    <int name="shortVideoFollowRewardPlayStyle" value="1" />
+    <int name="mediaPlayerLogReport" value="0" />
+    <boolean name="enableHookWrapperContext" value="true" />
+    <int name="hdrConfig" value="3" />
+    <boolean name="enableAdTrackLog" value="true" />
+    <string name="adLogRetryConfig">sDAkk/dSeyJyZXRyeVN3aXRjaCI6dHJ1ZSwicmV0cnlDb3VudENvbmZpZyI6MiwiY2FjaGVFeHBpcmVUaW1lIjoxODAwLCJyZXRyeVF1ZXVlU2l6ZSI6MzAsInJldHJ5Q291bnRGZWVPbmx5Ijp0cnVlfQ==</string>
+    <boolean name="TKSwitch" value="false" />
+    <boolean name="ipPreferEnable" value="true" />
+    <int name="xdtCouponShowDuration" value="3000" />
+    <int name="compoAndSoThreadPoolCoreSize" value="2" />
+    <boolean name="adLiveSwitch" value="false" />
+    <string name="thKwaiMarketUrl">sDAkk/dSbWFya2V0Oi8vZGV0YWlscz9pZD1jb20uc21pbGUuZ2lmbWFrZXI=</string>
+    <string name="realtimeReportActions">11</string>
+    <string name="attentionTips">sDAkk/dS5Y675YWz5rOoVEE=</string>
+    <int name="interstitialAdLoadProcessChange" value="1" />
+    <string name="insertScreenV2ShowConfig">{&quot;horizontalShowDuration&quot;:1000,&quot;verticalShowDuration&quot;:1000}</string>
+    <long name="obiwanLogFilesDiskQuota" value="52428800" />
+    <int name="insertShowPercent" value="100" />
+    <int name="speedLimitSwitch" value="0" />
+    <int name="feedNativeRenderSwitch" value="0" />
+    <int name="interstitialAdFullClick" value="1" />
+    <boolean name="dynamicEnable" value="false" />
+    <boolean name="feedAdClickGuideSwitch" value="true" />
+    <int name="forceActiveThreshold" value="0" />
+    <string name="packageInstall">sDAkk/dSeyJkZWxheVRpbWUiOjgwMCwic2hvd1RpbWVzUGVyRGF5IjozLCJlbmFibGVEaWFsb2ciOjB9</string>
+    <int name="baseStationEnable" value="1" />
+    <string name="userAgent"></string>
+    <boolean name="soDownloadBreakpointContinuation" value="true" />
+    <boolean name="advanceJumpDirectDeliverySwitch" value="false" />
+    <boolean name="playerEnable" value="true" />
+    <int name="adImageLoaderCacheLimitSize" value="-1" />
+    <int name="rewardContentDetainType" value="1" />
+    <long name="packageInfoLimiter" value="0" />
+    <int name="splashMaterialDownloadTimeMs" value="600" />
+    <int name="remindInstallStyle" value="0" />
+    <boolean name="closureVideoTwoSwitch" value="true" />
+    <int name="resourceWarmupDelayTime" value="5" />
+    <int name="optimizeProgressMethod" value="0" />
+    <string name="localLogConfig">sDAkk/dSe30=</string>
+    <int name="netMonitorSwitch" value="1" />
+    <boolean name="enableThreadOpt2" value="true" />
+    <float name="adExposureTime" value="0.0" />
+    <string name="closureH5AuthUrl">sDAkk/dSaHR0cHM6Ly9vcGVuLmt1YWlzaG91LmNvbS9mZS9hdXRob3JpemF0aW9uL2g1L3VuaWZpZWQtYXV0aD9hcHBfaWQ9a3M2OTUyNDMxOTQ2ODI0OTU4MzImc2NvcGU9dXNlcl9pbmZvJnJlc3BvbnNlX3R5cGU9Y29kZSZyZWRpcmVjdF91cmk9aHR0cHM6Ly9vcGVuLmUua3VhaXNob3UuY29tL2F1dGgmc3RhdGU9eW91cl9zdGF0ZSZhdXRoX21vZGU9Miwz</string>
+    <int name="adLeaveConfirmSwitch" value="1" />
+    <int name="interstitialPlayableTime" value="999" />
+    <boolean name="adCacheOptEnable" value="true" />
+    <string name="ksadCMTokenPublicKey">sDAkk/dSTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFrbzNySm1VcU1LeGtiTDFKTTZBY0J6MXlRZ0U3bVZXR2xFMURGQThySkNhaDFiR3VIb1hBbnN1UnpDbXRzNzRubjFuYTB2NTZIV0hOTDEweDR5TUpwTnlmdGx3dFFaVWF0UDl1cGJCWWZwYnlQcFNVODl2STBRdUZPNEhmYm54SkJxelo1U1VYUFliSDJ1NTdPYjV5UFZnbjU0ZlpVQVBYd3JWSFJPc2tkdEVrTVgrc00wZ3FxQ0VvT0dxVHpJUEV5UTVldW94c3FTUkxxWjVuT0pNYmRza01JeWRITkRyeDg1OTcxbjh6Y2puVFBMRVFySG5QYjZGVXEwMWFoOWFyR0lDL2FMZDhsc2pJbmhHRW1FdWhWNEJnVGJQL1FLTlBPWFhGRDJjR01WQU1NNzVjMUo1aC9zSFN3RGp2c0JQRElOZHM4b0VpNUdzU3dqQStDNlhsa3dJREFRQUI=</string>
+    <boolean name="feedAdBgTransparentSwitch" value="false" />
+    <int name="sensorEventEnable2" value="1" />
+    <boolean name="appInAdExposureBlacklist" value="false" />
+    <string name="threadPoolParams">sDAkk/dSeyJodHRwSU9Gb3JDb3JlX21heCI6NiwiaHR0cElPX21heCI6MTIsImh0dHBJT0ZvckNvcmVfY29yZSI6NiwiaHR0cElPX2NvcmUiOjgsImFzeW5jX2NvcmUiOjUsImh0dHBJT0ZvckNvcmVFeHRyYV9jb3JlIjowLCJodHRwSU9Gb3JDb3JlRXh0cmFfbWF4Ijo0LCJ2aWRlb0NhY2hlX2NvcmUiOjIsInZpZGVvQ2FjaGVfbWF4IjozLCJhc3luY19tYXgiOjV9</string>
+    <int name="jinniuCloseDialogStyle" value="1" />
+    <int name="feedAdWebviewOptimize" value="1" />
+    <long name="currentServerTimeMs" value="1790953777473" />
+    <boolean name="wifiResumeDownload" value="false" />
+    <int name="nativeTKLoadTimeOut" value="3000" />
+    <long name="uaidRequestDelayTime" value="5" />
+    <int name="remindInstallTime" value="0" />
+    <int name="insertScreenV2Switch" value="0" />
+    <int name="adTraceRepeatEnable" value="0" />
+    <boolean name="showOptimizedProgress" value="true" />
+    <long name="feedTKIdleTime" value="0" />
+    <int name="insertScreenAdType" value="1" />
+    <boolean name="disableLogcatOAID" value="true" />
+    <int name="tkMemCacheSize" value="2000" />
+    <int name="kGeoInfoConfig" value="1" />
+    <string name="crashUploadRate">1.0</string>
+    <boolean name="logRecordAllSwitch" value="true" />
+    <long name="validClickConvertTime" value="1000" />
+    <int name="feedLoadOptimizeType" value="0" />
+    <boolean name="closureSwitch" value="false" />
+    <string name="installActivateReminderConfig">{&quot;noticeTotalCount&quot;:3,&quot;perAppNoticeCount&quot;:2,&quot;noticeAppearTime&quot;:15000,&quot;noticeContinueTime&quot;:15000}</string>
+    <int name="formAdExitInterceptSwitch" value="1" />
+    <boolean name="TKJsonSubThread" value="true" />
+    <int name="lpAutoDownloadApkSwitch" value="1" />
+    <int name="environmentDetectEnable" value="1" />
+    <float name="drawAdExposureAreaPercent" value="0.7" />
+    <boolean name="ipDirectEnable" value="true" />
+    <int name="splashLoadTimeOptimize" value="0" />
+    <int name="installFloatingLayerPostion" value="2" />
+    <int name="rewardAdVideoPreCacheSize" value="512" />
+    <string name="threadPoolPerfMonitor">sDAkk/dSeyJ0aHJlc2hvbGQiOjEyLCJpbnRlcnZhbCI6MzAwMDAwLCJyYXRlX3JlY2lwcm9jYWwiOjEwMDAwMH0=</string>
+    <int name="tkErrorDetailCount" value="1" />
+    <string name="chinaMobileAndroidPublicKey">sDAkk/dSTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFremk4N2xjeVgxdC9PU2psbWptalVGVEFiMFkwd1BaNzlqMTBzalZyRHRWK2xNWlh6L2hPYWxJVEZ5WFJwbVM4ZzhJMUgzQWxoaWhRUXNpZXJJRmFRajVvbVVzWGh6dk5PKzREb3JrTUoxNG4xbzFzZkwwaU9MVHJ6eWRnaHVVcHlzcGowTTh2NWJKVEJiTHY4REdNcmVLdEo4c2JJWUM1YWo4cEFkeG4rWVRuWjRSaHAvcE5SYm1JQWx4czRCdHUzd2hKdC9SVGZFQVNnc0RSYVRnT3I5UmxqMllEaXlFTTRUM2QwTHNMak5lZDdCME9ndWx6ajZPenZIaitmb0l5YitZRUVuNkM1RjlyK3VOWTJsMmlZbEhmYWl6ZDFIS2ZJU3JjQXNlSnU2bEdLUlAwSTNtdjUzOFR3cWcxdTBERlY2d2FROWd3Z09ocTRPUkNpTnBkSVFJREFRQUI=</string>
+    <int name="autoDownloadUrlSwitch" value="0" />
+    <string name="splashBtnText">sDAkk/dS54K55Ye76Lez6L2s6K+m5oOF6aG15oiW56ys5LiJ5pa55bqU55So</string>
+    <int name="drawTKLoadTimeOut" value="2000" />
+    <int name="appHeartBeatInterval" value="2" />
+    <int name="rewardActiveAppTaskMinSecond" value="15" />
+    <string name="perfMonitorV2">sDAkk/dSeyJibG9ja0NvbmZpZyI6eyJtb25pdG9yU3dpdGNoIjowfX0=</string>
+    <long name="splashVisibleCheckDelayTime" value="500" />
+    <int name="ecRewardAdFanSwitch" value="0" />
+    <int name="installerCheckPkgAbSwitch" value="0" />
+    <string name="commercialLogRatioConfig">{}</string>
+    <string name="installTipsNegativeActionDesc">sDAkk/dS5Y+W5raI</string>
+    <boolean name="viewVisibleCheckLegacy" value="false" />
+    <int name="deeplinkCheckSwitch" value="-3" />
+    <int name="weaponSwitch" value="1" />
+    <string name="nativeAndAnrDynamic">sDAkk/dSeyJtaW5TZGtWZXJzaW9uIjoiMy4zLjY3IiwibWQ1VjciOiIyZmZmZTdiMDY1OTYwYjhkOGIwMTAwMDkyMjUwY2ZmMiIsInY4VXJsIjoiaHR0cHM6XC9cL3AxLWxtLmFka3dhaS5jb21cL3VkYXRhXC9wa2dcL0tTLUFuZHJvaWQtS1NBZFNEa1wvc29cL2V4Y2VwdGlvblwvMjAyNDA2MjExNDMzXC9rc19zby1leGNlcHRpb25Bcm02NHY4YVJlbGVhc2UtMy4zLjY3LWU4ZmJiM2E1ZjgtNjY2LmFwayIsInY3VXJsIjoiaHR0cHM6XC9cL3AxLWxtLmFka3dhaS5jb21cL3VkYXRhXC9wa2dcL0tTLUFuZHJvaWQtS1NBZFNEa1wvc29cL2V4Y2VwdGlvblwvMjAyNDA2MjExNDMzXC9rc19zby1leGNlcHRpb25Bcm1lYWJpdjdhUmVsZWFzZS0zLjMuNjctZThmYmIzYTVmOC02NjYuYXBrIiwic2RrVHlwZSI6MSwiZnVuY1N3aXRjaCI6MywidmVyc2lvbiI6IjMuMy42NyIsIm1kNVY4IjoiMjRjNmU5ODM3NDgxZjA2NjAwYjdkMGEzNDk5MWIwNWYifQ==</string>
+    <int name="carouselInterval" value="30000" />
+    <int name="interstitialAdSkipCloseType" value="0" />
+</map>

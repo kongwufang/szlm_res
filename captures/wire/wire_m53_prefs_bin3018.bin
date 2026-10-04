@@ -1,0 +1,181 @@
+if_get_ios_scheme&quot;:0,&quot;if_open_market_window&quot;:1,&quot;if_pre_connect&quot;:1,&quot;if_query_all_package&quot;:1,&quot;if_req_body_opt&quot;:1,&quot;if_scheme_opt&quot;:1,&quot;if_sdk_parallel_load&quot;:1,&quot;if_sp_cache&quot;:1,&quot;ignore_query_result&quot;:false,&quot;insert_ad_control&quot;:1,&quot;insert_ad_control_fs&quot;:1,&quot;insert_ad_pt_show_time&quot;:[[0,500]],&quot;insert_ad_pt_show_time_fs&quot;:[[0,500]],&quot;insert_ad_req_num&quot;:2,&quot;insert_ad_req_num_fs&quot;:2,&quot;insert_ad_tip_max_time&quot;:0,&quot;insert_ad_tip_max_time_fs&quot;:0,&quot;insert_ad_toast_max_time&quot;:0,&quot;insert_ad_vd_show_time&quot;:[[0,500]],&quot;insert_ad_vd_show_time_fs&quot;:[[0,500]],&quot;ios_ugen_clickable&quot;:1,&quot;is_adapt_density&quot;:true,&quot;is_adapt_two_finger&quot;:1,&quot;is_cancel_action_check_slide&quot;:0,&quot;is_kv_cache_type&quot;:0,&quot;is_open_isw&quot;:0,&quot;is_spl_cache_remove_change&quot;:true,&quot;is_webview_preheat&quot;:false,&quot;jump_shield_short_duration&quot;:1000,&quot;launch_strategy&quot;:1,&quot;live_stream_cof&quot;:{&quot;appids&quot;:&quot;100102,100125&quot;,&quot;enable&quot;:1},&quot;load_in_invoketid&quot;:0,&quot;load_splash_cache_thread_type&quot;:1,&quot;lottie_composition_cache_size&quot;:20,&quot;lynxview_cache_count&quot;:10,&quot;m_vids_join&quot;:1,&quot;native_slide_enable&quot;:0,&quot;net_conn_conf&quot;:{&quot;klive_conf&quot;:0,&quot;mi_c&quot;:12,&quot;mi_t&quot;:5},&quot;net_queue_limit&quot;:7,&quot;net_url_block_list&quot;:[&quot;www\\.(tzujian|zujiant|h5kuai|kuaih5|kuairpk|rpkkuai)\\.com@3&quot;,&quot;(qallzmx\\.quicklyopen\\.com|thefatherofsalmon\\.com|fastappjump-drcn\\.hispace\\.hicloud\\.com|fastappjump-drcn\\.hispace\\.dbankcloud\\.cn|www\\.huawei\\.com\/totemweather|qallzmx\\.quickapp|quickappurl-drcn\\.hms\\.dbankcloud|quickapph5-drcn\\.hms\\.dbankcloud)@3&quot;],&quot;network_module&quot;:1,&quot;new_app_list&quot;:true,&quot;new_interstitial_show_type&quot;:0,&quot;new_storage_stage&quot;:0,&quot;npth_enable_type&quot;:0,&quot;oncall_upload&quot;:{&quot;alert_text&quot;:&quot;反馈需要上传广告内容，\n但不会收集任何用户隐私数据。&quot;,&quot;enable&quot;:true,&quot;filter_word&quot;:{&quot;id&quot;:&quot;99:1&quot;,&quot;name&quot;:&quot;素材反馈&quot;},&quot;upload_api&quot;:&quot;https:\/\/ad.oceanengine.com\/csj_cloud\/tools\/upload&quot;},&quot;open_dl_type&quot;:0,&quot;open_webview_count&quot;:1,&quot;opt_click_chain&quot;:0,&quot;opt_config&quot;:{&quot;create_ad_in_io&quot;:false,&quot;opt_panel_view&quot;:false,&quot;so_lock&quot;:false,&quot;use_csj_main&quot;:false,&quot;use_layze_layout&quot;:false},&quot;pglam&quot;:{&quot;pgl_4TypeEncrypt_close&quot;:1,&quot;pglam_clazz_check&quot;:&quot;com.tb.mob.BuildConfig\/\/com.unionad.sdk.ad.BuildConfig\/\/bin.mt.signature.KillerApplication\/\/Epic.Ads.config.Config\/\/com.rongyi.allai.http.ApiConfig\/\/com.union_test.toutiao.activity.MainActivity\/\/com.dlg.sdk.main.SdkHook\/\/android.content.CapWraper\/\/com.adobe.flubs.gms.ads.activity.AdActivity&quot;,&quot;pglam_main_enable&quot;:1},&quot;pitaya_business_conf&quot;:{&quot;splash_policy&quot;:0},&quot;plugin_downloader_settings&quot;:{&quot;config&quot;:&quot;&quot;,&quot;use_downloader&quot;:false},&quot;plugin_retry_opt&quot;:{&quot;live_init_max_count&quot;:5,&quot;live_max_count&quot;:5,&quot;pangle_max_count&quot;:0},&quot;plugin_update_state&quot;:{&quot;com.byted.pangle&quot;:{&quot;api_rule&quot;:&quot;&gt;&quot;,&quot;api_v&quot;:0,&quot;plugin_rule&quot;:&quot;==&quot;,&quot;plugin_v&quot;:7790,&quot;state&quot;:5}},&quot;policy_preload_size_module&quot;:&quot;&quot;,&quot;pre_fetch_cnt&quot;:20,&quot;preload_get_type&quot;:0,&quot;preload_max_count&quot;:10,&quot;preload_remove_type&quot;:1,&quot;preload_switch&quot;:false,&quot;preload_time_point&quot;:0,&quot;privacy_config&quot;:{&quot;imei&quot;:0,&quot;imsi&quot;:0,&quot;mac&quot;:0,&quot;serial&quot;:0},&quot;refresh_ad_control&quot;:1,&quot;refresh_ad_reduce_time&quot;:5000,&quot;refresh_ad_req_num&quot;:2,&quot;refresh_ad_tip_max_time&quot;:0,&quot;refresh_ad_tip_max_time_fs&quot;:3,&quot;refresh_max_times&quot;:0,&quot;refresh_req_num&quot;:2,&quot;replace_dummy_video&quot;:1,&quot;req_build_opt&quot;:1,&quot;req_exemption_cfg&quot;:{&quot;duration&quot;:0,&quot;enable&quot;:false,&quot;error_codes&quot;:[]},&quot;request_mute_after_init&quot;:0,&quot;reward_aggregation_config&quot;:{&quot;include_stop_time&quot;:1,&quot;refresh_ad_clickafter_tip_content&quot;:&quot;已为您延迟到奖励下发后再播放下一个&quot;,&quot;refresh_ad_clickafter_tip_content_max_time&quot;:3,&quot;refresh_ad_ifclick_swtich&quot;:1,&quot;refresh_ad_ifclick_swtich_fs&quot;:1},&quot;reward_time_limited&quot;:27000,&quot;scheme_get_num&quot;:1,&quot;scheme_get_type&quot;:0,&quot;sd_max_memory_cost&quot;:24,&quot;sd_max_memory_count&quot;:6,&quot;setting_video_preload_size&quot;:0,&quot;show_check_report_type&quot;:0,&quot;skip_key&quot;:1,&quot;spl_cache_conf&quot;:30,&quot;spl_cache_expired&quot;:0,&quot;spl_thread_conf&quot;:7,&quot;splash_card_show_max_count&quot;:8,&quot;splash_enable_rotate&quot;:0,&quot;splash_render_timeout_backup&quot;:100,&quot;splash_tmax_conf&quot;:1,&quot;splash_video_opt_enable&quot;:1,&quot;stats_batch&quot;:3,&quot;stats_report_register_info&quot;:1,&quot;stats_url&quot;:&quot;api-access.pangolin-sdk-toutiao1.com&quot;,&quot;status_bar_adapt&quot;:0,&quot;test_tool_urls&quot;:{&quot;ad_preview_url&quot;:&quot;https:\/\/sf3-fe-tos.pglstatp-toutiao.com\/obj\/csj-sdk-static\/test-tool\/0.0.7\/html\/ad_preview.html&quot;,&quot;adn_detail_url&quot;:&quot;https:\/\/sf3-fe-tos.pglstatp-toutiao.com\/obj\/csj-sdk-static\/test-tool\/0.0.7\/html\/adn_detail.html&quot;,&quot;basic_info_url&quot;:&quot;https:\/\/sf3-fe-tos.pglstatp-toutiao.com\/obj\/csj-sdk-static\/test-tool\/0.0.7\/html\/basic_info.html&quot;,&quot;codeid_detail_url&quot;:&quot;https:\/\/sf3-fe-tos.pglstatp-toutiao.com\/obj\/csj-sdk-static\/test-tool\/0.0.7\/html\/codeid_detail.html&quot;,&quot;qa_tool_host&quot;:&quot;https:\/\/api-access.pangolin-sdk-toutiao.com\/&quot;,&quot;rit_detail_url&quot;:&quot;https:\/\/sf3-fe-tos.pglstatp-toutiao.com\/obj\/csj-sdk-static\/test-tool\/0.0.7\/html\/rit_detail.html&quot;},&quot;thread_config&quot;:{&quot;autosize&quot;:true,&quot;big_keep_alive&quot;:0,&quot;big_max_mum&quot;:0,&quot;big_priority&quot;:false,&quot;can_set_crash&quot;:false,&quot;core_count&quot;:0,&quot;enable_proxy&quot;:true},&quot;title_priority&quot;:1,&quot;tpl_enable_render_timeout_opt&quot;:false,&quot;tpl_timeout_ctrl&quot;:{&quot;banner&quot;:[5000,4500],&quot;draw&quot;:[5000,4500],&quot;feed&quot;:[5000,4500],&quot;fullscreen&quot;:[5000,4500],&quot;rewarded&quot;:[10000,4500]},&quot;tt_csj_lifecycle_opt&quot;:{&quot;lifecycle_enable&quot;:false,&quot;node_line_detail_enable&quot;:false,&quot;node_line_enable&quot;:false},&quot;uchain&quot;:{&quot;md5&quot;:&quot;eb80a61426b16e5e4f87e4d691888e69&quot;,&quot;url&quot;:&quot;https:\/\/sf3-fe-tos.pglstatp-toutiao.com\/obj\/csj-sdk-static\/uchain\/3004\/uchain_dsl.bin&quot;},&quot;ud_enable&quot;:1,&quot;ugen_event_center_config&quot;:{&quot;creative_ugen_v2&quot;:1,&quot;creative_ugen_v3&quot;:1,&quot;dynamic_ugen_v3&quot;:1},&quot;ugen_image_load_config&quot;:{&quot;api&quot;:26,&quot;size_limit&quot;:1000,&quot;zip_level&quot;:8},&quot;up_cypher&quot;:1,&quot;url_report_rule_list&quot;:[&quot;fast-app|huidedao|hapType|quickapp|QUICK_APP_ST_CHANNEL|njcwlk|octthhw|pages&quot;],&quot;use_h3&quot;:false,&quot;use_new_shake_manager&quot;:0,&quot;use_stack_navigation&quot;:false,&quot;user_interaction_config&quot;:{&quot;banner&quot;:0,&quot;delay_time&quot;:100,&quot;draw&quot;:0,&quot;feed&quot;:0,&quot;first_delay_time&quot;:1000,&quot;fullscreen&quot;:0,&quot;model&quot;:1,&quot;motion_interval&quot;:100,&quot;motion_max_num&quot;:300,&quot;rewarded&quot;:0,&quot;sensor_interval&quot;:3,&quot;slide_move_max_num&quot;:5,&quot;splash&quot;:0},&quot;valid_uchain&quot;:1,&quot;video_opt&quot;:{&quot;video_size_gap_report&quot;:1},&quot;video_start&quot;:{&quot;enable&quot;:1,&quot;valid_type&quot;:[5],&quot;value&quot;:0.001},&quot;view_report_opt&quot;:{&quot;shake_twist_bind_show&quot;:false,&quot;view_check_by_click&quot;:true,&quot;view_check_by_window&quot;:true},&quot;volume&quot;:{&quot;applist&quot;:[],&quot;content_factor&quot;:0,&quot;duration_factor&quot;:0,&quot;factor&quot;:0,&quot;headset_factor&quot;:0,&quot;max_value&quot;:1,&quot;min_value&quot;:-1,&quot;night_factor&quot;:0,&quot;plan&quot;:0,&quot;valid_type&quot;:[7,8,9],&quot;value&quot;:0,&quot;week_factor&quot;:0},&quot;webview_cache_count&quot;:0,&quot;webview_cache_count_v3&quot;:0,&quot;webview_render_concurrent_count&quot;:3,&quot;xiaomi_install&quot;:0,&quot;xpath&quot;:&quot;\/\/s3-fe-scm.pglstatp-toutiao.com\/bytecom\/resource\/track_log\/src\/toutiao-track-log.js?ad_id={{ad_id}}&quot;}</string>
+    <int name="video_size_gap_report" value="1" />
+    <int name="adlog_debug" value="0" />
+    <int name="endcard_lazy" value="1" />
+    <set name="turn_up_black_list_1">
+        <string>^((hap|hwfastapp|hwlifeservice|hwreaderoobe|breenovoice|hww|hiboard|hiapp|hwsub|mifg|hms|hnquickapp|higame|petallitegames)|com\.miui\.hybrid|com\.huawei\.hitouch|com\.huawei\.hivision|search://com\.huawei\.search|remote://input\.baidu\.com|(pictorial|mibrowser|hwmediacenter|heytapbrowser|baiduinput|baiduinputoem|baiduinputpublic|sogou|uccredit|kwai|vivomarket|vtouch|games|market|ksnebula|sslocal|aweme|oaps)://)</string>
+        <string>(mibrowser\.web|qallzmx\.quicklyopen\.com|thefatherofsalmon\.com|fastappjump-drcn\.hispace\.hicloud\.com|fastappjump-drcn\.hispace\.dbankcloud\.cn|www\.huawei\.com/totemweather|qallzmx\.quickapp|quickappurl-drcn\.hms\.dbankcloud|quickapph5-drcn\.hms\.dbankcloud)</string>
+        <string>www\.(tzujian|zujiant|h5kuai|kuaih5|kuairpk|rpkkuai|kenaqz)\.com</string>
+        <string>^(weixin|phonemanager|uc|uclink|ucaccount|upwallet|xmyun|xmaccount|mimarket|micloud|oppouc|oppoaccount|oppogs|oppowallet|oppomusic|oppoyun|speechassist|theme|oppobro|hwwallet|hwyy|hww|hnt|ipspace|hitouch|wallet|xiaoyirecommender|hihonor|softmarket|account|opluspay|allmusic|ksnebula|kwai|baiduinputpublic|baiduinput|baiduinputoem|alipays|bdhonorbrowser|gs|kids|qsb|vivoquickapp|vivohap|vivobrowser|vivokey|htcloud|hmjc|jovi|snssdk1128)://</string>
+    </set>
+    <long name="gnd_prefetch_cache_ttl" value="300" />
+    <set name="turn_up_black_list_2">
+        <string>^(?!.*$).*$</string>
+    </set>
+    <set name="net_url_block_list">
+        <string>www\.(tzujian|zujiant|h5kuai|kuaih5|kuairpk|rpkkuai)\.com@3</string>
+        <string>(qallzmx\.quicklyopen\.com|thefatherofsalmon\.com|fastappjump-drcn\.hispace\.hicloud\.com|fastappjump-drcn\.hispace\.dbankcloud\.cn|www\.huawei\.com/totemweather|qallzmx\.quickapp|quickappurl-drcn\.hms\.dbankcloud|quickapph5-drcn\.hms\.dbankcloud)@3</string>
+    </set>
+    <boolean name="view_check_by_window" value="true" />
+    <int name="mini_event_upload_version" value="0" />
+    <int name="title_priority" value="1" />
+    <string name="video_cache_config">{&quot;splash&quot;:10,&quot;reward&quot;:10,&quot;brand&quot;:10,&quot;other&quot;:10}</string>
+    <boolean name="use_mediation_map" value="false" />
+    <string name="cache_strategy_full">{&quot;get_type&quot;:1,&quot;max_count&quot;:1,&quot;strategy_type&quot;:3,&quot;store_type&quot;:0,&quot;online_timeout&quot;:2700,&quot;enable&quot;:true,&quot;is_filter_version&quot;:true,&quot;load_type&quot;:2,&quot;trans_cache&quot;:0,&quot;score_config&quot;:{&quot;device_score_threshold&quot;:0,&quot;net_type_threshold&quot;:0,&quot;base_score&quot;:0,&quot;score_threshold&quot;:0,&quot;backup_score_threshold&quot;:0,&quot;last_cache_score&quot;:[]},&quot;control_el&quot;:{&quot;delete_on_load&quot;:&quot;&quot;,&quot;disable_trans_cache&quot;:&quot;&quot;,&quot;forbid_preload&quot;:&quot;&quot;,&quot;forbid_read_cache&quot;:&quot;&quot;,&quot;forbid_realtime_use_cache&quot;:&quot;&quot;,&quot;forbid_save_cache&quot;:&quot;&quot;,&quot;load_only_online&quot;:&quot;&quot;,&quot;mix_ad&quot;:&quot;${(meta.group_info.group_id != null) || (meta.insert_ad_control == 1) || (meta.refresh_ad_control == 1) || (meta.force_refresh_ad_control == 1) || (meta.refresh_control == 1) || (meta.web_refresh_control == 1)}&quot;},&quot;ad_count_max&quot;:1,&quot;libra_group&quot;:0,&quot;record_interval_minute&quot;:0,&quot;record_cache_minute&quot;:0,&quot;cache_available_percent&quot;:0,&quot;tmax_config&quot;:{&quot;tmax_enable&quot;:true,&quot;tmax_max_limit&quot;:10000,&quot;tmax_min_limit&quot;:500,&quot;tmax_calc_type&quot;:0,&quot;tmax_calc_min_count_limit&quot;:30,&quot;tmax_calc_max_count_limit&quot;:500,&quot;tmax_cache_expire&quot;:300,&quot;tmax_calc_percent_low&quot;:0.5,&quot;tmax_calc_percent_medium&quot;:0.8999999761581421,&quot;tmax_calc_percent_high&quot;:0.949999988079071,&quot;tmax_calc_boundary_pct&quot;:0.9800000190734863,&quot;tmax_calc_shown_pct_low&quot;:0.8999999761581421,&quot;tmax_calc_shown_pct_medium&quot;:0.949999988079071,&quot;tmax_calc_shown_pct_high&quot;:0.9900000095367432,&quot;tmax_calc_hard_cap_pct&quot;:0.9950000047683716,&quot;tmax_deviation_ratio&quot;:0.30000001192092896,&quot;tmax_marginal_load_rate&quot;:0.05000000074505806,&quot;tmax_utilization_rate&quot;:0.30000001192092896,&quot;tmax_too_small_load_success_rate_low&quot;:0.8999999761581421,&quot;tmax_too_small_load_success_rate_high&quot;:0.949999988079071,&quot;tmax_too_small_marginal_load_rate&quot;:0.15000000596046448,&quot;tmax_too_small_deviation_ratio&quot;:-0.10000000149011612}}</string>
+    <float name="feature_stack_rate" value="1.0" />
+    <long name="hit_app_list_time" value="1790953781367" />
+    <int name="enable_target_34" value="1" />
+    <boolean name="shake_twist_bind_show" value="false" />
+    <boolean name="is_adapt_density" value="true" />
+    <int name="web_upload_report_only_wifi" value="0" />
+    <int name="refresh_ad_clickafter_tip_content_max_time" value="3" />
+    <string name="user_interaction_config">{&quot;banner&quot;:0,&quot;splash&quot;:0,&quot;rewarded&quot;:0,&quot;feed&quot;:0,&quot;draw&quot;:0,&quot;full_screen&quot;:0,&quot;slide_move_max_num&quot;:5,&quot;motion_max_num&quot;:300,&quot;sensor_interval&quot;:3}</string>
+    <set name="scheme_list_data">
+        <string>browser2345://openurl/homepage</string>
+        <string>ppdloanapp://</string>
+        <string>oaps://mk/search?kw=交友app&amp;enterMod=wt-byteDance-__PROMOTION_ID__-__REQUEST_ID__-__ADVERTISER_ID__-__PROJECT_ID__-__PROJECT_ID__-__TRACK_ID__</string>
+        <string>bitauto.yicheapp://yiche.app/xuanche.carrank</string>
+        <string>doubao://</string>
+        <string>comdzhongfhjc://app.client?action=play_detail&amp;param=%7B%22bookId%22%3A%2241000117818%22%2C%22chapterId%22%3A%22595877983%22%2C%22channelCode%22%3A%22OTAHCSML1000950%22%2C%22jumpScene%22%3A%22play_detail%22%7D</string>
+        <string>sy://suanya.cn/home/train</string>
+        <string>tenvideo2://</string>
+        <string>upwallet://applet?encryptAppId=e9c05375fb23d509&amp;toLink=https%3A%2F%2Fgoplay.cup.com.cn%2Fplay_mobile%2F%3Fchannel%3DCSJkpwz0624cczwyunsu&amp;backurl=__back_url__</string>
+        <string>cmblife://go?url=Web&amp;version=v2&amp;mode=FullScreen&amp;next=https%3A%2F%2Fsite.cc.cmbimg.com%2FCustomizedCampaignWeb%2Findex.shtml%23%2FmayDay%2Fhome%3FsceneId%3D2023_WYDCDZH&amp;deeplinkId=y9sy5r5G</string>
+        <string>secoo://detail</string>
+        <string>zssqfree://openDeepLink&amp;function=bookDetail&amp;param=62fefd7366284341d4cb9d6a&amp;appType=zssqfree</string>
+        <string>comifengnewsclient://call?type=doc&amp;id=https%3A%2F%2Fnine.ifeng.com%2FGetNewsDocs%3Faid%3Ducms_8ZTW23cVIBj&amp;kind=brand_jlyqlh01</string>
+        <string>snssdk8663://polaris/proxy?scene_key=task_page&amp;gd_label=click_schema_lhft_渠道号&amp;needlaunchlog=1</string>
+        <string>weixin://dl/business/?appid=wx31e5b0edab03aafc&amp;path=pages/index/index&amp;query=channelId%3dZJ023</string>
+        <string>inke://pname=hallhot&amp;source_info=source_app%3Dnull%2Cshare_from%3Dnull%2Csource_url%3Dchuanshanjia_190530_7%2Crefer%3Dnull</string>
+        <string>weixin://dl/business/?appid=wx31e5b0edab03aafc&amp;path=pages/index/index&amp;query=channelId%3dZJ025</string>
+        <string>qtt://home?tab=task&amp;from=And-chuanshanjia-2098&amp;is_direct=1&amp;backurl=__back_url__</string>
+        <string>hbpush://notification</string>
+        <string>cn.10086.app://url=https%3A%2F%2Fwx.10086.cn%2Fqwhdhub%2Fgiveprize%2F1024102912%3FA_C_CODE%3DMVc6qoQp0o%26pageId%3D1865945701644689408%26channelId%3DP00000108486%26clickid%3D__CLICKID__%26imei%3D__IMEI__%26idfa%3D__IDFA__%26oaid%3D__OAID__&amp;codeNumber=1865945701644689408_P00000108486_2136956HD1711100003__</string>
+        <string>sinaweibo://video/collectionlist?mid=5246741147553058&amp;cursor=5246741147553058&amp;biz_type=COLLECTION&amp;biz_id=5246715624882212&amp;collection_name=&amp;collection_type=2&amp;is_show_half=1&amp;lfid=OPPO_znfsdsbsp_duanju_dushi_2&amp;luicode=10000404&amp;launchid=10000404-OPPO_znfsdsbsp_duanju_dushi_2&amp;callbackurl=sinaweibo%3A%2F%2Fgotovideo%3Fselected_containerid%3D231557_2024_3%26extension%3D%257B%2522pub_mids%2522%253A%25225246741147553058%2522%257D%26source%3Dpush%26redirect_scheme%3Dsinaweibo%253A%252F%252Fgotohome</string>
+        <string>tianyancha://tuiguang?push_id=Ads_toutiao_deeplink_pengtai_png</string>
+        <string>qingtingfm://app.qingting.fm/</string>
+        <string>hmjc://app.client?action=main&amp;param=%7B%22selectedTab%22:%22theatre%22</string>
+        <string>newsapp://nc/doc/FM3CTT7505118405</string>
+        <string>cxyx://router/openTab</string>
+        <string>com.icbc.iphoneclient://startType=PORTALINJECT&amp;menuId=thirdpillar&amp;pv_params=dHJhbnNpdGlvbmlkPUpTWkImc3JjY2hhbm5lbD0wMQ==</string>
+        <string>alipays://platformapi/startapp?appId=68687819&amp;bizLogParam=e2026062343&amp;mainConnectDelayPush=YES&amp;enableHotBoot=YES&amp;async_uc=YES&amp;caprMode=sync&amp;initCustomService=YES&amp;thd_con=YES&amp;bizScenario=e2026062343_CSJRTA_shuzitianma&amp;delayPipeline=YES&amp;pikshemo=YES&amp;url=https%3A%2F%2Frender.alipay.com%2Fp%2Fyuyan%2F180020010001208918%2Finsure.html%3Fentrance%3Doutside_online_sk_e2026062343_CSJRTA_xxl_shukechuangxin_zzsp%26prodNo%3D52078%26saleSchemeType%3DTRIAL_INSURE%26caprMode%3Dsync%26spNo%3D52077%26source%3Doutside_online_jc_e20260430113_CSJRTA_xxl_shukechuangxin_zzsp%26chInfo%3De2026062343_CSJRTA_shuzitianma%26mid1%3D__MID1__%26mid2%3D__MID2__%26mid3%3D__MID3__%26aid%3D__AID__%26cid%3D__CID__%26pjid%3D__PROJECT_ID__%26pmid%3D__PROMOTION_ID__%26creativetype%3D__CTYPE__%26clickid%3D__CLICKID__%26requestid%3D__REQUEST_ID__%26accountid%3D__ADVERTISER_ID__%26media_type%3DTOUTIAO</string>
+        <string>kuaiyin://music</string>
+        <string>http://weibo.cn/appurl?scheme=sinaweibo%3A%2F%2Fgotovideo%3Fselected_containerid%3D231557_2024_1%26lfid%3Dios_zijie_xs_rgrs_shipin_meishi_2db%26luicode%3D10000404%26launchid%3D10000404-ios_zijie_xs_rgrs_shipin_meishi_2db%26extension%3D%7B%22pub_mids%22%3A%225305723099285320%22%7D%26source%3Dpush%26redirect_scheme%3Dsinaweibo%253A%252F%252Fvideo%252Fvvs%253Fmid%253D5305723099285320%2526lfid%253Dios_zijie_xs_rgrs_shipin_meishi_2db%2526luicode%253D10000404%2526launchid%253D10000404-ios_zijie_xs_rgrs_shipin_meishi_2db</string>
+        <string>t3passenger://common/web</string>
+        <string>snssdk615883://land_tab?enter_from=aidy_and_ng_zt_rlh_fdslh_1&amp;needlaunchlog=1&amp;tabid=homepage_search_home</string>
+        <string>pddopen1://pinduoduo?h5Url=goods.html%3Fgoods_id%3D223272863601</string>
+        <string>imgomobile://litevod?from=oce69eby16&amp;clipId=771610&amp;plId=0&amp;videoId=23300622</string>
+        <string>https://novelfm.snssdk.com?scheme=novelfm3040%3A%2F%2Fspeech%3FbookId%3D</string>
+        <string>C1</string>
+        <string>xifan://theater/home?schemeType=2&amp;pageType=3&amp;tubeId=3142350&amp;episodeNum=1</string>
+        <string>C2</string>
+        <string>huajiao://huajiao.com/goto/square?category=tag_跳舞&amp;lhchannel=tt01</string>
+        <string>snssdk2329://polaris/lynxview?hide_back_button=1&amp;trans_status_bar=1&amp;hide_nav_bar=1&amp;show_loading=1&amp;bounce_disable=1&amp;launch_mode=1&amp;use_bullet_container=1&amp;use_xbridge3=1&amp;ad_platform=flash&amp;channel_type=6&amp;surl=https%3A%2F%2Flf-sourcecdn-tos.bytegecko.com%2Fobj%2Fbyte-gurd-source%2Fgrowth%2Fluckycat%2Flynx%2Fecom-new-undertaking%2Fpull_active_main%2Ftemplate.js&amp;sec_source=lahuo&amp;sec_pid=3548171899303540375&amp;enter_from=lahuoceshi&amp;gd_label=click_schema_lhft_mslh&amp;union_site=__UNION_SITE__</string>
+        <string>fleamarket://2.taobao.com/onepiece</string>
+        <string>tbopen://m.taobao.com</string>
+        <string>https://apps.bytesfield.com/download/basic/cur/d8009b5897dd60a59b3abd29db059df4361cd5a2</string>
+        <string>shuabao://page/video</string>
+        <string>baiduwanhua://newsystem/seekTab?params=%7B%22tab%22%3A%22chat%22%2C%20%22child_tab%22%3A%20%22home%22%7D</string>
+        <string>wpsoffice://ability.wps.cn/mobile_avocado_ck?ability=scan_page&amp;_business_id=906&amp;page_type=recent</string>
+        <string>dewuapp://m.poizon.com/router/web/BrowserPage</string>
+        <string>openjx://virtual</string>
+        <string>meiju://com.midea.meiju/main</string>
+        <string>ycbreader://www.bayread.com/bookview/bookread</string>
+        <string>missfresh://launch</string>
+        <string>youthkd://splash</string>
+        <string>tantanapp://home</string>
+        <string>snssdk615883://land_tab?enter_from=aidy_ios_ng_zt_rlh_fdslh_1&amp;needlaunchlog=1&amp;tabid=homepage_search_home</string>
+        <string>tmall://page.tm/appLink</string>
+        <string>sinaweibo://cardlist</string>
+        <string>ymm-consignor://view/post</string>
+        <string>taoumaimai://openwebview?fr=xxllh_tt_zscy_lmsp_xzzb_1216_101&amp;id=https%3A%2F%2Fmaimai.cn%2Fn%2Fgrowth%2Fm%2Factivity%2Fsalary_weekly%3Fversion%3D0203%26fr%3Dxxllh_tt_zscy_lmsp_xzzb_1216_101%26render_without_login%3Dtrue</string>
+        <string>taptap://taptap.com</string>
+        <string>snssdk1349://chat/message?version=v2&amp;type=0&amp;uid=1804728693720505&amp;enter_from=ad&amp;enter_method=ad_download</string>
+        <string>pippit://main/tab/creation</string>
+        <string>yymobile://YY5LiveIndex/Home</string>
+        <string>dreamina://refined_anchor/ai_feature?ai_feature=lip_sync</string>
+        <string>igrocery://www.grocery.com/onsale_landing</string>
+        <string>taobaolite://m.ltao.com/open/index.html</string>
+        <string>baiduhaokan://home/index/</string>
+        <string>qklink://www.uc.cn/b20b84fd735a8dd3f7541129bacc4e9a?src_pkg=rskklh&amp;src_ch=kkpl_boyxsphb_ys_jrtt_1002_rskklh_1&amp;action=open_url&amp;url=https%3A%2F%2Fquark.sm.cn%2Fs%3Fq%3D%25E7%2594%25B7%25E9%25A2%2591%25E5%25B0%258F%25E8%25AF%25B4%25E6%258E%2592%25E8%25A1%258C%25E6%25A6%259C%26uc_param_str%3Ddnntnwvepffrbijbprsvchgputdemennosstodcaaagidsdieinipi%26from%3Dkkframenew_hotquery_growth%26extra_params%3DLuEd7YdJKmTz12Tb676%252Fyw3hAMAKECPn1h4ANhCISli4cw%253D%253D%26by%3Dsubmit%26snum%3D10</string>
+        <string>zuche://</string>
+        <string>dydeeplink://platformapi/startApp</string>
+        <string>https://render.mybank.cn/p/yuyan/180020010001239415/p/s/ulink/index.html?scheme=mybank%3A%2F%2Flauncher%3Furl%3Dmybank%253A%252F%252Fh5container%252Fdefault%253Furl%253Dhttps%25253A%25252F%25252Frender.alipay.com%25252Fp%25252Fh5%25252Floan%25252Fwww%25252Findex.html%25253FchInfo%25253DWSDapp_XIAZAI%2526needLogin%253Dtrue&amp;chInfo=WSDapp_XIAZAI&amp;needShare=true</string>
+        <string>lptd://td/openwith</string>
+        <string>yidian://deeplink</string>
+        <string>bdhkvideo://newwebview?url_key=https%3A%2F%2Factivity.baidu.com%2Fincentive%2FincentiveHome%3Fproductid%3D46%26idfrom%3Dfeitian%26channel%3Dwangzhuan%26newbrowser%3D1%26forbidautorotate%3D1%26type%3Dimmerse%26backlocation%3D1%26bannerswitch%3D1%26append%3D1%26zoomswitch%3D0%26append_di%3D1&amp;browser_type=2&amp;append=1&amp;logargs=%7B%22channel%22%3A%221029152l%22%2C%22ext%22%3A%22%7B%5C%22id%5C%22%3A%5C%2212678971642592426992%5C%22%2C%5C%22rid%5C%22%3A%5C%226BdcK9bc5648956dd5%5C%22%2C%5C%22adid%5C%22%3A%5C%226BdcK%5C%22%2C%5C%22category%5C%22%3A%5C%22%5C%22%2C%5C%22sid%5C%22%3A%5C%22%7Bqueryid%7D%5C%22%2C%5C%22platform%5C%22%3A%5C%22feitian%5C%22%2C%5C%22dppage%5C%22%3A%5C%22wangzhuan%5C%22%7D%22%2C%22from%22%3A%22openbox%22%2C%22page%22%3A%22other%22%2C%22source%22%3A%221029152l%22%2C%22type%22%3A%22%22%2C%22value%22%3A%22url%22%7D&amp;needlog=1&amp;stay=1&amp;cts=__TS__&amp;idfa=__IDFA__&amp;traceid=__RTA_TRACE_ID__&amp;aid=__AID__&amp;ad_id=__CID__&amp;oaid=__OAID__&amp;reqid=__REQID__&amp;imei5=__IMEI__&amp;union_site=__UNION_SITE__</string>
+        <string>dreamina://main/tabbar?tab_key=generate</string>
+        <string>htjx://com.ys.htjx/splash</string>
+        <string>taobaotravel://smartbanner</string>
+        <string>mybank://h5container/index?url=https%3a%2f%2frender.alipay.com%2fp%2fh5%2floan%2fwww%2findex.html</string>
+        <string>zssqfree://openDeepLink&amp;function=bookDetail&amp;param=62fefdae923de20ef7aa54c9&amp;appType=zssqfree?backurl=__back_url__</string>
+        <string>ppdloanapp://a</string>
+        <string>qqmap://map/maphome&amp;referer=juliangand0002</string>
+        <string>hitup://www.hitup.open</string>
+        <string>missevan://drama/52347?h5awaken=b3Blbl9hcHBfZnJvbV90eXBlPWRlZXBsaW5rX21lLWRvdXlpbi1hbmQteG4tbGgtNTIzNDctMTc5ODkxODI5ODEzNTU1NSZvcGVuX2FwcF91cmw9NTIzNDc=&amp;ad_source_from=douyin&amp;track_id=1</string>
+        <string>tbopen://m.taobao.com/tbopen/index.html?&amp;action=ali.open.nav&amp;module=h5&amp;source=liuliangbao&amp;h5Url=https%3A%2F%2Fdetail.tmall.com%2Fitem.htm%3Fspm%3Da224e.7913437.1.668851%26id%3D608965054425%26_bind%3Dtrue%26bc_fl_src%3Dtmall_market_llb_1_668851%26llbPlatform%3DAweme%26agentId%3D504227%26llbDlk%3D1&amp;backURL=__back_url__&amp;appkey=24716461&amp;bc_fl_src=tmall_market_llb_1_668851</string>
+        <string>FIRSTSCREEN_PAGES</string>
+        <string>kugouelder://start.weixin</string>
+        <string>qunaraphone://hy?isTransferHome=true&amp;type=navibar-none&amp;url=https%3A%2F%2Fm.flight.qunar.com%2Fshark%2Factive%2Fa62435d28d23f62ae411193c04e2211a%3Fbd_source%3Dcs_xxladr%26ad_channel%3Dgdtlahuojuxingrta%26ad_type%3D02%26ad_other%3Drta92</string>
+        <string>ctrip://wireless/train_inquire</string>
+        <string>nk://nowcoder/home</string>
+        <string>fanxing://fanxing.kugou.com/</string>
+        <string>qztgsf://com.tianguan.tgsf/splash</string>
+        <string>autohome://rninsidebrowser?url=rn%3A%2F%2Fdaily_signin_active_rn%2FDailySignInActiveRn%3Fsource%3D10040%26usergrowth_m_from%3D</string>
+        <string>imeituan://www.meituan.com/page/takeout/supermarket/flashbuy/home?g_source=91&amp;navigate_type=102620&amp;category_text=%e9%97%aa%e8%b4%ad%e8%b6%85%e5%b8%82&amp;search_category_type=102130&amp;needlocate=1&amp;lch=agroup_bmarketing_conline_ddyshangouxk_1&amp;backurl=__back_url__</string>
+        <string>txcomicout://Action/Go</string>
+        <string>mishop://m.mi.com/p</string>
+        <string>xhsdiscover://item/5ee4cd32000000000101e809</string>
+        <string>openjdlite://virtual</string>
+        <string>miniworld://official.mini1.cn</string>
+        <string>mimarket://details?id=com.bujzhsh.app.launcher&amp;detailStyle=1&amp;isLightToFull=true&amp;referrer=channelId%3Dttbest%26rtype%3Dtt2_hap%26linkId%3Dth_3441%26site%3D__UNION_SITE__%26campaignid%3D__CAMPAIGN_ID__%26imei%3D__OAID__%26aid%3D__PROMOTION_ID__%26cid%3D__MID1__-__MID2__-__MID3__-__MID4__%26mid%3D__MID1__%26projectid%3D__PROJECT_ID__%26creativetype%3D__CTYPE__%26cc%3DYYQ</string>
+        <string>aplum://webview</string>
+        <string>uniteqqreader://nativepage/client/readepage</string>
+        <string>bankabc://platformapi/starth5?url=https%3A%2F%2Fnh.xfd365.com%2Fyxhl%2Factivity.html</string>
+        <string>baiduboxapp://utils</string>
+        <string>yddict://youdao.com/web</string>
+        <string>https://apps.bytesfield.com/download/basic/cur/3726b7323a299fceb194be3b52bc4b207069b044</string>
+        <string>https://www.tabbit.com/mobile/v1/home/open?mode=chat</string>
+        <string>gmu://301&amp;source_info=source_app%3Dnull%2Cshare_from%3Dnull%2Csource_url%3DJINRITOUTIAOIOS_20220620_1%2Crefer%3Dnull</string>
+        <string>sa756c9bff://sensorsdata/slink/page/1sH</string>
+        <string>etao://webview?h5Url=https%3A%2F%2Fmo.m.taobao.com%2Fetao2%2F1111qxgzh25%3FhideNav%3DYES%26needlogin%3D1</string>
+        <string>showself://showself.loading.activity</string>
+        <string>tctclient://homepage/homePage</string>
+        <string>snssdk520947://home/main?home_index=0</string>
+        <string>wbdaojia://jump/core/common</string>
+        <string>mimarket://details?id=com.yxwl.trxj.launcher&amp;detailStyle=5&amp;launchWhenInstalled=true</string>
+        <string>trackioczb365://bytedance</string>
+        <string>tuhu://webView?url=https%3A%2F%2Fkylin.tuhu.cn%2Fhome%3FpageId%3D3ItQoHJSj7Jre%26mkt%3Dtoutiao%26aduniqueid%3D1648902695486516%26sourceElement%3Dapp_direct_toutiao</string>
+        <string>leopards</string>
+        <string>caocaoapp://plat4/home </string>
+        <string>https://links.ele.me/stage/alsc-growth-download.html?url=eleme%3A%2F%2Fweb%3Faction%3Dali.open.nav%26module%3Dh5%26packageName%3Dme.ele%26bc_fl_src%3Dlocallife_wtRTA_1833436442774664_2%26fastmode%3D1%26skipSchemeRoute%3D1%26url%3Dhttps%253A%252F%252Ftb.ele.me%252Fwow%252Falsc%252Fmod%252F979defe892fd75cf59ff1229%253Falsc_exsrc%253DES0007489444&amp;fastmode=1&amp;source=toutiao&amp;backurl=__back_url__</string>
+        <string>bixin://npage/main/entry?index=home&amp;type=1&amp;homeTabIndex=1&amp;homeTabToTop=1&amp;homeTabName=1&amp;discoveryType=1&amp;discoveryChildType=1&amp;squareFeedType=1</string>
+        <string>douyutv://?type=29&amp;cate_id=181&amp;cate_name=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80&amp;is_face=0&amp;evoke_chan=iosxxjrttdd1&amp;shieldAdKey=deepLink </string>
+        <string>youthkd://splash?action=0&amp;content=%7B%22signature%22%3A%227pX2jQBem3A9rzG45NnkP0DzzbMfKPYbaEKDqWxMdOlV8gy0wJ%22%7D&amp;sensor=operate_shop</string>
+        <string>zhuanzhuan://jump/core/web/jump</string>
+        <string>txvideo://v.qq.com/NowLiveActivity</string>
+        <string>hnzycfc://a</string>
+        <string>sephora://foundation/openH5Page</string>
+        <string>cmblife://go?url=Web&amp;version=V2&amp;mode=FullScreen&amp;urlVersion=107&amp;next=https%3A%2F%2Fmall.joying.com%2Fmall%2FdailyDeal&amp;deeplinkId=ZZ_WB_HXJG_MRTH221201_N284</string>
+        <string>pregnancyapp://quzone.mama.cn</string>
+        <string>diditravel://com.didi.passengerapp/beatles_homepage</string>
+        <string>bangjob://zcmclient/bjob:talent?rf=qd-communication_bean</string>
+        <string>bestpay://bestpay.com.cn/web</string>
+        <string>taobaoliveshare://xevddy.com/gateway/index.htm</string>
+        <string>cloudapp://utils?ccbCH=1161&amp;ccbParam=https%3A%2F%2Fres.yunbusiness.ccb.com%2Fservice%2Fresource%2Fmng%2FquickTopicsPage%2F2022%2F202211%2F20221128%2F20221128070000000154%2F723a2eaf-aeb3-49a8-abbb-912cbf3b4e52%2Findex.html%3Ft%3D1</string>
+        <string>onetravel://router/page/web</string>
+        <string>hunyuan://chat?extInfo=%7B%22configId%22%3A%22Education_GaoKao_UniversityConsulting%22%7D</string>
+        <string>zhixinweather://main:9999</string>
+        <string>didapinche://home</string>
+        <string>zenxin://activity/init</string>
+        <string>pumpkin://vcinema.cn</string>
+        <string>eleme://windvane2</string>
+        <string>bankabc://platformapi/starth5?url=http%3A%2F%2Fwww.abchina.com%2Fweb2native%7Cchannel%3Dmonth_bills*menu%3Dmonth_bills*step%3Dcontroller*param%3D1110*channel%3D09H999ks20241209121753gnfw</string>
+        <string>https://apps.apple.com/cn/app/id388932995</string>
+        <string>qtt://web</string>
+        <string>dreamina://main/tabbar?tab_key=explore</string>
+        <string>jikeweather://main</string>
+        <string>snssdk2329://feed</string>
+        <string>xgmx://com.yyxh.xgmx/splash</string>
+        <string>sa756c9bff://sensorsdata/slink/page/3sH</string>
+        <string>baiduboxlite://v1/easybrowse/open?url=https%3A%2F%2Factivity.baidu.com%2Fincentive%2FincentiveHome%3Fproductid%3D2%26idfrom%3Dfeitian%26channel%3Dwangzhuan&amp;newbrowser=1&amp;forbidautorotate=1&amp;type=immerse&amp;backlocation=1&amp;bannerswitch=1&amp;append=1&amp;zoomswitch=0&amp;needschema=1&amp;stay=1&amp;

@@ -1,0 +1,601 @@
+{
+ "data": [
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 一起验湃",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "首页轮播_一起验湃",
+     "url": "/t/一起验湃",
+     "pic": "http://image.coolapk.com/image/2026/0811/17/banner-E68BB7E8B49D2-0-o_1jvo2f1m516de1r7g7hr1nbp64ha-uid-1603081@2250x500.jpg"
+    }
+   ],
+   "entityId": 44351,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1786696740,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 44351,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":44351,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 618开箱大会",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_618开箱大会",
+     "url": "/t/618开箱大会",
+     "pic": "http://image.coolapk.com/image/2026/0612/18/20260612-180233-0-o_1jqtkhn9j167h96mkt2di1n5ga-uid-662435@1080x240.jpeg"
+    }
+   ],
+   "entityId": 44000,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1782288657,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 44000,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":44000,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ MagicOS桌面美学征集令",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_MagicOS桌面美学征集令",
+     "url": "/t/MagicOS桌面美学征集令",
+     "pic": "http://image.coolapk.com/image/2026/0414/10/1080240E6B4BBE58AA8banner28129-0-o_1jm4u0uai18omtcc1bim27g3jaa-uid-1603081@1080x240.jpg"
+    }
+   ],
+   "entityId": 43672,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1776497395,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 43672,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":43672,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ MagicOS效率开挂功能分享",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_MagicOS效率开挂功能分享 -",
+     "url": "/t/MagicOS效率开挂功能分享",
+     "pic": "http://image.coolapk.com/image/2026/0316/11/1080240E6B4BBE58AA8banner-E681A2E5A48DE79A84-0-o_1jjqbkf4agghv779bqme41rbna-uid-1603081@1080x240.jpg"
+    }
+   ],
+   "entityId": 43445,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1773731901,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 43445,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":43445,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 2026马上出片",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_2026马上出片",
+     "url": "/t/2026马上出片",
+     "pic": "http://image.coolapk.com/image/2026/0211/14/20260211-145142-0-o_1jh5nguo66ri1qln5d31ote3bfa-uid-662435@1080x240.jpeg"
+    }
+   ],
+   "entityId": 43321,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1772092469,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 43321,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":43321,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 小米澎湃OS 3 Beta版第二期·体验报告",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_小米澎湃OS3Beta版第二期体验报告",
+     "url": "/t/小米澎湃OS3Beta版第二期体验报告",
+     "pic": "http://image.coolapk.com/image/2026/0122/11/-E68BB7E8B49D-0-o_1jfhra7636qe15qdht01pig1632a-uid-1603081@2160x480.jpg"
+    }
+   ],
+   "entityId": 43132,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1769054627,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 43132,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":43132,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 荣耀WIN系列开箱有礼",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_荣耀WIN系列开箱有礼",
+     "url": "/t/荣耀WIN系列开箱有礼",
+     "pic": "http://image.coolapk.com/image/2025/1226/11/mmexport1766718914567-0-o_1jdcaik6r1r8tbl0k1vmc13s1a-uid-408649@1208x268.jpg"
+    }
+   ],
+   "entityId": 42972,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1766739286,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42972,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42972,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 2025年度总结",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_2025年度总结",
+     "url": "/t/我的2025年度总结",
+     "pic": "http://image.coolapk.com/image/2025/1215/14/2025E5B9B4E5BAA6E680BBE7BB93-E68BB7E8B49D-0-o_1jcga7qj81goq1uppk5a7in1ocga-uid-1603081@4860x1080.jpg"
+    }
+   ],
+   "entityId": 42971,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1766739257,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42971,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42971,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ vivo X300 系列出片计划",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_vivoX300系列出片计划",
+     "url": "/t/vivoX300系列出片计划",
+     "pic": "http://image.coolapk.com/image/2025/1209/18/-E68BB7E8B49D-0-o_1jc1bds2mtdm13em5tijbd1vpra-uid-1603081@4860x1080.jpg"
+    }
+   ],
+   "entityId": 42861,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1765354881,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42861,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42861,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 2025年度产品",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_2025年度产品",
+     "url": "/t/2025年度产品",
+     "pic": "http://image.coolapk.com/image/2025/1206/21/2025E5B9B4E5BAA6E4BAA7E59381-E68BB7E8B49D2-0-o_1jbpsrdff1ff9but3n4ctn3m7a-uid-1603081@2250x500.jpg"
+    }
+   ],
+   "entityId": 42830,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1765184209,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42830,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42830,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 一加Ace 6T 开箱有礼",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "轮播-活动-一加ace6T开箱有礼",
+     "url": "/t/一加Ace6T开箱有礼",
+     "pic": "http://image.coolapk.com/image/2025/1205/13/ccb6677465af470c2b5e54c57b630602-0-o_1jbmgiint1h5n1fbm18a02bs3qha-uid-408649@1312x292.jpg"
+    }
+   ],
+   "entityId": 42831,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1765184273,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42831,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42831,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ iQOO 15 超燃时刻",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_iQOO15超燃时刻",
+     "url": "/t/iQOO15超燃时刻",
+     "pic": "http://image.coolapk.com/image/2025/1121/15/-E68BB7E8B49D-0-o_1jaikfinl1fajju717ftfau3ntc-uid-1603081@2160x480.jpg"
+    }
+   ],
+   "entityId": 42736,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1763885637,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42736,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42736,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 2025双11开箱",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "双11开箱",
+     "url": "/t/双11开箱",
+     "pic": "http://image.coolapk.com/image/2025/1107/18/20251107-184119-0-o_1j9eugo2f1kmb8m7107ld5c1r6na-uid-662435@1080x240.jpeg"
+    }
+   ],
+   "entityId": 42668,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1762758027,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42668,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42668,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 一加15开箱有礼",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_一加15开箱有礼",
+     "url": "/t/一加15开箱有礼",
+     "pic": "http://image.coolapk.com/image/2025/1026/22/-E4B880E58AA015E5BC80E7AEB1E69C89E7A4BC-E68BB7E8B49D-0-o_1j8gg5995581o5u24sefokgpa-uid-408649@1080x240.jpg"
+    }
+   ],
+   "entityId": 42592,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1761621146,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42592,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42592,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 4K 实况照片大赏",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_4K 实况照片大赏",
+     "url": "/t/4K实况照片大赏",
+     "pic": "http://image.coolapk.com/feed/2025/1023/10/408649_14fff688_7314_3531_912@1080x240.gif"
+    }
+   ],
+   "entityId": 42585,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1761545610,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42585,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42585,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ iQOO 15开箱有礼",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_iQOO上手",
+     "url": "/t/iQOO15开箱有礼",
+     "pic": "http://image.coolapk.com/image/2025/1022/16/240--E589AFE69CAC-E68BB7E8B49D-0-o_1j85h2r6ado7nsk1dgo1liue6a-uid-1603081@2160x480.jpg"
+    }
+   ],
+   "entityId": 42584,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1761539594,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42584,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42584,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ vivo X300系列开箱上手",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_vivo上手",
+     "url": "/t/vivoX300系列开箱上手",
+     "pic": "http://image.coolapk.com/image/2025/1017/17/1760694104_3205-0-o_1j7oonq4uf2mp5q1jo0rrjkrda-uid-1603081@10800x2400.jpg"
+    }
+   ],
+   "entityId": 42511,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1760780801,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42511,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42511,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ ColorOS16体验报告",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_ColorOS16体验报告",
+     "url": "/t/ColorOS16体验报告",
+     "pic": "http://image.coolapk.com/image/2025/1015/14/banner-ColorOS16E4BD93E9AA8CE68AA5E5918A-0-o_1j7j9ue5499r1p7bd6k3ip4sga-uid-408649@2000x445.jpg"
+    }
+   ],
+   "entityId": 42481,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1760598209,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42481,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42481,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 你喜欢vivoX300系列哪个功能",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动_vivo X300系列",
+     "url": "/t/你喜欢vivoX300系列哪个功能",
+     "pic": "http://image.coolapk.com/image/2025/1012/18/1760266140_5796-0-o_1j7c0jecn1cte1ffj1p5i1aug13t2a-uid-1603081@4860x1080.jpg"
+    }
+   ],
+   "entityId": 42455,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1760333069,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42455,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42455,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 真我GT8-秀出你的DECO创意",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "活动-GT8-秀出你的DECO创意",
+     "url": "/page?url=V8_HUODONG_REALMEDECO_20250927",
+     "pic": "http://image.coolapk.com/image/2025/0929/09/_20250929093633-0-o_1j69hqn86166q1vmc1ple1sg9bv5a-uid-408649@1080x240.png"
+    }
+   ],
+   "entityId": 42456,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1760333074,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42456,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42456,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 游戏角色点评",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "角色点评",
+     "url": "/page?url=V11_ZHUANTI_GAMECHARACTERS_20250830",
+     "pic": "http://image.coolapk.com/image/2025/0905/14/-E68BB7E8B49D-0-o_1j4c8emjh1h3h1c771atg19un1bida-uid-1603081@1080x240.jpg"
+    }
+   ],
+   "entityId": 42421,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1760333020,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42421,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42421,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ HyperOS3体验报告",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "轮播_HyperOS3体验报告",
+     "url": "/t/HyperOS3体验报告",
+     "pic": "http://image.coolapk.com/image/2025/0825/21/HyperOS3-E68BB7E8B49D-0-o_1j3gl59t2r4d1vh61bq81rh8ikna-uid-1603081@2160x480.jpg"
+    }
+   ],
+   "entityId": 42191,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1760332991,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42191,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42191,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 蓝厂夏日光影集",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "首页轮播_蓝厂夏日光影集",
+     "url": "/t/蓝厂夏日光影集",
+     "pic": "http://image.coolapk.com/image/2025/0807/13/banner-E68BB7E8B49D-0-o_1j21gp6gtdk17aa110i1i7vr9ma-uid-1603081@2560x569.jpg"
+    }
+   ],
+   "entityId": 42073,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1760332973,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42073,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42073,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "imageCarouselCard_1",
+   "title": "✨ 小米徕卡影像大赏",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "image_1",
+     "title": "轮播_小米徕卡影像大赏",
+     "url": "/t/小米徕卡影像大赏",
+     "pic": "http://image.coolapk.com/image/2025/0724/17/banner2-0-o_1j0ttko8sm0t126u1hpluuq1td6a-uid-1603081@2160x480.jpg"
+    }
+   ],
+   "entityId": 42080,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1760332921,
+   "extraDataArr": {
+    "dimensionRatio": "1080:240",
+    "cardId": 42080,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"dimensionRatio\":\"1080:240\",\"cardId\":42080,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "configCard",
+   "title": "默认配置（勿动）",
+   "url": "",
+   "entities": [],
+   "entityId": 1223,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1703809712,
+   "extraDataArr": {
+    "fragmentBackgroundColor": "mainBackgroundColor",
+    "pageTitle": "活动列表",
+    "pageLogo": "",
+    "pageCover": "",
+    "pageDescription": "",
+    "cardId": 1223,
+    "cardPageName": "V11_HDLIST_20220117"
+   },
+   "extraData": "{\"fragmentBackgroundColor\":\"mainBackgroundColor\",\"pageTitle\":\"\\u6d3b\\u52a8\\u5217\\u8868\",\"pageLogo\":\"\",\"pageCover\":\"\",\"pageDescription\":\"\",\"cardId\":1223,\"cardPageName\":\"V11_HDLIST_20220117\"}"
+  }
+ ]
+}

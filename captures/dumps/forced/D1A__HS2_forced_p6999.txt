@@ -1,0 +1,13 @@
+# p6999 t=272129 ssl=60 cipher=0 blocked=25 redirected=112 exit=0 sock=0 recs=12
+REC p6999 t=3637 SSL OUT n=259 hex=
+REC p6999 t=3637 SSL OUT n=259 hex=
+REC p6999 t=3782 SSL OUT n=259 hex=
+REC p6999 t=3782 SSL OUT n=259 hex=
+REC p6999 t=7738 SSL IN n=114 hex=
+REC p6999 t=7738 SSL IN n=114 hex=
+REC p6999 t=7743 SSL IN n=114 hex=
+REC p6999 t=7743 SSL IN n=114 hex=
+REC p6999 t=8029 SSL IN n=114 hex=
+REC p6999 t=8029 SSL IN n=114 hex=
+REC p6999 t=8032 SSL IN n=114 hex=
+REC p6999 t=8032 SSL IN n=114 hex=

@@ -1,0 +1,60 @@
+# pid=2844 libdu=YES blocked=5 filtered=11 called=8
+# === init 16 ===
+INIT	PASSIVE getQueryID [com.coolapk.market.CoolMarketApplication@92314a5 | null | null] = null
+INIT	CALL getQueryID(android.content.Context,java.lang.String,java.lang.String) = null
+INIT	PASSIVE getTraceInfo [com.coolapk.market.CoolMarketApplication@92314a5] = {"sv":"v9.0.1","tc":"DUT000","pkg":"com.coolapk.market","cc":"CN","api":27,"bu":"d179e32a-e8a6-45a1-b74a-ed0d872a23e0","q":{"c":"DUQ104","r":"DUQ207","w":1,"t":1791052159240,"nt":2},"o":{"c":"DUO099",
+INIT	CALL getTraceInfo(android.content.Context) = {"sv":"v9.0.1","tc":"DUT000","pkg":"com.coolapk.market","cc":"CN","api":27,"bu":"d179e32a-e8a6-45a1-b74a-ed0d872a23e0","q":{"c":"DUQ104","r":"DUQ207","w":1,"t":1791052159240,"nt":2},"o":{"c":"DUO099","w":0}}
+INIT	PASSIVE getVersion [] = v9.0.1
+INIT	CALL getVersion() = v9.0.1
+INIT	PASSIVE init [com.coolapk.market.CoolMarketApplication@92314a5 | null] = undefined
+INIT	CALL init(android.content.Context,java.lang.String) = undefined
+INIT	PASSIVE init [com.coolapk.market.CoolMarketApplication@92314a5 | null | false] = undefined
+INIT	CALL init(android.content.Context,java.lang.String,boolean) = undefined
+INIT	PASSIVE optReport [com.coolapk.market.CoolMarketApplication@92314a5 | null] = undefined
+INIT	CALL optReport(android.content.Context,java.lang.String) = undefined
+INIT	PASSIVE setConfig [null | null] = -1
+INIT	CALL setConfig(java.lang.String,java.lang.String) = -1
+INIT	PASSIVE setData [null | null] = 0
+INIT	CALL setData(java.lang.String,java.lang.String) = 0
+# === enc 1 loop=1 ===
+ENC	E1 len=33 in_hex=3846313445343546434545413136374135413336444544443442454132353433370056434d55497952454d3261006d0000c7540f7f0000000000003000000000 in_asc="8F14E45FCEEA167A5A36DEDD4BEA25437.VCMUIyREM2a.m...T........0...."
+# === tokens 39 ===
+TOK	0x412300	"org/json/JSONObject"
+TOK	0x407210	"<init>"
+TOK	0x406cf8	"(Ljava/lang/String;)V"
+TOK	0x413264	"apiKey"
+TOK	0x40b3d8	"opt"
+TOK	0x4195a4	"(Ljava/lang/String;)Ljava/lang/Object;"
+TOK	0x4097f0	"UTF-8"
+TOK	0x4071fc	"getBytes"
+TOK	0x40d180	"(Ljava/lang/String;)[B"
+TOK	0x40eca0	"na_seq_ni"
+TOK	0x41b03c	"MD5"
+TOK	0x40eeb8	"java/security/MessageDigest"
+TOK	0x407a1c	"getInstance"
+TOK	0x417850	"(Ljava/lang/String;)Ljava/security/MessageDigest;"
+TOK	0x40facc	"update"
+TOK	0x408430	"([BII)V"
+TOK	0x41aba4	"digest"
+TOK	0x40a128	"()[B"
+TOK	0x419e24	"getPackageName"
+TOK	0x401440	"()Ljava/lang/String;"
+TOK	0x405c6c	"_prefs"
+TOK	0x4084bc	"%s%s"
+TOK	0x402900	"getSharedPreferences"
+TOK	0x41b048	"(Ljava/lang/String;I)Landroid/content/SharedPreferences;"
+TOK	0x41a778	"contains"
+TOK	0x41b460	"(Ljava/lang/String;)Z"
+TOK	0x412890	"boot_uuid"
+TOK	0x4143b8	"boot_times"
+TOK	0x415ed4	"getString"
+TOK	0x412410	"(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+TOK	0x4073b0	"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+TOK	0x40e454	"%d"
+TOK	0x40de44	"android.permission.BLUETOOTH"
+TOK	0x414644	"getPackageManager"
+TOK	0x40beac	"()Landroid/content/pm/PackageManager;"
+TOK	0x4180a8	"checkPermission"
+TOK	0x40d070	"(Ljava/lang/String;Ljava/lang/String;)I"
+TOK	0x402cd0	"{%cs%c:%c%lld%c,%cr%c:%d,%cw%c:%d,%ct%c:%c%lld%c,%cp%c:%d,%crg%c:%d,%cbu%c:%c%s%c}"
+TOK	0x40b5ec	"du004"

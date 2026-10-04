@@ -1,0 +1,28 @@
+{
+ "entityType": "card",
+ "entityTemplate": "sponsorCard",
+ "title": null,
+ "url": null,
+ "entities": [],
+ "entityId": "sponsorCard-feedList-topRank-0",
+ "entityFixed": 0,
+ "pic": "",
+ "lastupdate": 1789756632,
+ "extraDataArr": {
+  "sponsorType": "GM_SELF_DRAW | 5014732 | 102081075",
+  "reward_sign": "32864090|1789756632|1e188965b22d2bf91433b2f0241aebfe",
+  "reward_type": "TT_REWARD | 5014732 | 102677193",
+  "sponsorStyle": "V1",
+  "viewBackgroundStyle": "roundCorner",
+  "showDownloadBar": 0,
+  "cardId": "sponsorCard-feedList-topRank-0",
+  "cardPageName": null
+ },
+ "extraData": "{\"sponsorType\":\"GM_SELF_DRAW | 5014732 | 102081075\",\"reward_sign\":\"32864090|1789756632|1e188965b22d2bf91433b2f0241aebfe\",\"reward_type\":\"TT_REWARD | 5014732 | 102677193\",\"sponsorStyle\":\"V1\",\"viewBackgroundStyle\":\"roundCorner\",\"showDownloadBar\":0,\"cardId\":\"sponsorCard-feedList-topRank-0\",\"cardPageName\":null}",
+ "_tid": null,
+ "userAction": {
+  "favorite": 0,
+  "follow": 0,
+  "collect": 0
+ }
+}

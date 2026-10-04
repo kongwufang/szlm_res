@@ -1,0 +1,32 @@
+{
+ "entityType": "card",
+ "entityTemplate": "sortSelectCard",
+ "title": "排序规则",
+ "url": null,
+ "entities": [
+  {
+   "entityType": "page",
+   "entityId": "",
+   "title": "默认",
+   "url": "/page?url=%2Fproduct%2FfeedList%3FcacheExpires%3D60%26type%3DsubTabFeed%26id%3D4276%26subId%3D4&ignoreEntityById=1",
+   "pic": ","
+  },
+  {
+   "entityType": "page",
+   "entityId": "",
+   "title": "最新",
+   "url": "/page?url=%2Fproduct%2FfeedList%3FcacheExpires%3D60%26type%3DsubTabFeed%26id%3D4276%26subId%3D4%26ignoreEntityById%3D1%26listType%3Ddateline_desc",
+   "pic": ","
+  },
+  {
+   "entityType": "page",
+   "entityId": "",
+   "title": "热度",
+   "url": "/page?url=%2Fproduct%2FfeedList%3FcacheExpires%3D60%26type%3DsubTabFeed%26id%3D4276%26subId%3D4%26listType%3Drank_score",
+   "pic": ","
+  }
+ ],
+ "entityId": 997,
+ "entityFixed": 1,
+ "extraData": "{\"cardFixedToTop\":1,\"selectedTab\":\"默认\"}"
+}

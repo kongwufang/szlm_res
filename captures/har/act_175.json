@@ -1,0 +1,60 @@
+{
+ "data": [
+  {
+   "entityType": "card",
+   "entityTemplate": "iconTabLinkGridCard",
+   "title": "",
+   "url": "",
+   "entities": [
+    {
+     "entityType": "iconTabLink",
+     "title": "众测",
+     "url": "/page?url=V8_ZHUANTI_ZHONGCE20200430",
+     "pic": null
+    },
+    {
+     "entityType": "iconTabLink",
+     "title": "线下",
+     "url": "V8_ZHUANTI_OFFLINEACTIVITIES",
+     "pic": null
+    },
+    {
+     "entityType": "iconTabLink",
+     "title": "线上",
+     "url": "V11_HDLIST_20220117",
+     "pic": null
+    }
+   ],
+   "entityId": 42076,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1757993059,
+   "extraDataArr": {
+    "cardId": 42076,
+    "cardPageName": "V11_activities"
+   },
+   "extraData": "{\"cardId\":42076,\"cardPageName\":\"V11_activities\"}"
+  },
+  {
+   "entityType": "card",
+   "entityTemplate": "configCard",
+   "title": "默认配置（勿动）",
+   "url": "",
+   "entities": [],
+   "entityId": 1223,
+   "entityFixed": 0,
+   "pic": "",
+   "lastupdate": 1703809712,
+   "extraDataArr": {
+    "fragmentBackgroundColor": "contentBackgroundColor",
+    "pageTitle": "活动",
+    "pageLogo": "http://image.coolapk.com/image/2025/0811/12/401x-2-0-o_1j2bm0uf11job88o1eeus6d12ida-uid-1603081@96x96.png",
+    "pageCover": "http://image.coolapk.com/image/2025/0811/12/401x-2-0-o_1j2bm0uf11job88o1eeus6d12ida-uid-1603081@96x96.png",
+    "pageDescription": "用镜头捕捉浪漫光影，开启一场艺术追逐之旅！",
+    "cardId": 1223,
+    "cardPageName": "V11_ACTIVITIES"
+   },
+   "extraData": "{\"fragmentBackgroundColor\":\"contentBackgroundColor\",\"pageTitle\":\"\\u6d3b\\u52a8\",\"pageLogo\":\"http:\\/\\/image.coolapk.com\\/image\\/2025\\/0811\\/12\\/401x-2-0-o_1j2bm0uf11job88o1eeus6d12ida-uid-1603081@96x96.png\",\"pageCover\":\"http:\\/\\/image.coolapk.com\\/image\\/2025\\/0811\\/12\\/401x-2-0-o_1j2bm0uf11job88o1eeus6d12ida-uid-1603081@96x96.png\",\"pageDescription\":\"\\u7528\\u955c\\u5934\\u6355\\u6349\\u6d6a\\u6f2b\\u5149\\u5f71\\uff0c\\u5f00\\u542f\\u4e00\\u573a\\u827a\\u672f\\u8ffd\\u9010\\u4e4b\\u65c5\\uff01\",\"cardId\":1223,\"cardPageName\":\"V11_ACTIVITIES\"}"
+  }
+ ]
+}
