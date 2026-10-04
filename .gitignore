@@ -1,0 +1,33 @@
+# 本地采集产物（体积大，且多为一次性中间数据）
+devout/
+dev2/
+dump/
+logs/
+*.log
+
+# 大体积二进制
+*.apk
+*.so
+*.dex
+*.pcap
+*.har
+*.zip
+*.xz
+
+# Python
+__pycache__/
+*.pyc
+
+# 抓包 / 浏览器 profile
+edge_profile_*/
+tls/
+har_out/
+szlm_dex/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 操作系统
+.DS_Store
+Thumbs.db
