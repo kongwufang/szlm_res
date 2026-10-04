@@ -1,7 +1,0 @@
-[user]
-	name = kongwufang
-	email = kongwufang@users.noreply.github.com
-[init]
-	defaultBranch = main
-[core]
-	autocrlf = false
