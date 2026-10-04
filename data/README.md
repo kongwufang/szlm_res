@@ -1,4 +1,4 @@
-﻿# data/ — 数据
+# data/ — 数据
 
 > 👈 回到 [主线文档](../mainline.md) ｜ 相关支线 [02-anchor](../docs/02-anchor/)
 

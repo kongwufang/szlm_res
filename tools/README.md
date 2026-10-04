@@ -1,4 +1,4 @@
-﻿# tools/ — 可运行工具
+# tools/ — 可运行工具
 
 > 👈 回到 [主线文档](../mainline.md) ｜ 相关支线 [02-anchor](../docs/02-anchor/) · [03-stealth](../docs/03-stealth/)
 

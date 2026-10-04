@@ -31,5 +31,3 @@ szlm_dex/
 # 操作系统
 .DS_Store
 Thumbs.db
-.gitconfig-clean
-_release_body.md

@@ -1,4 +1,4 @@
-﻿# 目录表 · INDEX
+# 目录表 · INDEX
 
 > 本文件列出发布目录下的全部文件与用途。
 > 自动生成的部分见 [`_MANIFEST.txt`](_MANIFEST.txt)。

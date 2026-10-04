@@ -1,4 +1,4 @@
-﻿# scripts/ — 采集脚本
+# scripts/ — 采集脚本
 
 > 👈 回到 [主线文档](../mainline.md) ｜ 相关支线 [03-stealth](../docs/03-stealth/) · [04-devices](../docs/04-devices/)
 
