@@ -97,11 +97,61 @@ KEY_BY_ADDR = {
 
 ## 三、解码
 
+### `unenc.py` ★
+
+**解开 libdu 的字段编码。全自动定位 `K`，无需手工试参。**
+
+```sh
+# 解一份报文里的所有字段
+python3 unenc.py --json ../data/decoded/D1H__MDNA_63185.json
+
+# 单独解一个值
+python3 unenc.py 'DEo?qBmCp=DoDq>'
+
+# 指定 K / 方向
+python3 unenc.py --k 12 --unshuffle 'DEo?qBmCp=DoDq>'
+```
+
+**输出示例：**
+
+```
+★★ ANDROID_ID = 288daec8ec176396
+   方向 unshuffle, K=12, 校验值 sfOo='FD2C5E4' 命中
+
+★ 统一 K = 12  （证据 dLH=UUID + foO 校验命中）
+
+  foO  → 288daec8ec17639
+  dJs  → 150100525831424d420751004057c400          eMMC CID
+  zvW  → 06fb5d9bd9d8921842811d8021d95c6c          Canvas 指纹 MD5
+  5Tv  → 72f3b7de3fac3ef63923efbaadd02cdc          libcutils.so MD5
+  52J  → 7754:1,11548:20,11938:20,…                10 个路径的 inode:dev
+  p1m  → 0x51004057                                eMMC 序列号
+  dLH  → c009c04e-f985-42ba-b41a-f49d0345988b      boot_uuid
+```
+
+**原理见 [docs/08-破解字段编码.md](../docs/08-破解字段编码.md)。**
+
+| 参数 | 说明 |
+|---|---|
+| `VALUE` | 要解的值（位置参数） |
+| `--json PATH` | 解整份报文（支持 glob） |
+| `--k N` | 指定 K，不指定则自动搜索 0..94 |
+| `--unshuffle` / `--shuffle` | 只用一个重排方向 |
+
+### 其它
+
 | 文件 | 说明 |
 |---|---|
-| `decode_mdna_final.py` | **解 mdna 报文**：池 `0x110DC8` XOR → zlib → JSON |
-| `field_table.py` | 生成 78 字段完整清单（含语义推断与角色标注） |
+| `decode_mdna_final.py` | 解 mdna 报文的 **body**（池 `0x110DC8` XOR → zlib → JSON） |
+| `field_table.py` | 生成 79 字段完整清单（含语义推断与角色标注） |
 | `check_dpi.py` | 小屏设备 DPI 与 UI 元素检查 |
+
+**注意区分：**
+
+```
+unenc.py           解【字段层】—— foO / dLH / 52J 这些被编码的字符串
+decode_mdna_final  解【传输层】—— body 的 XOR + zlib
+```
 
 ---
 
@@ -116,9 +166,14 @@ KEY_BY_ADDR = {
 | **`test_identity_key.py`** | 找设备识别键 | **识别键就是 (sfOo, foO, 2cO)** |
 | **`test_adler.py`** | 测 zlib 校验和是否被校验 | **adler32 必须对；但接受未压缩的存块模式** |
 | **`verify_register_path.py`** | 验证注册路径假设 | 讲通「三值每次都变但 DUID 相同」 |
-| `mis_random_matrix.py` | mIS × 2cO 矩阵 | 早期实验，后被修正 |
-| `hunt_sfOo.py` | 追查 sfOo 来源 | 不是已知字段的哈希前缀（239568 次零命中） |
-| `hunt_fp_hashes.py` | 追查三指纹哈希输入 | 不是已知字段的简单拼接（73080 次零命中） |
+| `mis_random_matrix.py` | mIS × 2cO 矩阵 | 早期实验，后被修正（`mIS` 实为 boot_id） |
+| `hunt_sfOo.py` | 追查 sfOo 来源 | 当时零命中 —— **后来解开：`sfOo` 是 `foO` 的校验值，不是哈希前缀** |
+| `hunt_fp_hashes.py` | 追查三指纹哈希输入 | 当时零命中 —— **后来解开：输入是文件系统内容，不是报文字段** |
+
+> **⚠️ 上面最后两个脚本的"零命中"结论已被推翻。**
+> 它们证明了「不是报文内字段的简单组合」，但没能找到真正的输入。
+> 真正答案见 [docs/08-破解字段编码.md](../docs/08-破解字段编码.md) 与
+> [docs/06-字段参考.md](../docs/06-字段参考.md)。
 
 **建议复现顺序**（结论是层层递进的）：
 

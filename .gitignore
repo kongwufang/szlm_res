@@ -31,3 +31,6 @@ szlm_dex/
 # 操作系统
 .DS_Store
 Thumbs.db
+
+# 本地打包产物
+_tarball/
