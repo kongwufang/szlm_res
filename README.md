@@ -1,6 +1,8 @@
 # szlm_res
 
-> **致谢**：感谢 [**People-11**](https://github.com/People-11) 的公开分析 —— 他关于 `libdu.so` 字段编码与采集项的研究，为本项目最关键的突破提供了基础。
+> **致谢**：感谢 [**People-11**](https://github.com/People-11) 的公开分析 ——
+> 他关于 `libdu.so` 字段编码与采集项的研究，为本项目最关键的突破提供了基础。
+> **具体贡献与归属划分见 [CREDITS.md](CREDITS.md)。**
 
 对**数字联盟（cn.shuzilm）设备标识协议**的逆向记录。
 
@@ -78,7 +80,8 @@ python3 tools/unenc.py --json data/decoded/D1H__MDNA_63185.json
 
 | 路径 | 内容 |
 |---|---|
-| [`mainline.md`](mainline.md) | **★ 主线文档**：八个问题，按解决顺序 |
+| [`mainline.md`](mainline.md) | **★ 主线文档**：九个问题，按解决顺序 |
+| [`CREDITS.md`](CREDITS.md) | **致谢与来源**：哪些不是本项目原创 |
 | [`docs/`](docs/README.md) | 支线文档（8 篇专题 + 未解问题） |
 | [`docs/99-已推翻的结论.md`](docs/99-已推翻的结论.md) | **⚠️ 必读**：被推翻的中间结论 |
 | [`docs/08-破解字段编码.md`](docs/08-破解字段编码.md) | **字段编码的完整解法** |

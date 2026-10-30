@@ -3,6 +3,12 @@
 # ============================================================================
 #  unenc.py — 解开数字联盟 libdu 的字段编码
 #
+#  ★ 来源与归属（重要）
+#      「字段编码 = 字符码位偏移 + 重排」这个思路，以及可用的解码函数骨架，
+#      来自 People-11 的公开分析（https://github.com/People-11）。
+#      本项目在此基础上发现：真实规则是 mod-95 环上的偏移、且 K 逐报文变化，
+#      并实现了自动定位 K 的方法。详见仓库根目录 CREDITS.md。
+#
 #  ★ 规则
 #      e[i] = chr(((ord(p[i]) - 0x20 + K) % 95) + 0x20)   然后按 shuffle 重排
 #      解码 = 先反重排，再 chr(((ord(e[i]) - 0x20 - K) % 95) + 0x20)
@@ -12,7 +18,6 @@
 #      python3 unenc.py 'DEo?qBmCp=DoDq>'                  # 自动找 K
 #      python3 unenc.py --k 12 'DEo?qBmCp=DoDq>'           # 指定 K
 #      python3 unenc.py --json data/decoded/D1H__MDNA_63185.json
-#      python3 unenc.py --json foo.json --all              # 试所有字段
 #      python3 unenc.py --shuffle 'xxx'                    # 反过来解
 #
 #  ★ 只依赖 Python 3 标准库
