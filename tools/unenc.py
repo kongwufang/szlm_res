@@ -4,21 +4,34 @@
 #  unenc.py — 解开数字联盟 libdu 的字段编码
 #
 #  ★ 来源与归属（重要）
-#      「字段编码 = 字符码位偏移 + 重排」这个思路，以及可用的解码函数骨架，
-#      来自 People-11 的公开分析（https://github.com/People-11）。
-#      本项目在此基础上发现：真实规则是 mod-95 环上的偏移、且 K 逐报文变化，
-#      并实现了自动定位 K 的方法。详见仓库根目录 CREDITS.md。
+#
+#    编码参数 P 的推导方式 ——「P 取自本次上报的 2cO 末三位」、四种重排的定义、
+#    mode 10 的 checksum 偏移 —— 由 People-11 解出（https://github.com/People-11）。
+#    详见仓库根目录 CREDITS.md。
+#
+#    本项目补的是：在真机数据上的交叉验证、非标准设备上的回退定位、
+#    以及把解码结果与 DUID 锚点机制打通。
 #
 #  ★ 规则
-#      e[i] = chr(((ord(p[i]) - 0x20 + K) % 95) + 0x20)   然后按 shuffle 重排
-#      解码 = 先反重排，再 chr(((ord(e[i]) - 0x20 - K) % 95) + 0x20)
-#      95 = 可打印 ASCII 字符数（0x20..0x7E），K 每份报文不同（实测 5..56）
+#      P = 2cO 最后 3 个字符去掉 '.' 后 atoi
+#          （2cO 是 clock_gettime(CLOCK_REALTIME) 的 "%ld.%ld"，纳秒不补零）
+#          ★ 同一次 query 的所有上报、所有字段共用同一个 P
+#
+#      mode 2/3：
+#          K       = P % 100 % 57 + 1               在 0x20..0x7E 内循环右移
+#          variant = (P // 100) % 4                 四种重排
+#          编码 = shuffle(shift(value, K), variant)
+#          解码 = shift(unshuffle(value, variant), -K)
+#
+#      mode 10：
+#          去掉第 (n-1-P%10) 个字符（长度 ≤ 9 时去掉最后一个），再按 mode 2 编码
+#          另在 "s"+键名 下放校验值 MD5_UPPER(str(码位和 + P%100//10))[:7]
 #
 #  ★ 用法
-#      python3 unenc.py 'DEo?qBmCp=DoDq>'                  # 自动找 K
-#      python3 unenc.py --k 12 'DEo?qBmCp=DoDq>'           # 指定 K
 #      python3 unenc.py --json data/decoded/D1H__MDNA_63185.json
-#      python3 unenc.py --shuffle 'xxx'                    # 反过来解
+#      python3 unenc.py --p 281 'RP|Q|zQKOJ~I~}Q'          # 指定 P
+#      python3 unenc.py 'DEo?qBmCp=DoDq>'                  # 不给 P 时自动猜
+#      python3 unenc.py --enc --p 281 'WIFI'
 #
 #  ★ 只依赖 Python 3 标准库
 # ============================================================================
@@ -43,247 +56,135 @@ MOD = HI - LO + 1                      # 95
 HEX = set("0123456789abcdefABCDEF")
 
 
-# ── 重排 ────────────────────────────────────────────────────────────────────
-def shuffle(s):
-    """编码方向：奇数长度先取中间字符，之后交替取首尾"""
-    n = len(s)
-    m = n // 2
-    out = [s[m]] if n % 2 else []
-    for i in range(m):
-        out += [s[n - 1 - i], s[m - 1 - i]]
-    return "".join(out)
+# ── 重排（四种，variant 由 P 决定）──────────────────────────────────────────
+def shuffle(s, v):
+    n, m = len(s), len(s) // 2
+    if v == 0:
+        # ① 奇数长度先放中间字符，再依次放 s[n-1-i]、s[m-1-i]
+        return (s[m] if n % 2 else "") + "".join(
+            s[n - 1 - i] + s[m - 1 - i] for i in range(m))
+    if v == 1:
+        # ② 依次放 s[n-1-i]、s[i]，中间字符最后
+        return "".join(s[n - 1 - i] + s[i] for i in range(m)) + (s[m] if n % 2 else "")
+    if v == 2:
+        # ③ 从末尾起隔一个取一个，再从倒数第二个起隔一个取一个
+        return s[n - 1::-2] + s[n - 2::-2]
+    # ④ 先取偶数位，再取奇数位
+    return s[0::2] + s[1::2]
 
 
-def unshuffle(e):
-    """shuffle 的逆"""
+def unshuffle(e, v):
     n = len(e)
-    m = n // 2
-    s = [""] * n
-    k = 0
-    if n % 2:
-        s[m] = e[0]
-        k = 1
-    for i in range(m):
-        s[n - 1 - i] = e[k]
-        s[m - 1 - i] = e[k + 1]
-        k += 2
-    return "".join(s)
-
-
-# ── mod-95 偏移 ────────────────────────────────────────────────────────────
-def dec(s, K):
-    """解码：每个字符在 95 个可打印 ASCII 的环上反向偏移 K"""
-    out = []
-    for c in s:
-        o = ord(c)
-        if not (LO <= o <= HI):
-            return None
-        out.append(chr(((o - LO - K) % MOD) + LO))
+    idx = shuffle("".join(chr(0x100 + i) for i in range(n)), v)
+    out = [""] * n
+    for pos, c in enumerate(idx):
+        out[ord(c) - 0x100] = e[pos]
     return "".join(out)
 
 
-def enc(s, K):
-    """编码"""
+# ── 偏移（mod 95 环）────────────────────────────────────────────────────────
+def shift(s, k):
+    return "".join(chr((ord(c) - LO + k) % MOD + LO) for c in s)
+
+
+# ── P 与编解码 ──────────────────────────────────────────────────────────────
+def p_of(two_co):
+    """从 2cO 取 P：最后 3 个字符去掉 '.' 后 atoi"""
+    if not two_co:
+        return None
+    tail = two_co[-3:].replace(".", "")
+    return int(tail) if tail.isdigit() else None
+
+
+def K_of(p):
+    return p % 100 % 57 + 1
+
+
+def V_of(p):
+    return p // 100 % 4
+
+
+def enc(value, p):
+    return shuffle(shift(value, K_of(p)), V_of(p))
+
+
+def dec(value, p):
+    return shift(unshuffle(value, V_of(p)), -K_of(p))
+
+
+def checksum(value, p):
+    """mode 10 的校验值"""
+    return hashlib.md5(
+        str(sum(map(ord, value)) + p % 100 // 10).encode()
+    ).hexdigest().upper()[:7]
+
+
+# ── 回退：P 未知时自动猜（用于非标准设备 / 2cO 缺失）────────────────────────
+def guess_p(value, validator):
+    """穷举 P 的 (K, variant) 组合，返回所有通过 validator 的候选"""
     out = []
-    for c in s:
-        o = ord(c)
-        if not (LO <= o <= HI):
-            return None
-        out.append(chr(((o - LO + K) % MOD) + LO))
-    return "".join(out)
+    for v in range(4):
+        base = unshuffle(value, v)
+        for k in range(1, 58):
+            r = shift(base, -k)
+            if validator(r):
+                p_low = (k - 1) % 57
+                for p_high in (0, 100, 200, 300):
+                    p = p_high + p_low
+                    if K_of(p) == k and V_of(p) == v:
+                        out.append((p, k, v, r))
+                        break
+    return out
 
 
-# ── 校验器 ──────────────────────────────────────────────────────────────────
 def is_uuid(s):
     if not s or len(s) != 36:
         return False
     if [s[8], s[13], s[18], s[23]] != ["-"] * 4:
         return False
-    rest = s.replace("-", "")
-    return len(rest) == 32 and all(c in HEX for c in rest)
+    return all(c in HEX for c in s.replace("-", ""))
 
 
 def is_hexish(s):
     return bool(s) and len(s) >= 8 and all(c in HEX for c in s)
 
 
-def is_hex15(s):
-    """ANDROID_ID 的前 15 位（mode 10 会去掉最后一位）"""
-    return bool(s) and len(s) == 15 and all(c in HEX for c in s)
-
-
 def is_textual(s):
     if not s:
         return False
-    ok = sum(1 for c in s if c.islower() or c.isdigit() or c in ".:,_-/ ")
-    return ok / len(s) >= 0.95
+    return sum(1 for c in s if c.islower() or c.isdigit() or c in ".:,_-/ ") / len(s) >= 0.95
 
 
-def is_ipish(s):
-    if not s:
-        return False
-    return all(c.isdigit() or c in ".:," for c in s)
-
-
-def checksum(s):
-    return hashlib.md5(str(sum(ord(c) for c in s)).encode()).hexdigest().upper()[:7]
-
-
-# 权重高的排前面；命中即停（同一结果只归类一次）
-VALIDATORS = [
-    ("uuid", is_uuid, 100),
-    ("hex15", is_hex15, 90),
-    ("hexish", is_hexish, 70),
-    ("textual", is_textual, 50),
-    ("ipish", is_ipish, 30),
-]
-
-
-def best_attempt(value, only_K=None, only_dir=None):
-    """返回 (分数, 方向, K, 明文, 命中的校验器名)"""
-    best = (-1, None, None, None, None)
-    dirs = [("unshuffle", unshuffle), ("shuffle", shuffle)]
-    if only_dir == "unshuffle":
-        dirs = dirs[:1]
-    elif only_dir == "shuffle":
-        dirs = dirs[1:]
-
-    for dname, df in dirs:
-        base = df(value)
-        ks = [only_K] if only_K is not None else range(MOD)
-        for K in ks:
-            r = dec(base, K)
-            if not r:
-                continue
-            for vname, vf, weight in VALIDATORS:
-                if vf(r):
-                    if weight > best[0]:
-                        best = (weight, dname, K, r, vname)
-                    break
-    return best
-
-
-def try_android_id(fo, sf):
-    """用 sfOo 校验值确认 ANDROID_ID"""
-    if not isinstance(fo, str) or not isinstance(sf, str):
-        return None
-    for dname, df in (("unshuffle", unshuffle), ("shuffle", shuffle)):
-        base = df(fo)
-        for K in range(MOD):
-            r = dec(base, K)
-            if not r or not all(c in HEX for c in r):
-                continue
-            for c in "0123456789abcdef":
-                cand = r + c
-                if checksum(cand) == sf:
-                    return (dname, K, cand)
-    return None
-
-
-# ── 主流程 ──────────────────────────────────────────────────────────────────
+# ── 展示 ────────────────────────────────────────────────────────────────────
 def show_value(value, args):
     print("  输入 (%d 字符): %r" % (len(value), value))
     print()
-    for dname in ("unshuffle", "shuffle"):
-        df = unshuffle if dname == "unshuffle" else shuffle
-        print("  [%s]" % dname)
-        base = df(value)
-        rows = []
-        for K in range(MOD):
-            r = dec(base, K)
-            if not r:
-                continue
-            for vname, vf, weight in VALIDATORS:
-                if vf(r):
-                    rows.append((weight, K, r, vname))
-                    break
-        if not rows:
-            print("    (无通过的偏移)")
-        else:
-            rows.sort(reverse=True)
-            for weight, K, r, vname in rows[:5]:
-                print("    K=%-2d  %-8s %r" % (K, vname, r))
-        print()
 
+    if args.enc:
+        if args.p is None:
+            print("  --enc 需要 --p")
+            return
+        r = enc(value, args.p)
+        print("  P=%d  K=%d  variant=%d" % (args.p, K_of(args.p), V_of(args.p)))
+        print("  编码 → %r" % r)
+        return
 
-def looks_plaintext(key, val):
-    """判断这个字段是不是本来就是明文，不需要解"""
-    # 已知的 raw 字段
-    RAW_FIELDS = {"sfOo", "DUv", "EV2", "3mS", "AAA", "BBB", "GVp", "h6Z",
-                  "2cO", "UOv", "ne8", "w91", "gEd", "6yY", "K5f", "AYk",
-                  "P1J", "wSK", "zpA", "fPV", "R37", "R3d", "R41", "R63",
-                  "Ra", "YWu", "mIS", "ubF", "75c", "za7", "90P", "LAh"}
-    if key in RAW_FIELDS:
-        return True
-    # 形如包名 / 版本号 / 纯数字 / 纯 UUID / IPv4 的，也是明文
-    if val.startswith(("com.", "android", "/", "v")):
-        return True
-    if all(c.isdigit() or c in ".:-" for c in val):
-        return True
-    if is_uuid(val):
-        return True
-    return False
+    if args.p is not None:
+        p = args.p
+        print("  P=%d  K=%d  variant=%d" % (p, K_of(p), V_of(p)))
+        print("  解码 → %r" % dec(value, p))
+        return
 
-
-def find_global_K(j, prefer=None):
-    """在同一份报文里定出统一的 K
-
-    优先用这些"格式明确"的字段当锚：
-        dLH  → 合法 UUID
-        OW2  → 可读文本
-        foO  → 15 位 hex + sfOo 校验
-    同一个 K 必须同时解对多项，才认。
-    """
-    candidates = []
-
-    for dname, df in (("unshuffle", unshuffle), ("shuffle", shuffle)):
-        for K in range(MOD):
-            votes = 0
-            proofs = []
-
-            # dLH → UUID（最强证据）
-            dlh = j.get("dLH")
-            if isinstance(dlh, str) and len(dlh) >= 30:
-                r = dec(df(dlh), K)
-                if is_uuid(r):
-                    votes += 5
-                    proofs.append("dLH=UUID")
-
-            # foO + sfOo
-            fo, sf = j.get("foO"), j.get("sfOo")
-            if isinstance(fo, str) and isinstance(sf, str):
-                r = dec(df(fo), K)
-                if r and all(c in HEX for c in r):
-                    for c in "0123456789abcdef":
-                        if checksum(r + c) == sf:
-                            votes += 5
-                            proofs.append("foO 校验命中")
-                            break
-
-            # OW2 → 文本
-            ow = j.get("OW2")
-            if isinstance(ow, str) and len(ow) >= 10:
-                r = dec(df(ow), K)
-                if is_textual(r):
-                    votes += 3
-                    proofs.append("OW2 可读")
-
-            # mIS → UUID（boot_id）
-            mis = j.get("mIS")
-            if isinstance(mis, str) and len(mis) >= 30:
-                r = dec(df(mis), K)
-                if is_uuid(r):
-                    votes += 4
-                    proofs.append("mIS=UUID")
-
-            if votes:
-                candidates.append((votes, dname, K, proofs))
-
-    if not candidates:
-        return None
-    candidates.sort(reverse=True)
-    votes, dname, K, proofs = candidates[0]
-    return (dname, K, proofs, votes)
+    # 未给 P：自动猜
+    print("  未给 --p，自动搜索（4 种重排 × K=1..57）：")
+    print()
+    for name, vf in (("uuid", is_uuid), ("hexish", is_hexish), ("textual", is_textual)):
+        hits = guess_p(value, vf)
+        if hits:
+            print("  [%s]" % name)
+            for p, k, v, r in hits[:8]:
+                print("    P=%-3d K=%-2d variant=%d → %r" % (p, k, v, r))
+            print()
 
 
 def show_json(path, args):
@@ -296,86 +197,96 @@ def show_json(path, args):
         print("  不是 JSON 对象")
         return
 
-    print("=" * 78)
+    print("=" * 80)
     print("  %s   (%d 字段)" % (os.path.basename(path), len(j)))
-    print("=" * 78)
+    print("=" * 80)
 
-    # ① 先还原 ANDROID_ID
-    aid = try_android_id(j.get("foO"), j.get("sfOo"))
-    if aid:
-        print()
-        print("  ★★ ANDROID_ID = %s" % aid[2])
-        print("     方向 %s, K=%d, 校验值 sfOo=%r 命中" % (aid[0], aid[1], j.get("sfOo")))
+    two_co = j.get("2cO")
+    p = args.p if args.p is not None else p_of(two_co)
 
-    # ② 定全局 K
-    gk = find_global_K(j)
-    if not gk:
-        print()
-        print("  定不出统一的 K（可能没有可校验的字段）")
+    if p is None:
+        print("  没有 2cO，且未给 --p —— 无法确定编码参数")
         return
-    dname, K, proofs, votes = gk
-    df = unshuffle if dname == "unshuffle" else shuffle
 
     print()
-    print("  ★ 统一 K = %d  （方向 %s，证据 %s）" % (K, dname, " + ".join(proofs)))
-    print()
-    print("  用这个 K 解全部字段:")
-    print()
+    print("  2cO = %r" % two_co)
+    print("  P = %d    →  K = %d,  variant = %d" % (p, K_of(p), V_of(p)))
 
-    RAW_FIELDS = {"sfOo", "DUv", "EV2", "3mS", "AAA", "BBB", "GVp", "h6Z",
-                  "2cO", "R41", "R37", "R3d", "R63", "Ra", "75c", "wSK",
-                  "zpA", "fPV", "ubF", "ne8", "w91", "gEd", "6yY", "K5f",
-                  "AYk", "P1J", "UOv", "YWu", "90P", "LAh", "za7"}
+    # ANDROID_ID：mode 10，用 sfOo 校验
+    fo, sf = j.get("foO"), j.get("sfOo")
+    if isinstance(fo, str) and isinstance(sf, str):
+        base = dec(fo, p)
+        if base and all(c in HEX for c in base):
+            for c in "0123456789abcdef":
+                cand = base + c
+                if checksum(cand, p) == sf:
+                    print()
+                    print("  ★★ ANDROID_ID = %s" % cand)
+                    print("     （foO 解出 %r，补 '%s' 后校验命中 sfOo=%r）" % (base, c, sf))
+                    break
+            else:
+                print()
+                print("  ⚠ foO 解出 %r，但 16 个候选都对不上 sfOo=%r" % (base, sf))
+
+    # GUID 类
+    dlh = j.get("dLH")
+    if isinstance(dlh, str):
+        r = dec(dlh, p)
+        if is_uuid(r):
+            print("  boot_uuid (dLH) = %s" % r)
+
+    print()
+    print("  其余可解字段:")
+
+    RAW = {"sfOo", "DUv", "EV2", "3mS", "AAA", "BBB", "GVp", "h6Z", "2cO",
+           "R41", "R37", "R3d", "R63", "Ra", "75c", "wSK", "zpA", "fPV",
+           "ubF", "ne8", "w91", "gEd", "6yY", "K5f", "AYk", "P1J", "UOv",
+           "YWu", "90P", "LAh", "za7", "foO", "dLH"}
     shown = 0
     for key, val in j.items():
-        if not isinstance(val, str) or len(val) < 6:
+        if not isinstance(val, str) or len(val) < 6 or key in RAW:
             continue
-        if key in RAW_FIELDS:
-            continue
-        r = dec(df(val), K)
+        r = dec(val, p)
         if not r or r == val:
             continue
-        # 只显示解出来是「可打印且像有意义」的
-        if not all(LO <= ord(c) <= HI for c in r):
+        if any(not (LO <= ord(c) <= HI) for c in r):
             continue
         shown += 1
         print("    %-6s → %s" % (key, r))
-
     if not shown:
-        print("    (没有可解的字段)")
+        print("    (无)")
+
+    print()
+    print("  ⚠ 注意")
+    print("    · 若解开的内容看着像乱码，可能是该字段用别的 P（mode 1/7 尚未核清）")
+    print("    · K 与 variant 由 2cO 决定，所以不同报文的值不能互相套用")
 
 
 def main():
     ap = argparse.ArgumentParser(
-        description="解开数字联盟 libdu 的字段编码（mod-95 + shuffle）",
+        description="解开数字联盟 libdu 的字段编码（P 取自 2cO）",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:
-  python3 unenc.py 'DEo?qBmCp=DoDq>'
-  python3 unenc.py --k 12 --unshuffle 'DEo?qBmCp=DoDq>'
   python3 unenc.py --json data/decoded/D1H__MDNA_63185.json
+  python3 unenc.py --p 281 'RP|Q|zQKOJ~I~}Q'
+  python3 unenc.py 'DEo?qBmCp=DoDq>'          # 不给 P，自动猜
+  python3 unenc.py --enc --p 281 'WIFI'
 """)
     ap.add_argument("value", nargs="?", help="要解的值")
     ap.add_argument("--json", help="从 JSON 文件里解全部字段")
-    ap.add_argument("--k", type=int, help="指定 K（不指定则自动搜索 0..94）")
-    ap.add_argument("--unshuffle", action="store_true", help="只用 unshuffle 方向")
-    ap.add_argument("--shuffle", action="store_true", help="只用 shuffle 方向")
+    ap.add_argument("--p", type=int, help="编码参数 P（不给则从 2cO 取，或自动猜）")
+    ap.add_argument("--enc", action="store_true", help="反向：编码")
     a = ap.parse_args()
 
     if a.json:
-        paths = glob.glob(a.json)
-        if not paths:
-            print("找不到文件: %s" % a.json)
-            return 1
-        for p in paths:
+        for p in glob.glob(a.json):
             show_json(p, a)
             print()
         return 0
-
     if a.value:
         show_value(a.value, a)
         return 0
-
     ap.print_help()
     return 0
 

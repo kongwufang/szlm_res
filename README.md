@@ -32,13 +32,15 @@
 
 ```
 ① 设备识别的锚点 = (sfOo, foO, 2cO) 三元组
-   sfOo 是校验值：MD5_UPPER(str(16 位码位之和))[:7]
+   sfOo 是校验值：MD5_UPPER(str(16 位码位之和 + P%100//10))[:7]
    foO  是 ANDROID_ID 前 15 位的编码
-   2cO  是本次上报时间
+   2cO  是本次上报时间，同时决定整份报文的编码参数
 
 ② 字段"编码"完全可逆
-   e[i] = chr(((ord(p[i]) - 0x20 + K) % 95) + 0x20)，再按 shuffle 重排
-   K 每份报文不同（实测 5~56），需自动定位
+   P       = 2cO 末 3 位 atoi
+   K       = P % 100 % 57 + 1              ← mod-95 环上右移
+   variant = P // 100 % 4                  ← 四种重排之一
+   编码 = shuffle(shift(v, K), variant)
 
 ③ 服务端只校验 6 个字段，其余 73 个不参与识别
 ④ 无签名机制；完整 body + 随机三元组 = 有效新 DUID
