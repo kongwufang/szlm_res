@@ -1,4 +1,4 @@
-# 主线：八个问题，按解决顺序
+# 主线：十二个问题，按解决顺序
 
 > 本文按**时间顺序**记录整个逆向过程 —— 每一节都是一个具体问题，写清「怎么发现的 → 怎么试的 → 结果如何」。
 >
@@ -411,6 +411,179 @@ mIS = /proc/sys/kernel/random/boot_id（每次开机变）
 
 ---
 
+## 问题 ⑩ 到底有没有签名校验
+
+前面九节全是「改报文」得出的结论。但改报文有个天然缺陷：
+
+> **报文里没有的东西，你能证明它在服务端被校验吗？**
+
+签名就是典型的例子。报文里从头到尾没有任何看起来像证书指纹的字段，
+但 SDK 完全可能在本地校验完签名才发请求。
+
+**⇒ 只有一条路能排除：造一个签名完全不同的 App，看它能不能拿到 DUID。**
+
+### 10.1 摸清调用方式
+
+从脱壳 DEX 里反编译出 `cn.shuzilm.core.Main`：
+
+```java
+Main.init(Context, String apiKey, boolean);
+String duid = Main.getQueryID(Context, "", "", true);
+```
+
+`init()` 第一件事是校验 apiKey 格式，不合格直接
+`Log.e("[shuzilm]", "apikey error.")` 然后 return。
+
+### 10.2 apiKey 的格式（反汇编还原）
+
+```
+长度必须 42，以 "11" 开头，index 2 是校验位
+
+i3 = Σ bitCount(hex[i])   for i in 3..9
+i4 = Σ (i-2) * hex[i]     for i in 3..9
+i5 = 索引 3..9 拼成的整数
+check = ((i3 + i4 + (((i5>>>17)^((i5>>>7)^i5)) & 0xFF)) % 15) + 1
+```
+
+**而 `75c` 字段的值正好是这个格式** —— 它就是 apiKey。
+
+### 10.3 三个坑
+
+| 现象 | 根因 |
+|---|---|
+| `apikey error` | 传成了 config 里的 RSA 公钥（128 字符），不是 42 字符的 `75c` |
+| `ClassNotFoundException: AIClient` | SDK 被拆成 3 个 DEX，只放了一个 |
+| `JNI_ERR returned from JNI_OnLoad` | `libdu.so` 版本和 DEX 不配套 |
+
+### 10.4 结果
+
+自签名（`CN=DUID Probe`）、180 行 Activity、55 个 SDK 类、1.5 MB APK：
+
+```
+package = com.coolapk.market
+★★★★★ 拿到 DUID: DU8N1bbZfcNSfbmsBFOhsJslrOSOR3dL6eg5
+```
+
+**同一个 APK 只改包名为 `com.tencent.mm`：**
+
+```
+★★★★★ 拿到 DUID: 000000000000000000000000000000000000
+```
+
+**⇒ 不校验签名，只校验包名。**
+
+**支线** → [docs/10-自己造App验证.md](docs/10-自己造App验证.md)
+
+---
+
+## 问题 ⑪ 包名到底怎么校验
+
+既然改包名会被拒，那规则是什么？
+
+### 11.1 白名单探测（24 个包名）
+
+固定 AID / P=0 / foO / 75c，只变 `DUv`：
+
+```
+通过 10 个：
+  com.coolapk.market        ★ 36
+  com.zhihu.android         ★ 88
+  com.sina.weibo            ★ 88
+  com.ss.android.ugc.aweme  ★ 36
+  com.xingin.xhs            ★ 36
+  com.netease.cloudmusic    ★ 36
+  tv.danmaku.bili           ★ 36
+  com.smile.gifmaker        ★ 36
+  com.baidu.searchbox       ★ 36
+  com.sohu.newsclient       ★ 36
+
+拒绝 14 个：
+  com.tencent.mm / com.taobao.taobao / com.jingdong.app.mall
+  com.eg.android.AlipayGphone / com.baidu.BaiduMap / com.autonavi.minimap
+  com.github.gavin.smid / com.github.tangbin.smid / …
+```
+
+### 11.2 三个推论
+
+**① 按「具体 App」维护，不是按厂商**
+
+```
+com.baidu.searchbox   → ★ 36
+com.baidu.BaiduMap    → ✗ 全 0
+```
+
+**② 不是「包名 ↔ apiKey 配对校验」**
+
+`com.zhihu.android` + 酷安的 apiKey 照样成功。
+
+**③ apiKey 完全不参与门控**
+
+同一批包名，`75c` 保留 / 删除，两列结果完全一致。
+
+### 11.3 36 vs 88 两种长度
+
+88 = 36 + base64(36 + "shu")，自校验结构。
+同一个服务端、同一份报文，只换包名就能拿到两种长度
+**⇒ 长度是账户级配置，不是版本差异。**
+
+**支线** → [docs/11-包名白名单.md](docs/11-包名白名单.md)
+
+---
+
+## 问题 ⑫ 官方说法和实测差多少
+
+拿官方隐私政策的每一项声明，逐条对照解密出来的字段。
+
+### 12.1 政策在哪
+
+官网 `shuzilm.cn/privacy` 是纯 JS 渲染，抓不到正文。
+用镜像站拿到全文（最新版 2026-04-04）。
+
+### 12.2 政策主动删了什么
+
+2026-04-04 版相比上一版：
+
+| 条目 | 变化 |
+|---|---|
+| GPS 坐标（「设备大地坐标」） | **删除** |
+| `ACCESS_FINE_LOCATION` | **删除** |
+| MAC 处理方式 | 改为「仅检测可获取性，不存储原始值」 |
+| 应用列表 | 升级为「默认关闭 + 双重同意」 |
+
+**⇒ 政策方向明确收紧。**
+
+### 12.3 但实测还有落差
+
+**① GPS 坐标：政策已删，v9.0.1 仍在采**
+
+```
+"G8U": { "H4S": "25.474575,1.646057" }   ← 小数点后 6 位
+```
+
+政策只写「设备所在地区（如中国与美国）」。
+
+**② 真实 MAC：政策说「不存储原始值」，v8.4.0 明文上报**
+
+```
+"LLS": "20:0E:3C:11:58:F7"
+```
+
+✅ 但 v9.0.1 已整改，只剩伪 MAC。
+
+**③ 唯一标识符清单不完整**
+
+政策只列 IDFV/IDFA/Android\ID/Boot\ID/OAID/UAID，
+实测还有 Widevine DRM deviceUniqueId、eMMC CID、eMMC 序列号。
+
+**④ 「Rijndael 256 位」的说法不准**
+
+传输层实际是 **zlib + XOR**（密钥硬编码在 so 里），
+AES 只用于本地落盘。
+
+**支线** → [docs/12-合规对照.md](docs/12-合规对照.md)
+
+---
+
 ## 剩下的未解问题
 
 ```
@@ -441,6 +614,9 @@ mIS = /proc/sys/kernel/random/boot_id（每次开机变）
 | **问题⑥ 字段参考** | [docs/06-字段参考.md](docs/06-字段参考.md) |
 | **问题⑦ 未解问题** | [docs/07-未解问题.md](docs/07-未解问题.md) |
 | **问题⑨ 字段编码** | [docs/08-破解字段编码.md](docs/08-破解字段编码.md) |
+| **问题⑩ 造 App 验证** | [docs/10-自己造App验证.md](docs/10-自己造App验证.md) |
+| **问题⑪ 包名白名单** | [docs/11-包名白名单.md](docs/11-包名白名单.md) |
+| **问题⑫ 合规对照** | [docs/12-合规对照.md](docs/12-合规对照.md) |
 | ⚠️ **被推翻的结论** | [docs/99-已推翻的结论.md](docs/99-已推翻的结论.md) |
 | 工具 | [tools/README.md](tools/README.md) |
 | 采集脚本 | [scripts/README.md](scripts/README.md) |

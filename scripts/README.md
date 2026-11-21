@@ -1,6 +1,6 @@
 # scripts/ — 采集脚本
 
-> 👈 回到 [主线文档](../mainline.md) ｜ 相关支线 [03-stealth](../docs/03-stealth/) · [04-devices](../docs/04-devices/)
+> 👈 回到 [主线文档](../mainline.md) ｜ 相关支线 [03-stealth](../docs/_archive/03-stealth/) · [04-devices](../docs/_archive/04-devices/)
 
 ---
 

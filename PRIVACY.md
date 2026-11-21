@@ -71,7 +71,7 @@
 
 **⇒ 也就是说：即使把本仓库所有设备相关值都换掉，协议实验结论依然成立。**
 
-详见 [`docs/02-anchor/`](docs/02-anchor/)。
+详见 [`docs/02-anchor/`](docs/_archive/02-anchor/)。
 
 ---
 

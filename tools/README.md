@@ -1,10 +1,97 @@
 # tools/ — 可运行工具
 
-> 👈 回到 [主线文档](../mainline.md) ｜ 相关支线 [02-anchor](../docs/02-anchor/) · [03-stealth](../docs/03-stealth/)
+> 👈 回到 [主线文档](../mainline.md) ｜ 相关支线 [⑩ 造 App 验证](../docs/10-自己造App验证.md) · [⑪ 包名白名单](../docs/11-包名白名单.md)
 
 ---
 
 全部为 Python 3，**只用标准库**（`json` / `zlib` / `ssl` / `urllib` / `hashlib`）。
+
+---
+
+## 零、包名白名单探测（2026-11 新增）
+
+### `whitelist_probe.py` ★
+
+**批量测包名，摸服务端白名单边界。** 固定 AID / P=0 / foO / 75c，只变 `DUv`。
+
+```sh
+python3 whitelist_probe.py
+```
+
+输出形如：
+
+```
+★ com.coolapk.market               酷安                     36 字符
+★ com.zhihu.android                知乎                     88 字符
+✗ com.tencent.mm                   微信                     全0
+✗ com.baidu.BaiduMap               百度地图                   全0
+```
+
+**已知结果**：24 个包名里 10 个通过、14 个被拒。
+同一厂商的不同 App 结果可以不同（`com.baidu.searchbox` 通过、`com.baidu.BaiduMap` 被拒）。
+详见 [⑪ 包名白名单](../docs/11-包名白名单.md)。
+
+### `test_pkg.py`
+
+**测单个包名**，同时对照 `com.coolapk.market` 验证脚本本身正常。
+
+```sh
+python3 test_pkg.py
+```
+
+### `pkg_matrix.py`
+
+**包名 × apiKey 交叉矩阵**，用来判定服务端到底校验什么。
+
+```
+包名                        75c=酷安key    75c=删除
+com.coolapk.market         ★ 36          ★ 36
+com.tencent.mm             ✗ 全0         ✗ 全0
+```
+
+**两列一致 ⇒ apiKey 不参与签发门控。**
+
+### `pkg_swap.py`
+
+**改 probe APK 的包名重建**，用于真机对照实验（需要 Android SDK 的 aapt2/d8/apksigner）。
+
+```sh
+python3 pkg_swap.py com.tencent.mm
+python3 pkg_swap.py com.zhihu.android
+```
+
+---
+
+## 零点五、SDK 精简
+
+### `dex_packages.py`
+
+**统计 DEX 里的包分布**，看清一个大 DEX 到底装了什么。
+
+```sh
+python3 dex_packages.py
+```
+
+输出示例（某第三方客户端）：
+
+```
+classes.dex  17.87 MB  16691 类
+   androidx/compose/material   10,425 类
+   cn/shuzilm/core                 47 类   ← 数字联盟 SDK 只占 0.28%
+```
+
+### `shrink_sdk.py`
+
+**baksmali → 只留 `cn/shuzilm/**` → 重新组装 smali**。
+
+```sh
+python3 shrink_sdk.py
+```
+
+把 34.6 MB 的三个 DEX 压到 **120 KB**（55 个类）。
+需要 `dex2jar` 的 `d2j-dex2smali` / `d2j-smali`。
+
+⚠️ 必须在 dex2jar 自己的目录下运行，否则静默产出 0 个文件。
 
 ---
 

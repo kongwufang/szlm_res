@@ -1,6 +1,6 @@
 # data/ — 数据
 
-> 👈 回到 [主线文档](../mainline.md) ｜ 相关支线 [02-anchor](../docs/02-anchor/)
+> 👈 回到 [主线文档](../mainline.md) ｜ 相关支线 [02-anchor](../docs/_archive/02-anchor/)
 
 ---
 

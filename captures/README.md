@@ -1,6 +1,6 @@
 # captures/ — 采集产物
 
-> 👈 回到 [主线文档](../mainline.md) ｜ 方法见 [支线](../docs/03-stealth/)
+> 👈 回到 [主线文档](../mainline.md) ｜ 方法见 [支线](../docs/_archive/03-stealth/)
 
 这里是逆向过程中的**原始采集数据**，供对照与复现使用。
 
